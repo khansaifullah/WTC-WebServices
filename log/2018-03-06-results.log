@@ -1,0 +1,95 @@
+{"level":"verbose","message":"verificationcode-POST called ","timestamp":"10:20:25"}
+{"level":"info","message":"RegistrationController.sendVerificationCode called  :+923345022570","timestamp":"10:20:25"}
+{"level":"info","message":"UserExists Method Called","timestamp":"10:20:25"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"10:20:25"}
+{"level":"info","message":" Exit RegistrationController.sendVerificationCode Method","timestamp":"10:20:25"}
+{"level":"info","message":"User Found with Phone Num. :+923345022570","timestamp":"10:20:25"}
+{"level":"info","message":"User Exists Response : { _id: 59af97049d57ac10ece4b6b1,\n  updatedAt: 2018-03-05T13:11:32.254Z,\n  createdAt: 2017-09-06T06:34:44.109Z,\n  phone: '+923345022570',\n  country_code: '+92',\n  verified_user: true,\n  __v: 2105,\n  OS: 'Android',\n  active: false,\n  full_name: 'Wfde',\n  loc: [ 73.0913938, 33.5217943 ],\n  palyer_id: '27c3ed26-a9f5-4f10-927d-ca8ee7877414',\n  verification_code: '3997',\n  share_location_flag_time: 2017-12-30T07:46:34.336Z,\n  last_shared_loc_time: 2018-02-26T16:23:37.986Z,\n  share_loc_flag_time: 2018-03-05T07:41:11.194Z,\n  share_location: true,\n  deactivate_user: false,\n  profile_photo_url: 'https://aldaalah.herokuapp.com/images/profileImages/' }","timestamp":"10:20:25"}
+{"level":"verbose","message":"verificationcode-POST called ","timestamp":"10:21:48"}
+{"level":"info","message":"RegistrationController.sendVerificationCode called  :+923345022570","timestamp":"10:21:48"}
+{"level":"info","message":"UserExists Method Called","timestamp":"10:21:48"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"10:21:48"}
+{"level":"info","message":" Exit RegistrationController.sendVerificationCode Method","timestamp":"10:21:48"}
+{"level":"info","message":"User Found with Phone Num. :+923345022570","timestamp":"10:21:48"}
+{"level":"info","message":"User Exists Response : { _id: 59af97049d57ac10ece4b6b1,\n  updatedAt: 2018-03-06T05:20:25.798Z,\n  createdAt: 2017-09-06T06:34:44.109Z,\n  phone: '+923345022570',\n  country_code: '+92',\n  verified_user: true,\n  __v: 2105,\n  OS: 'Android',\n  active: false,\n  full_name: 'Wfde',\n  loc: [ 73.0913938, 33.5217943 ],\n  palyer_id: '27c3ed26-a9f5-4f10-927d-ca8ee7877414',\n  verification_code: '2314',\n  share_location_flag_time: 2017-12-30T07:46:34.336Z,\n  last_shared_loc_time: 2018-02-26T16:23:37.986Z,\n  share_loc_flag_time: 2018-03-05T07:41:11.194Z,\n  share_location: true,\n  deactivate_user: false,\n  profile_photo_url: 'https://aldaalah.herokuapp.com/images/profileImages/' }","timestamp":"10:21:48"}
+{"level":"verbose","message":"verificationcode-POST called ","timestamp":"12:18:38"}
+{"level":"info","message":"RegistrationController.sendVerificationCode called  :+923345022570","timestamp":"12:18:38"}
+{"level":"info","message":"UserExists Method Called","timestamp":"12:18:38"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"12:18:38"}
+{"level":"info","message":" Exit RegistrationController.sendVerificationCode Method","timestamp":"12:18:38"}
+{"level":"info","message":"User Found with Phone Num. :+923345022570","timestamp":"12:18:38"}
+{"level":"info","message":"User Exists Response : { _id: 59af97049d57ac10ece4b6b1,\n  updatedAt: 2018-03-06T05:21:48.701Z,\n  createdAt: 2017-09-06T06:34:44.109Z,\n  phone: '+923345022570',\n  country_code: '+92',\n  verified_user: true,\n  __v: 2105,\n  OS: 'Android',\n  active: false,\n  full_name: 'Wfde',\n  loc: [ 73.0913938, 33.5217943 ],\n  palyer_id: '27c3ed26-a9f5-4f10-927d-ca8ee7877414',\n  verification_code: '2797',\n  share_location_flag_time: 2017-12-30T07:46:34.336Z,\n  last_shared_loc_time: 2018-02-26T16:23:37.986Z,\n  share_loc_flag_time: 2018-03-05T07:41:11.194Z,\n  share_location: true,\n  deactivate_user: false,\n  profile_photo_url: 'https://aldaalah.herokuapp.com/images/profileImages/' }","timestamp":"12:18:38"}
+{"level":"verbose","message":"verificationcode-POST called ","timestamp":"12:22:24"}
+{"level":"info","message":"RegistrationController.sendVerificationCode called  :+923345022570","timestamp":"12:22:24"}
+{"level":"info","message":"UserExists Method Called","timestamp":"12:22:24"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"12:22:24"}
+{"level":"info","message":" Exit RegistrationController.sendVerificationCode Method","timestamp":"12:22:24"}
+{"level":"info","message":"User Found with Phone Num. :+923345022570","timestamp":"12:22:24"}
+{"level":"info","message":"User Exists Response : { _id: 59af97049d57ac10ece4b6b1,\n  updatedAt: 2018-03-06T07:18:38.627Z,\n  createdAt: 2017-09-06T06:34:44.109Z,\n  phone: '+923345022570',\n  country_code: '+92',\n  verified_user: true,\n  __v: 2105,\n  OS: 'Android',\n  active: false,\n  full_name: 'Wfde',\n  loc: [ 73.0913938, 33.5217943 ],\n  palyer_id: '27c3ed26-a9f5-4f10-927d-ca8ee7877414',\n  verification_code: '7306',\n  share_location_flag_time: 2017-12-30T07:46:34.336Z,\n  last_shared_loc_time: 2018-02-26T16:23:37.986Z,\n  share_loc_flag_time: 2018-03-05T07:41:11.194Z,\n  share_location: true,\n  deactivate_user: false,\n  profile_photo_url: 'https://aldaalah.herokuapp.com/images/profileImages/' }","timestamp":"12:22:24"}
+{"level":"verbose","message":"verificationcode-POST called ","timestamp":"13:08:06"}
+{"level":"info","message":"RegistrationController.sendVerificationCode called  :+923345022570","timestamp":"13:08:07"}
+{"level":"info","message":"UserExists Method Called","timestamp":"13:08:07"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"13:08:07"}
+{"level":"info","message":" Exit RegistrationController.sendVerificationCode Method","timestamp":"13:08:07"}
+{"level":"info","message":"User Found with Phone Num. :+923345022570","timestamp":"13:08:07"}
+{"level":"info","message":"User Exists Response : { _id: 59af97049d57ac10ece4b6b1,\n  updatedAt: 2018-03-06T07:22:24.881Z,\n  createdAt: 2017-09-06T06:34:44.109Z,\n  phone: '+923345022570',\n  country_code: '+92',\n  verified_user: true,\n  __v: 2105,\n  OS: 'Android',\n  active: false,\n  full_name: 'Wfde',\n  loc: [ 73.0913938, 33.5217943 ],\n  palyer_id: '27c3ed26-a9f5-4f10-927d-ca8ee7877414',\n  verification_code: '3800',\n  share_location_flag_time: 2017-12-30T07:46:34.336Z,\n  last_shared_loc_time: 2018-02-26T16:23:37.986Z,\n  share_loc_flag_time: 2018-03-05T07:41:11.194Z,\n  share_location: true,\n  deactivate_user: false,\n  profile_photo_url: 'https://aldaalah.herokuapp.com/images/profileImages/' }","timestamp":"13:08:07"}
+{"level":"verbose","message":"verificationcode-POST called ","timestamp":"13:12:20"}
+{"level":"info","message":"RegistrationController.sendVerificationCode called  :+923345022570","timestamp":"13:12:20"}
+{"level":"info","message":"UserExists Method Called","timestamp":"13:12:20"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"13:12:20"}
+{"level":"info","message":" Exit RegistrationController.sendVerificationCode Method","timestamp":"13:12:20"}
+{"level":"info","message":"User Found with Phone Num. :+923345022570","timestamp":"13:12:20"}
+{"level":"info","message":"User Exists Response : { _id: 59af97049d57ac10ece4b6b1,\n  updatedAt: 2018-03-06T08:08:07.467Z,\n  createdAt: 2017-09-06T06:34:44.109Z,\n  phone: '+923345022570',\n  country_code: '+92',\n  verified_user: true,\n  __v: 2105,\n  OS: 'Android',\n  active: false,\n  full_name: 'Wfde',\n  loc: [ 73.0913938, 33.5217943 ],\n  palyer_id: '27c3ed26-a9f5-4f10-927d-ca8ee7877414',\n  verification_code: '1389',\n  share_location_flag_time: 2017-12-30T07:46:34.336Z,\n  last_shared_loc_time: 2018-02-26T16:23:37.986Z,\n  share_loc_flag_time: 2018-03-05T07:41:11.194Z,\n  share_location: true,\n  deactivate_user: false,\n  profile_photo_url: 'https://aldaalah.herokuapp.com/images/profileImages/' }","timestamp":"13:12:20"}
+{"level":"verbose","message":"verificationcode-POST called ","timestamp":"13:13:46"}
+{"level":"info","message":"RegistrationController.sendVerificationCode called  :+923345022570","timestamp":"13:13:46"}
+{"level":"info","message":"UserExists Method Called","timestamp":"13:13:46"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"13:13:46"}
+{"level":"info","message":" Exit RegistrationController.sendVerificationCode Method","timestamp":"13:13:46"}
+{"level":"info","message":"User Found with Phone Num. :+923345022570","timestamp":"13:13:46"}
+{"level":"info","message":"User Exists Response : { _id: 59af97049d57ac10ece4b6b1,\n  updatedAt: 2018-03-06T08:12:20.892Z,\n  createdAt: 2017-09-06T06:34:44.109Z,\n  phone: '+923345022570',\n  country_code: '+92',\n  verified_user: true,\n  __v: 2105,\n  OS: 'Android',\n  active: false,\n  full_name: 'Wfde',\n  loc: [ 73.0913938, 33.5217943 ],\n  palyer_id: '27c3ed26-a9f5-4f10-927d-ca8ee7877414',\n  verification_code: '3228',\n  share_location_flag_time: 2017-12-30T07:46:34.336Z,\n  last_shared_loc_time: 2018-02-26T16:23:37.986Z,\n  share_loc_flag_time: 2018-03-05T07:41:11.194Z,\n  share_location: true,\n  deactivate_user: false,\n  profile_photo_url: 'https://aldaalah.herokuapp.com/images/profileImages/' }","timestamp":"13:13:46"}
+{"level":"verbose","message":"verificationcode-POST called ","timestamp":"13:15:30"}
+{"level":"info","message":"RegistrationController.sendVerificationCode called  :+923345022570","timestamp":"13:15:30"}
+{"level":"info","message":"UserExists Method Called","timestamp":"13:15:30"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"13:15:30"}
+{"level":"info","message":" Exit RegistrationController.sendVerificationCode Method","timestamp":"13:15:30"}
+{"level":"info","message":"User Found with Phone Num. :+923345022570","timestamp":"13:15:32"}
+{"level":"info","message":"User Exists Response : { _id: 59af97049d57ac10ece4b6b1,\n  updatedAt: 2018-03-06T08:13:46.852Z,\n  createdAt: 2017-09-06T06:34:44.109Z,\n  phone: '+923345022570',\n  country_code: '+92',\n  verified_user: true,\n  __v: 2105,\n  OS: 'Android',\n  active: false,\n  full_name: 'Wfde',\n  loc: [ 73.0913938, 33.5217943 ],\n  palyer_id: '27c3ed26-a9f5-4f10-927d-ca8ee7877414',\n  verification_code: '9897',\n  share_location_flag_time: 2017-12-30T07:46:34.336Z,\n  last_shared_loc_time: 2018-02-26T16:23:37.986Z,\n  share_loc_flag_time: 2018-03-05T07:41:11.194Z,\n  share_location: true,\n  deactivate_user: false,\n  profile_photo_url: 'https://aldaalah.herokuapp.com/images/profileImages/' }","timestamp":"13:15:32"}
+{"level":"verbose","message":"verificationcode-POST called ","timestamp":"13:16:37"}
+{"level":"info","message":"RegistrationController.sendVerificationCode called  :+923345022570","timestamp":"13:16:37"}
+{"level":"info","message":"UserExists Method Called","timestamp":"13:16:37"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"13:16:37"}
+{"level":"info","message":" Exit RegistrationController.sendVerificationCode Method","timestamp":"13:16:37"}
+{"level":"info","message":"User Found with Phone Num. :+923345022570","timestamp":"13:16:38"}
+{"level":"info","message":"User Exists Response : { _id: 59af97049d57ac10ece4b6b1,\n  updatedAt: 2018-03-06T08:15:32.905Z,\n  createdAt: 2017-09-06T06:34:44.109Z,\n  phone: '+923345022570',\n  country_code: '+92',\n  verified_user: true,\n  __v: 2105,\n  OS: 'Android',\n  active: false,\n  full_name: 'Wfde',\n  loc: [ 73.0913938, 33.5217943 ],\n  palyer_id: '27c3ed26-a9f5-4f10-927d-ca8ee7877414',\n  verification_code: '8709',\n  share_location_flag_time: 2017-12-30T07:46:34.336Z,\n  last_shared_loc_time: 2018-02-26T16:23:37.986Z,\n  share_loc_flag_time: 2018-03-05T07:41:11.194Z,\n  share_location: true,\n  deactivate_user: false,\n  profile_photo_url: 'https://aldaalah.herokuapp.com/images/profileImages/' }","timestamp":"13:16:38"}
+{"level":"verbose","message":"verificationcode-POST called ","timestamp":"13:24:25"}
+{"level":"info","message":"RegistrationController.sendVerificationCode called  :+923345022570","timestamp":"13:24:25"}
+{"level":"info","message":"UserExists Method Called","timestamp":"13:24:25"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"13:24:25"}
+{"level":"info","message":" Exit RegistrationController.sendVerificationCode Method","timestamp":"13:24:25"}
+{"level":"info","message":"User Found with Phone Num. :+923345022570","timestamp":"13:24:25"}
+{"level":"info","message":"User Exists Response : { _id: 59af97049d57ac10ece4b6b1,\n  updatedAt: 2018-03-06T08:16:38.115Z,\n  createdAt: 2017-09-06T06:34:44.109Z,\n  phone: '+923345022570',\n  country_code: '+92',\n  verified_user: true,\n  __v: 2105,\n  OS: 'Android',\n  active: false,\n  full_name: 'Wfde',\n  loc: [ 73.0913938, 33.5217943 ],\n  palyer_id: '27c3ed26-a9f5-4f10-927d-ca8ee7877414',\n  verification_code: '2043',\n  share_location_flag_time: 2017-12-30T07:46:34.336Z,\n  last_shared_loc_time: 2018-02-26T16:23:37.986Z,\n  share_loc_flag_time: 2018-03-05T07:41:11.194Z,\n  share_location: true,\n  deactivate_user: false,\n  profile_photo_url: 'https://aldaalah.herokuapp.com/images/profileImages/' }","timestamp":"13:24:25"}
+{"level":"info","message":"Sucessful Response of SMS API : [object Object]","timestamp":"13:24:26"}
+{"level":"verbose","message":"verificationcode-POST called ","timestamp":"13:26:17"}
+{"level":"info","message":"RegistrationController.sendVerificationCode called  :+923365717729","timestamp":"13:29:28"}
+{"level":"info","message":"UserExists Method Called","timestamp":"13:29:28"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"13:29:28"}
+{"level":"info","message":" Exit RegistrationController.sendVerificationCode Method","timestamp":"13:29:28"}
+{"level":"info","message":"User Found with Phone Num. :+923365717729","timestamp":"13:29:28"}
+{"level":"info","message":"User Exists Response : { _id: 59bb6d57704bfb0012fca4f2,\n  updatedAt: 2017-11-13T08:53:43.398Z,\n  createdAt: 2017-09-15T06:04:07.588Z,\n  phone: '+923365717729',\n  country_code: '+92',\n  verified_user: true,\n  __v: 17,\n  OS: 'Android',\n  active: false,\n  full_name: 'Aliggh',\n  loc: [ 73.041315, 33.6824942 ],\n  verification_code: '5229',\n  palyer_id: 'bb656db3-dc9c-4702-a354-56ac275cb0c9',\n  last_shared_loc_time: 2018-03-06T08:29:28.537Z,\n  share_loc_flag_time: 2018-03-06T08:29:28.536Z,\n  share_location: true,\n  deactivate_user: false,\n  profile_photo_url: 'https://aldaalah.herokuapp.com/images/profileImages/' }","timestamp":"13:29:28"}
+{"level":"verbose","message":"verificationcode-POST called ","timestamp":"13:29:43"}
+{"level":"info","message":"RegistrationController.sendVerificationCode called  :+923365717729","timestamp":"13:29:43"}
+{"level":"info","message":"UserExists Method Called","timestamp":"13:29:43"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"13:29:43"}
+{"level":"info","message":" Exit RegistrationController.sendVerificationCode Method","timestamp":"13:29:43"}
+{"level":"info","message":"User Found with Phone Num. :+923365717729","timestamp":"13:29:43"}
+{"level":"info","message":"User Exists Response : { _id: 59bb6d57704bfb0012fca4f2,\n  updatedAt: 2018-03-06T08:29:28.543Z,\n  createdAt: 2017-09-15T06:04:07.588Z,\n  phone: '+923365717729',\n  country_code: '+92',\n  verified_user: true,\n  __v: 17,\n  OS: 'Android',\n  active: false,\n  full_name: 'Aliggh',\n  loc: [ 73.041315, 33.6824942 ],\n  verification_code: '0600',\n  palyer_id: 'bb656db3-dc9c-4702-a354-56ac275cb0c9',\n  last_shared_loc_time: 2018-03-06T08:29:28.537Z,\n  share_loc_flag_time: 2018-03-06T08:29:28.536Z,\n  share_location: true,\n  deactivate_user: false,\n  profile_photo_url: 'https://aldaalah.herokuapp.com/images/profileImages/' }","timestamp":"13:29:43"}
+{"level":"info","message":"Sucessful Response of SMS API : [object Object]","timestamp":"13:29:44"}
+{"level":"verbose","message":"verificationcode-POST called ","timestamp":"13:34:44"}
+{"level":"info","message":"RegistrationController.sendVerificationCode called  :+923117433347","timestamp":"13:34:44"}
+{"level":"info","message":"UserExists Method Called","timestamp":"13:34:44"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"13:34:44"}
+{"level":"info","message":" Exit RegistrationController.sendVerificationCode Method","timestamp":"13:34:44"}
+{"level":"info","message":"User Not Found with Phone Num. :+923117433347","timestamp":"13:34:45"}
+{"level":"info","message":"User Exists Response : null","timestamp":"13:34:45"}
+{"level":"info","message":"User Created With Phone Num +923117433347","timestamp":"13:34:45"}
+{"level":"info","message":"Sucessful Response of SMS API : [object Object]","timestamp":"13:34:45"}
