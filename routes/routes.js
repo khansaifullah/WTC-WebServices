@@ -1,4 +1,4 @@
-
+const _ = require('lodash');
 var regCtrl= require('../controller/RegistrationController.js');
 var AppController= require('../controller/AppController.js');
 var ChatController = require('../controller/ChatController.js');
@@ -55,6 +55,25 @@ module.exports = function(app) {
     }));
 	// parse application/json
 	app.use(bodyParser.json())
+
+	
+	//private route
+	var authenticate = (req, res, next) => {
+		var token = req.header('x-auth');
+	
+		User.findByToken(token).then((user) => {
+		if (!user) {
+			return Promise.reject();
+		}
+	
+		req.user = user;
+		req.token = token;
+		next();
+		}).catch((e) => {
+		res.status(401).send();
+		});
+	};
+	
 	
 	app.get('/', function(req, res) {
 	//var object =new Object({"Field1":"Value1","Field2":"Value2"});
@@ -63,6 +82,42 @@ module.exports = function(app) {
 		res.end("WTC-WebServices"); 
 	});
 
+	app.post('/register',function(req,res){                         
+		
+		if(req.body === undefined||req.body === null) {
+		 res.end("Empty Body");  
+		 }
+			 
+		 logger.verbose('register-POST called ');
+			 
+		 var reqData=req.body;
+		// console.log("reqData : "+ reqData.phoneNo);
+		 // let phoneNo = req.query.phoneNo;;
+		 logger.info("in routes /register ");
+		 //console.log(reqData);
+			
+		 regCtrl.register(reqData,res);	
+	 
+	 });
+	
+	 // POST /users/login {email, password}
+	app.post('/login', (req, res) => {
+		if(req.body === undefined||req.body === null) {
+			res.end("Empty Body");  
+			}
+				
+			logger.verbose('login-POST called ');
+				
+			var reqData=req.body;
+			//console.log("reqData : "+ reqData.phoneNo);
+			// let phoneNo = req.query.phoneNo;;
+			logger.info("in routes /login ");
+			//console.log(reqData);
+			   
+			regCtrl.login(reqData,res);
+		
+	});
+	 
     app.post('/verificationcode',function(req,res){                         
 		
 	   if(req.body === undefined||req.body === null) {
@@ -80,7 +135,9 @@ module.exports = function(app) {
         regCtrl.sendVerificationCode(reqData,res);	
 	
 	});
-    
+
+	
+   
     
     app.post('/verifycode',function(req,res){
 		
@@ -121,6 +178,20 @@ module.exports = function(app) {
 	});
 	});
 
+	// POST /users
+	app.post('/users', (req, res) => {
+		var body = _.pick(req.body, ['email', 'password']);
+		var user = new User(body);
+	
+		user.save().then((user) => {
+		return user.generateAuthToken();
+		}).then((token) => {
+		res.header('x-auth', token).send(user);
+		}).catch((e) => {
+		res.status(400).send(e);
+		console.log('Erro in saving data: ', e);
+		})
+	  });
 
 	app.post('/profile',function(req,res){
 		

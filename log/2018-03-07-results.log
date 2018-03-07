@@ -1,0 +1,273 @@
+{"level":"verbose","message":"register-POST called ","timestamp":"14:44:18"}
+{"level":"info","message":"RegistrationController.register called  :undefined","timestamp":"14:44:18"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"14:44:18"}
+{"level":"verbose","message":"register-POST called ","timestamp":"14:56:38"}
+{"level":"verbose","message":"register-POST called ","timestamp":"15:01:34"}
+{"level":"info","message":"RegistrationController.register called  :khansaifullah1993@gmail.com","timestamp":"15:01:34"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"15:01:34"}
+{"level":"verbose","message":"register-POST called ","timestamp":"15:04:21"}
+{"level":"info","message":"RegistrationController.register called  :khansaifullah1993@gmail.com","timestamp":"15:04:21"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"15:04:21"}
+{"level":"verbose","message":"register-POST called ","timestamp":"15:07:44"}
+{"level":"info","message":"RegistrationController.register called  :khansaifullah1993@gmail.com","timestamp":"15:07:44"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"15:07:44"}
+{"level":"verbose","message":"register-POST called ","timestamp":"15:08:34"}
+{"level":"info","message":"RegistrationController.register called  :khansaifullah1993@gmail.com","timestamp":"15:08:34"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"15:08:34"}
+{"level":"verbose","message":"register-POST called ","timestamp":"15:09:18"}
+{"level":"info","message":"RegistrationController.register called  :khansaifullah1993@gmail.com","timestamp":"15:09:18"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"15:09:18"}
+{"level":"verbose","message":"register-POST called ","timestamp":"15:16:13"}
+{"level":"info","message":"RegistrationController.register called  :11khansaifullah1993@gmail.com","timestamp":"15:16:13"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"15:16:13"}
+{"level":"verbose","message":"register-POST called ","timestamp":"15:18:15"}
+{"level":"info","message":"RegistrationController.register called  :11khansaifullah1993@gmail.com","timestamp":"15:18:15"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"15:18:15"}
+{"level":"verbose","message":"register-POST called ","timestamp":"15:18:23"}
+{"level":"info","message":"RegistrationController.register called  :1221khansaifullah1993@gmail.com","timestamp":"15:18:23"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"15:18:23"}
+{"level":"verbose","message":"register-POST called ","timestamp":"15:19:43"}
+{"level":"info","message":"RegistrationController.register called  :1221khansaifullah1993@gmail.com","timestamp":"15:19:43"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"15:19:43"}
+{"level":"verbose","message":"register-POST called ","timestamp":"15:19:50"}
+{"level":"info","message":"RegistrationController.register called  :12211khansaifullah1993@gmail.com","timestamp":"15:19:50"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"15:19:50"}
+{"level":"verbose","message":"login-POST called ","timestamp":"15:45:09"}
+{"level":"info","message":"in routes /login ","timestamp":"15:45:09"}
+{"level":"info","message":"RegistrationController.login called  :12211khansaifullah1993@gmail.com","timestamp":"15:45:09"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"15:45:09"}
+{"level":"verbose","message":"login-POST called ","timestamp":"15:45:24"}
+{"level":"info","message":"in routes /login ","timestamp":"15:45:24"}
+{"level":"info","message":"RegistrationController.login called  :12211khansaifullah1993@gmail.com","timestamp":"15:45:24"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"15:45:24"}
+{"level":"verbose","message":"register-POST called ","timestamp":"18:36:29"}
+{"level":"info","message":"in routes /register ","timestamp":"18:36:30"}
+{"level":"info","message":"RegistrationController.register called  :saifullah1993@gmail.com","timestamp":"18:36:30"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"18:36:30"}
+{"level":"verbose","message":"register-POST called ","timestamp":"18:43:12"}
+{"level":"info","message":"in routes /register ","timestamp":"18:43:12"}
+{"level":"info","message":"RegistrationController.register called  :saifullah1993@gmail.com","timestamp":"18:43:12"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"18:43:12"}
+{"level":"verbose","message":"register-POST called ","timestamp":"18:46:11"}
+{"level":"info","message":"in routes /register ","timestamp":"18:46:11"}
+{"level":"info","message":"RegistrationController.register called  :saifullah1994@gmail.com","timestamp":"18:46:11"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"18:46:11"}
+{"level":"verbose","message":"register-POST called ","timestamp":"18:48:38"}
+{"level":"info","message":"in routes /register ","timestamp":"18:48:38"}
+{"level":"info","message":"RegistrationController.register called  :saifullah1994@gmail.com","timestamp":"18:48:38"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"18:48:38"}
+{"level":"verbose","message":"register-POST called ","timestamp":"18:49:35"}
+{"level":"info","message":"in routes /register ","timestamp":"18:49:35"}
+{"level":"info","message":"RegistrationController.register called  :saifullah1994@gmail.com","timestamp":"18:49:35"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"18:49:35"}
+{"code":11000,"index":0,"errmsg":"E11000 duplicate key error index: wtc-dev-db.users.$email_1 dup key: { : \"saifullah1994@gmail.com\" }","op":{"updatedAt":"2018-03-07T13:49:35.481Z","createdAt":"2018-03-07T13:49:35.481Z","email":"saifullah1994@gmail.com","password":"$2a$10$pJ6uuHW7LNpnbvXJ4EccXePX8Rwwnangir1OSTLzv/ZE/GiJHQ0nS","user_type":"owner","OS":"Android","verified_user":false,"_id":"5a9fedefba02c33f04616bc9","deactivate_user":false,"tokens":[],"profile_photo_url":null,"__v":0}}
+{"level":"verbose","message":"register-POST called ","timestamp":"18:51:47"}
+{"level":"info","message":"in routes /register ","timestamp":"18:51:47"}
+{"level":"info","message":"RegistrationController.register called  :saifullah1994@gmail.com","timestamp":"18:51:47"}
+{"level":"info","message":"An Exception Has occured in RegistrationController.register methodTypeError: Cannot read property 'save' of undefined","timestamp":"18:51:47"}
+{"level":"verbose","message":"register-POST called ","timestamp":"19:01:26"}
+{"level":"info","message":"in routes /register ","timestamp":"19:01:26"}
+{"level":"info","message":"RegistrationController.register called  :saifullah1994@gmail.com","timestamp":"19:01:26"}
+{"level":"info","message":"UserExists Method Called","timestamp":"19:01:26"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"19:01:26"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"19:01:26"}
+{"level":"info","message":"User Found with Email :saifullah1994@gmail.com","timestamp":"19:01:28"}
+{"level":"info","message":"User Exists Response : { _id: 5a9fedb6ba02c33f04616bc7,\n  updatedAt: 2018-03-07T13:49:04.521Z,\n  createdAt: 2018-03-07T13:48:38.914Z,\n  email: 'saifullah1994@gmail.com',\n  password: '$2a$10$AMJv49qkt61uuo4UBTcTw.UddLW/Rj8IvvFS2nLtAcXrc.bWKY//O',\n  user_type: 'owner',\n  OS: 'Android',\n  verified_user: false,\n  __v: 1,\n  deactivate_user: false,\n  tokens: \n   [ { access: 'auth',\n       token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YTlmZWRiNmJhMDJjMzNmMDQ2MTZiYzciLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNDMwNTQ0fQ.DSNki6AB9dEbiBf6IqYmwhgTb1uOzu0_WX_8SsDLfJM',\n       _id: 5a9fedd0ba02c33f04616bc8 } ],\n  profile_photo_url: null }","timestamp":"19:01:28"}
+{"level":"verbose","message":"register-POST called ","timestamp":"19:01:34"}
+{"level":"info","message":"in routes /register ","timestamp":"19:01:34"}
+{"level":"info","message":"RegistrationController.register called  :saifullah1993@gmail.com","timestamp":"19:01:34"}
+{"level":"info","message":"UserExists Method Called","timestamp":"19:01:34"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"19:01:34"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"19:01:34"}
+{"level":"info","message":"User Found with Email :saifullah1993@gmail.com","timestamp":"19:01:34"}
+{"level":"info","message":"User Exists Response : { _id: 5a9feadece583907700fb487,\n  updatedAt: 2018-03-07T13:36:31.888Z,\n  createdAt: 2018-03-07T13:36:30.880Z,\n  email: 'saifullah1993@gmail.com',\n  password: '$2a$10$q303Do6IpeYVzakHdYEgmeZqDPkXmCUpoFW5gAHDLVV0zQT9Q7vvu',\n  user_type: 'owner',\n  OS: 'Android',\n  verified_user: false,\n  __v: 1,\n  deactivate_user: false,\n  tokens: \n   [ { access: 'auth',\n       token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YTlmZWFkZWNlNTgzOTA3NzAwZmI0ODciLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNDI5NzkxfQ.uBSrX5f3ZChT1x65eBDBo9blpbGjjhVDyMQmEUNePEE',\n       _id: 5a9feadfce583907700fb488 } ],\n  profile_photo_url: null }","timestamp":"19:01:35"}
+{"level":"verbose","message":"register-POST called ","timestamp":"19:01:43"}
+{"level":"info","message":"in routes /register ","timestamp":"19:01:43"}
+{"level":"info","message":"RegistrationController.register called  :saifullah1995@gmail.com","timestamp":"19:01:43"}
+{"level":"info","message":"UserExists Method Called","timestamp":"19:01:43"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"19:01:43"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"19:01:43"}
+{"level":"info","message":"User Not Found with Email :saifullah1995@gmail.com","timestamp":"19:01:44"}
+{"level":"verbose","message":"register-POST called ","timestamp":"19:04:57"}
+{"level":"info","message":"in routes /register ","timestamp":"19:04:57"}
+{"level":"info","message":"RegistrationController.register called  :saifullah1995@gmail.com","timestamp":"19:04:57"}
+{"level":"info","message":"UserExists Method Called","timestamp":"19:04:57"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"19:04:57"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"19:04:57"}
+{"level":"info","message":"User Not Found with Email :saifullah1995@gmail.com","timestamp":"19:04:59"}
+{"level":"verbose","message":"register-POST called ","timestamp":"19:08:14"}
+{"level":"info","message":"in routes /register ","timestamp":"19:08:14"}
+{"level":"info","message":"RegistrationController.register called  :saifullah1995@gmail.com","timestamp":"19:08:14"}
+{"level":"info","message":"UserExists Method Called","timestamp":"19:08:14"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"19:08:14"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"19:08:14"}
+{"level":"info","message":"User Not Found with Email :saifullah1995@gmail.com","timestamp":"19:08:16"}
+{"level":"info","message":"User Exists Response : null","timestamp":"19:08:16"}
+{"level":"verbose","message":"register-POST called ","timestamp":"19:08:25"}
+{"level":"info","message":"in routes /register ","timestamp":"19:08:25"}
+{"level":"info","message":"RegistrationController.register called  :saifullah1996@gmail.com","timestamp":"19:08:25"}
+{"level":"info","message":"UserExists Method Called","timestamp":"19:08:25"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"19:08:25"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"19:08:25"}
+{"level":"info","message":"User Not Found with Email :saifullah1996@gmail.com","timestamp":"19:08:26"}
+{"level":"info","message":"User Exists Response : null","timestamp":"19:08:26"}
+{"level":"verbose","message":"register-POST called ","timestamp":"19:09:43"}
+{"level":"info","message":"in routes /register ","timestamp":"19:09:43"}
+{"level":"info","message":"RegistrationController.register called  :saifullah199@gmail.com","timestamp":"19:09:43"}
+{"level":"info","message":"UserExists Method Called","timestamp":"19:09:43"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"19:09:43"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"19:09:43"}
+{"level":"info","message":"User Not Found with Email :saifullah199@gmail.com","timestamp":"19:09:45"}
+{"level":"info","message":"User Exists Response : null","timestamp":"19:09:45"}
+{"level":"info","message":"Creation New User","timestamp":"19:09:45"}
+{"level":"verbose","message":"register-POST called ","timestamp":"19:10:05"}
+{"level":"info","message":"in routes /register ","timestamp":"19:10:05"}
+{"level":"info","message":"RegistrationController.register called  :saifullah1996@gmail.com","timestamp":"19:10:05"}
+{"level":"info","message":"UserExists Method Called","timestamp":"19:10:05"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"19:10:05"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"19:10:05"}
+{"level":"info","message":"User Not Found with Email :saifullah1996@gmail.com","timestamp":"19:10:06"}
+{"level":"info","message":"User Exists Response : null","timestamp":"19:10:06"}
+{"level":"info","message":"Creation New User","timestamp":"19:10:06"}
+{"level":"verbose","message":"register-POST called ","timestamp":"19:10:18"}
+{"level":"info","message":"in routes /register ","timestamp":"19:10:18"}
+{"level":"info","message":"RegistrationController.register called  :saifullah1996@gmail.com","timestamp":"19:10:18"}
+{"level":"info","message":"UserExists Method Called","timestamp":"19:10:18"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"19:10:18"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"19:10:18"}
+{"level":"info","message":"User Found with Email :saifullah1996@gmail.com","timestamp":"19:10:18"}
+{"level":"info","message":"User Exists Response : { _id: 5a9ff2be248e013720a2cd06,\n  updatedAt: 2018-03-07T14:10:06.493Z,\n  createdAt: 2018-03-07T14:10:06.133Z,\n  email: 'saifullah1996@gmail.com',\n  password: '$2a$10$Lmre3Y7VIFdhaCSWNPu8u.t.MMN0kEoIc.d74IZEHQnkQ9z3jEsNO',\n  user_type: 'owner',\n  access_code: 'wtc123',\n  OS: 'Android',\n  verified_user: false,\n  __v: 1,\n  deactivate_user: false,\n  tokens: \n   [ { access: 'auth',\n       token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YTlmZjJiZTI0OGUwMTM3MjBhMmNkMDYiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNDMxODA2fQ.wPZ-ecZi7elljhyVQD8qtCXCOL2IvqUo4_yR3YKr_P4',\n       _id: 5a9ff2be248e013720a2cd07 } ],\n  profile_photo_url: null }","timestamp":"19:10:18"}
+{"level":"verbose","message":"register-POST called ","timestamp":"19:10:20"}
+{"level":"info","message":"in routes /register ","timestamp":"19:10:20"}
+{"level":"info","message":"RegistrationController.register called  :saifullah1996@gmail.com","timestamp":"19:10:20"}
+{"level":"info","message":"UserExists Method Called","timestamp":"19:10:20"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"19:10:20"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"19:10:20"}
+{"level":"info","message":"User Found with Email :saifullah1996@gmail.com","timestamp":"19:10:20"}
+{"level":"info","message":"User Exists Response : { _id: 5a9ff2be248e013720a2cd06,\n  updatedAt: 2018-03-07T14:10:06.493Z,\n  createdAt: 2018-03-07T14:10:06.133Z,\n  email: 'saifullah1996@gmail.com',\n  password: '$2a$10$Lmre3Y7VIFdhaCSWNPu8u.t.MMN0kEoIc.d74IZEHQnkQ9z3jEsNO',\n  user_type: 'owner',\n  access_code: 'wtc123',\n  OS: 'Android',\n  verified_user: false,\n  __v: 1,\n  deactivate_user: false,\n  tokens: \n   [ { access: 'auth',\n       token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YTlmZjJiZTI0OGUwMTM3MjBhMmNkMDYiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNDMxODA2fQ.wPZ-ecZi7elljhyVQD8qtCXCOL2IvqUo4_yR3YKr_P4',\n       _id: 5a9ff2be248e013720a2cd07 } ],\n  profile_photo_url: null }","timestamp":"19:10:20"}
+{"level":"verbose","message":"register-POST called ","timestamp":"19:37:11"}
+{"level":"info","message":"in routes /register ","timestamp":"19:37:14"}
+{"level":"info","message":"RegistrationController.register called  :saifullah1996@gmail.com","timestamp":"19:37:14"}
+{"level":"info","message":"UserExists Method Called","timestamp":"19:37:14"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"19:37:14"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"19:37:14"}
+{"level":"info","message":"User Found with Email :saifullah1996@gmail.com","timestamp":"19:37:14"}
+{"level":"info","message":"User Exists Response : { _id: 5a9ff2be248e013720a2cd06,\n  updatedAt: 2018-03-07T14:10:06.493Z,\n  createdAt: 2018-03-07T14:10:06.133Z,\n  email: 'saifullah1996@gmail.com',\n  password: '$2a$10$Lmre3Y7VIFdhaCSWNPu8u.t.MMN0kEoIc.d74IZEHQnkQ9z3jEsNO',\n  user_type: 'owner',\n  access_code: 'wtc123',\n  OS: 'Android',\n  verified_user: false,\n  __v: 1,\n  deactivate_user: false,\n  tokens: \n   [ { access: 'auth',\n       token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YTlmZjJiZTI0OGUwMTM3MjBhMmNkMDYiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNDMxODA2fQ.wPZ-ecZi7elljhyVQD8qtCXCOL2IvqUo4_yR3YKr_P4',\n       _id: 5a9ff2be248e013720a2cd07 } ],\n  profile_photo_url: null }","timestamp":"19:37:14"}
+{"level":"verbose","message":"register-POST called ","timestamp":"20:03:21"}
+{"level":"info","message":"in routes /register ","timestamp":"20:03:21"}
+{"level":"info","message":"RegistrationController.register called  :saifullah1996@gmail.com","timestamp":"20:03:21"}
+{"level":"info","message":"UserExists Method Called","timestamp":"20:03:21"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"20:03:21"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"20:03:21"}
+{"level":"info","message":"User Found with Email :saifullah1996@gmail.com","timestamp":"20:03:21"}
+{"level":"info","message":"User Exists Response : { _id: 5a9ff2be248e013720a2cd06,\n  updatedAt: 2018-03-07T14:10:06.493Z,\n  createdAt: 2018-03-07T14:10:06.133Z,\n  email: 'saifullah1996@gmail.com',\n  password: '$2a$10$Lmre3Y7VIFdhaCSWNPu8u.t.MMN0kEoIc.d74IZEHQnkQ9z3jEsNO',\n  user_type: 'owner',\n  access_code: 'wtc123',\n  OS: 'Android',\n  verified_user: false,\n  __v: 1,\n  deactivate_user: false,\n  tokens: \n   [ { access: 'auth',\n       token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YTlmZjJiZTI0OGUwMTM3MjBhMmNkMDYiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNDMxODA2fQ.wPZ-ecZi7elljhyVQD8qtCXCOL2IvqUo4_yR3YKr_P4',\n       _id: 5a9ff2be248e013720a2cd07 } ],\n  profile_photo_url: null }","timestamp":"20:03:21"}
+{"level":"verbose","message":"register-POST called ","timestamp":"20:03:35"}
+{"level":"info","message":"in routes /register ","timestamp":"20:03:35"}
+{"level":"info","message":"RegistrationController.register called  :saifullah1997@gmail.com","timestamp":"20:03:35"}
+{"level":"info","message":"UserExists Method Called","timestamp":"20:03:35"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"20:03:35"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"20:03:35"}
+{"level":"info","message":"User Not Found with Email :saifullah1997@gmail.com","timestamp":"20:03:35"}
+{"level":"info","message":"User Exists Response : null","timestamp":"20:03:35"}
+{"level":"info","message":"Creation New User","timestamp":"20:03:35"}
+{"message":"Error in saving User: ","stack":"ReferenceError: Owner is not defined\n    at newuser.save.then (C:\\Users\\DELL\\Documents\\EXAGIC\\NODE\\WTC-WebServices\\controller\\RegistrationController.js:122:38)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:169:7)","level":"info","timestamp":"20:03:36"}
+{"level":"verbose","message":"register-POST called ","timestamp":"20:04:46"}
+{"level":"info","message":"in routes /register ","timestamp":"20:04:46"}
+{"level":"info","message":"RegistrationController.register called  :saifullah1997@gmail.com","timestamp":"20:04:46"}
+{"level":"info","message":"UserExists Method Called","timestamp":"20:04:46"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"20:04:46"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"20:04:46"}
+{"level":"info","message":"User Found with Email :saifullah1997@gmail.com","timestamp":"20:04:48"}
+{"level":"info","message":"User Exists Response : { _id: 5a9fff47d719c92afc2b7a3c,\n  updatedAt: 2018-03-07T15:03:35.620Z,\n  createdAt: 2018-03-07T15:03:35.620Z,\n  email: 'saifullah1997@gmail.com',\n  password: '$2a$10$4KEsW6O3pqb1nccu.tMWYOZuD4.9KXAxaWEzIL9Tbmm8p2rBlcmjq',\n  user_type: 'owner',\n  access_code: 'wtc123',\n  OS: 'Android',\n  verified_user: false,\n  __v: 0,\n  deactivate_user: false,\n  tokens: [],\n  profile_photo_url: null }","timestamp":"20:04:48"}
+{"level":"verbose","message":"register-POST called ","timestamp":"20:04:56"}
+{"level":"info","message":"in routes /register ","timestamp":"20:04:56"}
+{"level":"info","message":"RegistrationController.register called  :saifullah1998@gmail.com","timestamp":"20:04:56"}
+{"level":"info","message":"UserExists Method Called","timestamp":"20:04:56"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"20:04:56"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"20:04:56"}
+{"level":"info","message":"User Not Found with Email :saifullah1998@gmail.com","timestamp":"20:04:57"}
+{"level":"info","message":"User Exists Response : null","timestamp":"20:04:57"}
+{"level":"info","message":"Creation New User","timestamp":"20:04:57"}
+{"level":"verbose","message":"register-POST called ","timestamp":"20:06:47"}
+{"level":"info","message":"in routes /register ","timestamp":"20:06:47"}
+{"level":"info","message":"RegistrationController.register called  :saifullah1999@gmail.com","timestamp":"20:06:47"}
+{"level":"info","message":"UserExists Method Called","timestamp":"20:06:47"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"20:06:47"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"20:06:47"}
+{"level":"info","message":"User Not Found with Email :saifullah1999@gmail.com","timestamp":"20:06:47"}
+{"level":"info","message":"User Exists Response : null","timestamp":"20:06:47"}
+{"level":"info","message":"Creation New User","timestamp":"20:06:47"}
+{"level":"verbose","message":"register-POST called ","timestamp":"20:15:15"}
+{"level":"info","message":"in routes /register ","timestamp":"20:15:15"}
+{"level":"info","message":"RegistrationController.register called  :saifullah1999@gmail.com","timestamp":"20:15:15"}
+{"level":"info","message":"UserExists Method Called","timestamp":"20:15:15"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"20:15:15"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"20:15:15"}
+{"level":"info","message":"User Found with Email :saifullah1999@gmail.com","timestamp":"20:15:15"}
+{"level":"info","message":"User Exists Response : { _id: 5aa00007a7bc1c1efc45e3ab,\n  updatedAt: 2018-03-07T15:06:48.231Z,\n  createdAt: 2018-03-07T15:06:47.870Z,\n  email: 'saifullah1999@gmail.com',\n  password: '$2a$10$Gz.gUwr/.vhOgCoSoq1A/e.fUGY8cpUwjGTY3/jOGBLguAKpTZle.',\n  user_type: 'mentor',\n  OS: 'Android',\n  verified_user: false,\n  __v: 1,\n  deactivate_user: false,\n  tokens: \n   [ { access: 'auth',\n       token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMDAwN2E3YmMxYzFlZmM0NWUzYWIiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNDM1MjA4fQ.wQWg70Igv-Vo3FhQL_lsRTlNlGsXO8b6LoE3MpX4TTE',\n       _id: 5aa00008a7bc1c1efc45e3ad } ],\n  profile_photo_url: null }","timestamp":"20:15:15"}
+{"level":"verbose","message":"register-POST called ","timestamp":"20:15:24"}
+{"level":"info","message":"in routes /register ","timestamp":"20:15:24"}
+{"level":"info","message":"RegistrationController.register called  :saifullah1989@gmail.com","timestamp":"20:15:24"}
+{"level":"info","message":"UserExists Method Called","timestamp":"20:15:24"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"20:15:24"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"20:15:24"}
+{"level":"info","message":"User Not Found with Email :saifullah1989@gmail.com","timestamp":"20:15:24"}
+{"level":"info","message":"User Exists Response : null","timestamp":"20:15:24"}
+{"level":"info","message":"Creation New User","timestamp":"20:15:24"}
+{"level":"verbose","message":"register-POST called ","timestamp":"20:34:58"}
+{"level":"info","message":"in routes /register ","timestamp":"20:34:58"}
+{"level":"info","message":"RegistrationController.register called  :saifullah1989@gmail.com","timestamp":"20:34:58"}
+{"level":"info","message":"UserExists Method Called","timestamp":"20:34:58"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"20:34:58"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"20:34:58"}
+{"level":"info","message":"User Found with Email :saifullah1989@gmail.com","timestamp":"20:34:58"}
+{"level":"info","message":"User Exists Response : { _id: 5aa0020c0dc21942dc088b95,\n  updatedAt: 2018-03-07T15:15:24.667Z,\n  createdAt: 2018-03-07T15:15:24.291Z,\n  email: 'saifullah1989@gmail.com',\n  password: '$2a$10$TjddhzmldKi76lFhbENZHO1pF7wMnI3QDsK.0VROfjyF71KkNU0aS',\n  user_type: 'mentor',\n  OS: 'Android',\n  verified_user: false,\n  __v: 1,\n  deactivate_user: false,\n  tokens: \n   [ { access: 'auth',\n       token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMDIwYzBkYzIxOTQyZGMwODhiOTUiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNDM1NzI0fQ.GPS0jaIRjFEqg2RyDESTy8mPbG4fNk6Z8o-CMid8Wws',\n       _id: 5aa0020c0dc21942dc088b97 } ],\n  profile_photo_url: null }","timestamp":"20:34:58"}
+{"level":"verbose","message":"register-POST called ","timestamp":"20:35:19"}
+{"level":"info","message":"in routes /register ","timestamp":"20:35:19"}
+{"level":"info","message":"RegistrationController.register called  :saifullah1989@gmail.com","timestamp":"20:35:19"}
+{"level":"info","message":"UserExists Method Called","timestamp":"20:35:19"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"20:35:19"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"20:35:19"}
+{"level":"info","message":"User Found with Email :saifullah1989@gmail.com","timestamp":"20:35:20"}
+{"level":"info","message":"User Exists Response : { _id: 5aa0020c0dc21942dc088b95,\n  updatedAt: 2018-03-07T15:15:24.667Z,\n  createdAt: 2018-03-07T15:15:24.291Z,\n  email: 'saifullah1989@gmail.com',\n  password: '$2a$10$TjddhzmldKi76lFhbENZHO1pF7wMnI3QDsK.0VROfjyF71KkNU0aS',\n  user_type: 'mentor',\n  OS: 'Android',\n  verified_user: false,\n  __v: 1,\n  deactivate_user: false,\n  tokens: \n   [ { access: 'auth',\n       token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMDIwYzBkYzIxOTQyZGMwODhiOTUiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNDM1NzI0fQ.GPS0jaIRjFEqg2RyDESTy8mPbG4fNk6Z8o-CMid8Wws',\n       _id: 5aa0020c0dc21942dc088b97 } ],\n  profile_photo_url: null }","timestamp":"20:35:20"}
+{"level":"verbose","message":"register-POST called ","timestamp":"20:35:42"}
+{"level":"info","message":"in routes /register ","timestamp":"20:35:42"}
+{"level":"info","message":"RegistrationController.register called  :saifullah1979@gmail.com","timestamp":"20:35:42"}
+{"level":"info","message":"UserExists Method Called","timestamp":"20:35:42"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"20:35:42"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"20:35:42"}
+{"level":"info","message":"User Not Found with Email :saifullah1979@gmail.com","timestamp":"20:35:42"}
+{"level":"info","message":"User Exists Response : null","timestamp":"20:35:42"}
+{"level":"info","message":"Creation New User","timestamp":"20:35:42"}
+{"level":"verbose","message":"login-POST called ","timestamp":"20:44:52"}
+{"level":"info","message":"in routes /login ","timestamp":"20:44:52"}
+{"level":"info","message":"RegistrationController.login called  :saifullah1979@gmail.com","timestamp":"20:44:52"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"20:44:52"}
+{"level":"verbose","message":"login-POST called ","timestamp":"20:45:01"}
+{"level":"info","message":"in routes /login ","timestamp":"20:45:01"}
+{"level":"info","message":"RegistrationController.login called  :saifullah1979@gmail.com","timestamp":"20:45:01"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"20:45:01"}
+{"level":"info","message":"Exception Occured while Loginundefined","timestamp":"20:45:01"}
+{"level":"verbose","message":"login-POST called ","timestamp":"20:45:12"}
+{"level":"info","message":"in routes /login ","timestamp":"20:45:12"}
+{"level":"info","message":"RegistrationController.login called  :saifullah123239@gmail.com","timestamp":"20:45:12"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"20:45:12"}
+{"level":"info","message":"Exception Occured while Loginundefined","timestamp":"20:45:13"}
+{"level":"verbose","message":"login-POST called ","timestamp":"20:45:41"}
+{"level":"info","message":"in routes /login ","timestamp":"20:45:41"}
+{"level":"info","message":"RegistrationController.login called  :saifullah1993@gmail.com","timestamp":"20:45:41"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"20:45:41"}
+{"level":"info","message":"Exception Occured while Loginundefined","timestamp":"20:45:42"}
+{"level":"verbose","message":"login-POST called ","timestamp":"20:45:47"}
+{"level":"info","message":"in routes /login ","timestamp":"20:45:47"}
+{"level":"info","message":"RegistrationController.login called  :saifullah1993@gmail.com","timestamp":"20:45:47"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"20:45:47"}
+{"level":"verbose","message":"login-POST called ","timestamp":"20:46:20"}
+{"level":"info","message":"in routes /login ","timestamp":"20:46:20"}
+{"level":"info","message":"RegistrationController.login called  :saifullah1993@gmail.com","timestamp":"20:46:20"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"20:46:20"}
+{"level":"info","message":"Exception Occured while Loginundefined","timestamp":"20:46:20"}
+{"level":"verbose","message":"login-POST called ","timestamp":"20:53:54"}
+{"level":"info","message":"in routes /login ","timestamp":"20:53:54"}
+{"level":"info","message":"RegistrationController.login called  :saifullah1993@gmail.com","timestamp":"20:53:54"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"20:53:54"}

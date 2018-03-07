@@ -1,6 +1,8 @@
-
+const _ = require('lodash');
 //var AppController= require('../controller/AppController.js');
 var User = require('../models/User.js');
+var Owner = require('../models/Owner.js');
+var Mentor = require('../models/Mentor.js');
 var db = require('../config/db');
 var logger = require('../config/lib/logger.js');
 //require('datejs');
@@ -25,10 +27,10 @@ var randomize = require('randomatic');
 //dbCon.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 
-var userExists=function(phoneNo,callback){
+var userExists=function(email,callback){
     
     logger.info('UserExists Method Called');
-     var query = { phone : phoneNo };
+     var query = { email : email };
      User.findOne(query).exec(function(err, user){
         if (err){
             logger.error('Some Error while finding user' + err );
@@ -40,27 +42,212 @@ var userExists=function(phoneNo,callback){
         else{
             if (user){
                 
-                logger.info('User Found with Phone Num. :'+phoneNo);                
-                console.log("user found with phone no "+phoneNo);
+                logger.info('User Found with Email :'+email);                
+                //console.log("user found with Email "+email);
                 callback (user);
             }
             else{
                 
-                logger.info('User Not Found with Phone Num. :'+phoneNo);
-                console.log("user not found with phone no "+phoneNo);
+                logger.info('User Not Found with Email :'+email);
+               // console.log("user not found with Email "+email);
                 callback( user);
                 
             }
        }
      });
     
-    logger.info(' Exit UserExists Method');
-	
+    logger.info(' Exit UserExists Method');	
 }
-                              
+  
+
+
+
+exports.register=function(reqData,res){
+    
+    try{
+    // var body = _.pick(req.body, ['email', 'password']);
+    // var user = new User(body);    
+    logger.info('RegistrationController.register called  :'+ reqData.email );
+    
+    var email = reqData.email;
+    var password = reqData.password;
+    var userType = reqData.userType;
+    var accessCode = reqData.accessCode;
+    var os = reqData.os;
+    var newuser;
+    var newSubUser;
+    var newOwner;
+    var newMentor;
+
+    if (userType!==undefined&&password!==undefined&&email!==undefined){
+        userType=userType.toLowerCase();
+        userExists(email,function(userExist){
+            logger.info('User Exists Response : ' + userExist );
+            if (userExist===null){
+                logger.info("Creation New User");
+           
+                if (userType==="owner"){
+                    //Owner Register
+                    if (accessCode==="wtc123"){
+                        newuser = new User({  
+                            email: email,
+                            password:password,
+                            user_type:userType,
+                            access_code:accessCode,
+                            OS:os,
+                            verified_user:false                          
+                        });
+                        
+                    }  else{
+                        res.jsonp({status:"Failure",
+                        message:"Please Enter Correct Access Code",
+                        object:[]}); 
+                    }    
+                }
+                else {
+                    //Mentor Register
+                        newuser = new User({  
+                        email: email,
+                        password:password,
+                        user_type:userType,
+                    // access_code:accessCode,
+                        OS:os,
+                        verified_user:false                          
+                    });
+                    
+                }
+
+                newuser.save().then((user) => {
+                    console.log("User : "+ user);
+                    if (userType==="owner"){
+
+                        newOwner=new Owner({
+                            _userId:user._id
+                        });
+                        newOwner.save(function (err, owner) {
+                            if (err){
+                                logger.info ('Error While Creating New Owner ');
+                            }
+                        });
+
+                    }
+                    if (userType==="owner"){
+
+                        newOwner=new Owner({
+                            _userId:user._id
+                        });
+                        newOwner.save(function (err, owner) {
+                            if (err){
+                                logger.info ('Error While Creating New Owner ');
+                            }
+                        });
+
+                    }
+                    else if (userType==="mentor"){
+                        newMentor=new Mentor({
+                            _userId:user._id
+                        });
+                        newMentor.save(function (err, mentor) {
+                            if (err){
+                                logger.info ('Error While Creating New Mentor ');
+                            }
+                        });
+                    }
+                    return user.generateAuthToken();
+                    })
+                    .then((token) => {
+                   // res.header('x-auth', token).send(newuser);
+                   res.setHeader('x-auth', token);
+                   res.jsonp({status:"Success",
+                    message:"Successfully Registered",
+                    object:newuser}); 
+                    })
+                    .catch((e) => {
+                    //res.status(400).send(e);
+                    logger.info('Error in saving User: ', e);
+                    res.jsonp({status:"Failure",
+                    message:"Some Error Occured While Registering New User",
+                    object:[]}); 
+                    })
+
+        }
+        else{
+            res.jsonp({status:"Failure",
+            message:"User with this Email Already Exists",
+            object:[]});
+        }
+    });
+    }
+    else {
+        res.jsonp({status:"Failure",
+        message:"Please Enter All Required Fields for Registration",
+        object:[]});
+    }
+   
+ 
+         
+    logger.info(' End RegistrationController.register Method');
+    }catch (err){
+		logger.info('An Exception Has occured in RegistrationController.register method' + err);
+	}
+}
+            
+
+
+exports.login=function(reqData,res){
+    
+    try{
+ 	
+    logger.info('RegistrationController.login called  :'+ reqData.email );
+   
+    var email = reqData.email;
+    var password = reqData.password;
+    
+    User.findByCredentails(email, password)
+    .then((user) => {
+		return user.generateAuthToken().then((token) => {
+                //res.header('x-auth', token).send(user);
+                res.setHeader('x-auth', token);
+                res.jsonp({status:"Success",
+                 message:"Successfully Logged In",
+                 object:user}); 
+                
+		});
+        })
+        .catch((e) => {
+        //res.status(400).send();
+        logger.info("Exception Occured while Login"+e);
+        res.jsonp({status:"Failure",
+        message:"Unable To Login",
+        object:[]});
+		})
+         
+    logger.info(' End RegistrationController.register Method');
+    }catch (err){
+		logger.info('An Exception Has occured in RegistrationController.register method' + err);
+	}
+}
+
+
+
+
+
 exports.sendVerificationCode=function(reqData,res){
     
     try{
+
+        // var body = _.pick(req.body, ['email', 'password']);
+		// var user = new User(body);
+	
+		// user.save().then((user) => {
+		// return user.generateAuthToken();
+		// }).then((token) => {
+		// res.header('x-auth', token).send(user);
+		// }).catch((e) => {
+		// res.status(400).send(e);
+		// console.log('Erro in saving data: ', e);
+        // })
+        
     logger.info('RegistrationController.sendVerificationCode called  :' 
                   + reqData.phoneNo );
     
@@ -90,7 +277,6 @@ exports.sendVerificationCode=function(reqData,res){
             else{
             
                      var newuser = new User({  
-
                     phone: phoneNo,
                     country_code:countryCode,
                     verified_user:false,                            
@@ -104,78 +290,6 @@ exports.sendVerificationCode=function(reqData,res){
                             object:[]}); 
                     }
 					else{
-						 //Http Request to send message
-						
-						// requestUrl="http://sendpk.com/api/sms.php?username=923370768876&password=5823&mobile="+user.phone+"&sender=umer%22&message="+verificationMsg;
-						// request.get(requestUrl,
-						// 			function(error,response,body){
-						// 				   if(error){
-						// 						 console.log(error);
-						// 				   }else{
-						// 						 console.log(response);
-						// 				 }
-						// });
-
-                        //Testing Another API 
-                        // Set the headers
-
-                        // requestUrl="http://sendpk.com/api/sms.php?username=923370768876&password=5823&mobile="+user.phone+"&sender=umer%22&message="+verificationMsg;
-
-                            // var headers = {
-
-                            //     'Authorization':       'Basic ZmFsY29uLmV5ZTowMzM1NDc3OTU0NA==',
-                            //     'Content-Type':     'application/json',
-                            //     'Accept':       'application/json'
-                            // }
-
-                            // // Configure the request
-                            // var options = {
-                            //     url: 'http://107.20.199.106/sms/1/text/single',
-                            //     method: 'POST',
-                            //     headers: headers,
-                            //     form: {'from': 'ALDAALAH', 'to': user.phone,'text':verificationMsg}
-                               
-                            // }
-
-                            // // Start the request
-                            // request(options, function (error, response, body) {
-                            //     if (!error ) {
-                            //         // Print out the response body
-                            //         console.log(body)
-                            //         logger.info('Sucessful Response of SMS API : ' + body );
-                            //     }
-                            //     else{
-                            //         logger.info('Response/Error of SMS API : ' + error );
-                            //     }
-                            // // })
-
-
-                            // var options = {
-                            //     hostname: 'http://107.20.199.106',
-                            //     //port: 80,
-                            //     path: '/sms/1/text/single',
-                            //     method: 'POST',
-                            //     headers: {
-                                    
-                            //     'Authorization':       'Basic ZmFsY29uLmV5ZTowMzM1NDc3OTU0NA==',
-                            //     'Content-Type':     'application/json',
-                            //     'Accept':       'application/json'
-                            //     }
-                            //   };
-                            //   var req = http.request(options, function(res) {
-                            //     console.log('Status: ' + res.statusCode);
-                            //     console.log('Headers: ' + JSON.stringify(res.headers));
-                            //     res.setEncoding('utf8');
-                            //     res.on('data', function (body) {
-                            //       console.log('Body: ' + body);
-                            //     });
-                            //   });
-                            //   req.on('error', function(e) {
-                            //     console.log('problem with request: ' + e.message);
-                            //   });
-                            //   // write data to request body
-                            //   req.write('{"string": "Hello, World"}');
-                            //   req.end();
 
                             
 

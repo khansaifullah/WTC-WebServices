@@ -3,13 +3,17 @@ var User = require('./User');
 //var Conversation = require('./Conversation');
 
 // Define our schema
-var OwnerSchema   = new mongoose.Schema({
+var UserLinksSchema   = new mongoose.Schema({
 
 
     //_conversationId: { type: mongoose.Schema.Types.ObjectId, ref: 'Conversation' },
-    _userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User' }
-   
+    _userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
+    userLink:String
+
+    
+  
+    
 } , {timestamps: true});
-//OwnerSchema.index({createdOnUTC:1})
+//UserLinksSchema.index({createdOnUTC:1})
 // Export the Mongoose model
-module.exports = mongoose.model('Owner', OwnerSchema);
+module.exports = mongoose.model('UserLinks', UserLinksSchema);
