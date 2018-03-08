@@ -3,6 +3,7 @@ const _ = require('lodash');
 var User = require('../models/User.js');
 var Owner = require('../models/Owner.js');
 var Post = require('../models/Post.js');
+var Quote = require('../models/Quote.js');
 var Mentor = require('../models/Mentor.js');
 var db = require('../config/db');
 var logger = require('../config/lib/logger.js');
@@ -18,6 +19,54 @@ var http = require("http");
 var querystring = require('querystring');
 //package to generate a random number
 var randomize = require('randomatic');
+
+
+
+exports.findAllPosts=function(callback){
+     
+    try{
+        Post.find({}, function(err, posts) {
+			if (err){
+				 res.status(400).send({status:"failure",
+										  message:err,
+										  object:[]
+										});
+			}
+			
+			else{ 
+				logger.info(posts.length + ' posts Found');
+				callback(posts);
+				//process.exit();
+			} 
+			});
+		}catch (err){
+		logger.info('An Exception Has occured in findAllPosts method' + err);
+	}
+}
+
+
+exports.findAllQuotes=function(callback){
+     
+    try{
+        
+        Quote.find({}, function(err, quotes) {
+			if (err){
+				 res.status(400).send({status:"failure",
+										  message:err,
+										  object:[]
+										});
+			}
+			
+			else{ 
+				logger.info(quotes.length + ' quotes Found');
+				callback(quotes);
+				//process.exit();
+			} 
+			});
+		}catch (err){
+		logger.info('An Exception Has occured in findAllQuotes method' + err);
+	}
+}
 
 exports.uploadPost = function (req,attachmentUrl,res){
     logger.info("User Received After Authetication: "+req.user._id);
@@ -48,4 +97,18 @@ exports.uploadPost = function (req,attachmentUrl,res){
       });
 
 
+
+
 }
+
+
+// var newQuote=new Quote({  
+//     //_conversationId: { type: mongoose.Schema.Types.ObjectId, ref: 'Conversation' },
+// _postedByUserId: req.user._id,
+// quoteText:"Words, without power, is mere philosophy.",
+// author:"Allama Iqbal"                      
+//     });
+
+//     newQuote.save(function (err, post){
+      
+//       });

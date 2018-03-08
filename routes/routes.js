@@ -181,8 +181,33 @@ module.exports = function(app) {
 		})
 		
 	});
-    
+	
+	app.get('/timeline', authenticate,function(req, res) {
+		logger.info("User Received After Authetication: "+req.user.email);
 
+
+		PostController.findAllPosts(function (posts) {
+			logger.info("Response Of findAllPosts Method");
+			res.jsonp({ status:"success",
+			message:"List Of Posts",
+			object:posts});
+										 
+		});	
+
+		});
+
+	app.get('/quotes', authenticate,function(req, res) {
+		logger.info("User Received After Authetication: "+req.user.email);
+
+		PostController.findAllQuotes(function (quotes) {
+			logger.info("Response Of findAllQuotes Method");
+			res.jsonp({ status:"success",
+			message:"List Of Quotes",
+			object:quotes});
+										 
+		});	
+
+	});
 
 };
 	 
