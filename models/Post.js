@@ -7,6 +7,9 @@ var PostSchema   = new mongoose.Schema({
 
     //_conversationId: { type: mongoose.Schema.Types.ObjectId, ref: 'Conversation' },
     _postedByUserId: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
+    postType:String,
+    postDescription:String,
+    attachmentUrl:String
 
    
 } , {timestamps: true});
