@@ -163,6 +163,7 @@ module.exports = function(app) {
 			}
 			else{
 			logger.info ("File Is uploaded");
+			logger.info (" ");
 			var videoUrl="https://wtcapps.herokuapp.com/videos/"+tempFileName;
 			//var videoUrl="https://aldaalah.herokuapp.com/images/profileImages/"+tempFileName;
 			//logger.info("Video" + profilePhotoUrl);
