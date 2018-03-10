@@ -78,6 +78,7 @@ exports.register=function(reqData,res){
     var newSubUser;
     var newOwner;
     var newMentor;
+    var userResponseObject;
 
     if (userType!==undefined&&password!==undefined&&email!==undefined){
         userType=userType.toLowerCase();
@@ -118,7 +119,14 @@ exports.register=function(reqData,res){
                 }
 
                 newuser.save().then((user) => {
+                
                     console.log("User : "+ user);
+                    userResponseObject={
+                        "_id":user._id,
+                        "email":user.email,
+                        "userType":user.user_type,
+                        
+                    };
                     if (userType==="owner"){
 
                         newOwner=new Owner({
@@ -157,10 +165,12 @@ exports.register=function(reqData,res){
                     })
                     .then((token) => {
                    // res.header('x-auth', token).send(newuser);
+                   //newuser.user_type="test";
+                   
                    res.setHeader('x-auth', token);
                    res.jsonp({status:"Success",
                     message:"Successfully Registered",
-                    object:newuser}); 
+                    object:userResponseObject}); 
                     })
                     .catch((e) => {
                     //res.status(400).send(e);
@@ -195,6 +205,7 @@ exports.register=function(reqData,res){
 
 
 exports.login=function(reqData,res){
+    var userResponseObject;
     
     try{
  	
@@ -205,12 +216,18 @@ exports.login=function(reqData,res){
     
     User.findByCredentails(email, password)
     .then((user) => {
+        userResponseObject={
+            "_id":user._id,
+            "email":user.email,
+            "userType":user.user_type,
+            
+        };
 		return user.generateAuthToken().then((token) => {
                 //res.header('x-auth', token).send(user);
                 res.setHeader('x-auth', token);
                 res.jsonp({status:"Success",
                  message:"Successfully Logged In",
-                 object:user}); 
+                 object:userResponseObject}); 
                 
 		});
         })

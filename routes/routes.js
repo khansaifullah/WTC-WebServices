@@ -17,6 +17,11 @@ cors = require('cors');
 var mongoose = require('mongoose');
 var path = require('path');
 var multer = require('multer');
+var FormData = require('form-data');
+var http = require('http');
+var request=require("request");
+var fs = require('fs');
+
 var tempFileName;
 var storage = multer.diskStorage({
 	destination: function(req, file, callback) {
@@ -134,20 +139,23 @@ module.exports = function(app) {
 			regCtrl.login(reqData,res);
 		
 	});
-
 	
 	app.post('/upload/video', authenticate, function(req,res){
 
-		logger.info("in routes - upload/video : ");
+		logger.info("in routes - upload/video : " );
+		//console.log("File"+req.files.videoFile);
 		logger.info("User Received After Authetication: "+req.user.email);
 	   if(req.body === undefined||req.body === null) {
         res.end("Empty Body"); 
         }
     
-		
+	var fileToUpload;
+
 		var upload = multer({
 			storage: storage,
-			fileFilter: function(req, file, callback) {			
+			fileFilter: function(req, file, callback) {
+
+				fileToUpload=file;
 				var ext = path.extname(file.originalname)
 				if (ext !== '.mp4' && ext !== '.png' && ext !== '.jpg' && ext !== '.gif' && ext !== '.jpeg' && ext !== '.PNG' && ext !== '.JPG' && ext !== '.GIF' && ext !== '.JPEG') {
 					return callback(res.end('Only images and Videos are allowed'), null)
@@ -157,6 +165,7 @@ module.exports = function(app) {
 		}).single('videoFile');
 		upload(req, res, function(err) {
 			if (err){
+				logger.info("Error Uploading File : "+err);				
 				res.jsonp({status:"Failure",
 							message:"Error Uploading File",
 							object:[]});
@@ -164,6 +173,33 @@ module.exports = function(app) {
 			else{
 			logger.info ("File Is uploaded");
 			logger.info (" ");
+
+
+			// var form = new FormData();
+			// logger.info("fileToUpload: "+fileToUpload.originalname);
+			// //form.append('video', fileToUpload,"videoFileName1.mp4");
+			// form.append('file',fileToUpload, { type: 'video/mp4', name: 'upload.mp4'})
+			
+			// form.submit('http://postvideo.exaride.com//uplaod-video.php', function(err, res) {
+			// // res – response object (http.IncomingMessage)  //
+			// logger.info(res);
+			// });
+
+
+			// var formData = {
+			// 	my_field: 'video',
+			// 	my_file:  new Buffer(fileToUpload, 'base64')
+			//   };
+			  
+			 
+
+			//   request.post({url:'http://postvideo.exaride.com//uplaod-video.php', formData: formData}, function(err, httpResponse, body) {
+			// 	if (err) {
+			// 	  return console.error('upload failed:', err);
+			// 	}
+			// 	console.log('Upload successful!  Server responded with:', body);
+			//   });
+
 			var videoUrl="https://wtcapps.herokuapp.com/videos/"+tempFileName;
 			//var videoUrl="https://aldaalah.herokuapp.com/images/profileImages/"+tempFileName;
 			//logger.info("Video" + profilePhotoUrl);

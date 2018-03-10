@@ -8,6 +8,8 @@
     "cors": "^2.8.4",
     "datejs": "^1.0.0-rc3",
     "express": "^3.21.2",
+    "form-data": "^2.3.2",
+    "fs": "0.0.1-security",
     "geolib": "^2.0.23",
     "hashmap": "^2.3.0",
     "jsonwebtoken": "^8.2.0",
