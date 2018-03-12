@@ -1,0 +1,623 @@
+{"level":"info","message":"in routes - authenticate ","timestamp":"11:52:41"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"11:52:41"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"11:52:41"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"11:52:42"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"11:52:42"}
+{"level":"info","message":"File Is uploaded","timestamp":"11:52:42"}
+{"level":"info","message":" ","timestamp":"11:52:42"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"11:52:42"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"11:52:42"}
+{"level":"info","message":"New Post Created","timestamp":"11:52:42"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"11:55:01"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"11:55:01"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"11:55:01"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"11:55:01"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"11:55:01"}
+{"level":"info","message":"File Is uploaded","timestamp":"11:55:01"}
+{"level":"info","message":" ","timestamp":"11:55:01"}
+{"level":"info","message":"tempFileName : undefined","timestamp":"11:55:01"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"11:55:01"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"11:55:01"}
+{"level":"info","message":"New Post Created","timestamp":"11:55:01"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"11:55:12"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"11:55:12"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"11:55:12"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"11:55:13"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"11:55:13"}
+{"level":"info","message":"File Is uploaded","timestamp":"11:55:13"}
+{"level":"info","message":" ","timestamp":"11:55:13"}
+{"level":"info","message":"tempFileName : videoFile-1520837713197.mp4","timestamp":"11:55:13"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"11:55:13"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"11:55:13"}
+{"level":"info","message":"New Post Created","timestamp":"11:55:13"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"11:57:33"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"11:57:33"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"11:57:33"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"11:57:34"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"11:57:34"}
+{"level":"info","message":"File Is uploaded","timestamp":"11:57:34"}
+{"level":"info","message":" ","timestamp":"11:57:34"}
+{"level":"info","message":"tempFileName : videoFile-1520837854079.mp4","timestamp":"11:57:34"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"11:57:34"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"11:57:34"}
+{"level":"info","message":"New Post Created","timestamp":"11:57:34"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"11:59:55"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"11:59:55"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"11:59:55"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"11:59:58"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"11:59:58"}
+{"level":"info","message":"File Is uploaded","timestamp":"11:59:58"}
+{"level":"info","message":" ","timestamp":"11:59:58"}
+{"level":"info","message":"tempFileName 1: videoFile-1520837998113.mp4","timestamp":"11:59:58"}
+{"level":"info","message":"tempFileName 2 : videoFile-1520837998113.mp4","timestamp":"11:59:58"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"11:59:58"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"11:59:58"}
+{"level":"info","message":"New Post Created","timestamp":"11:59:58"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:00:35"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:00:35"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:00:35"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"12:00:35"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"12:00:35"}
+{"level":"info","message":"File Is uploaded","timestamp":"12:00:35"}
+{"level":"info","message":" ","timestamp":"12:00:35"}
+{"level":"info","message":"tempFileName 1: videoFile-1520838035463.mp4","timestamp":"12:00:35"}
+{"level":"info","message":"tempFileName 2 : videoFile-1520838035463.mp4","timestamp":"12:00:35"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:00:35"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"12:00:35"}
+{"level":"info","message":"New Post Created","timestamp":"12:00:35"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:02:27"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:02:27"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:02:27"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"12:02:27"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"12:02:27"}
+{"level":"info","message":"File Is uploaded","timestamp":"12:02:27"}
+{"level":"info","message":" ","timestamp":"12:02:27"}
+{"level":"info","message":"tempFileName 1: videoFile-1520838147665.mp4","timestamp":"12:02:27"}
+{"level":"info","message":"tempFileName 2 : videoFile-1520838147665.mp4","timestamp":"12:02:27"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:02:27"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"12:02:27"}
+{"level":"info","message":"New Post Created","timestamp":"12:02:28"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:06:24"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:06:24"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:06:24"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"12:06:24"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"12:06:24"}
+{"level":"info","message":"File Is uploaded","timestamp":"12:06:24"}
+{"level":"info","message":" ","timestamp":"12:06:24"}
+{"level":"info","message":"tempFileName 1: videoFile-1520838384758.mp4","timestamp":"12:06:24"}
+{"level":"info","message":"folder : ./public/videos/tempFileName","timestamp":"12:06:24"}
+{"level":"info","message":"tempFileName 2 : videoFile-1520838384758.mp4","timestamp":"12:06:25"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:06:25"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"12:06:25"}
+{"level":"info","message":"New Post Created","timestamp":"12:06:25"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:06:59"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:06:59"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:06:59"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"12:07:00"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"12:07:00"}
+{"level":"info","message":"File Is uploaded","timestamp":"12:07:00"}
+{"level":"info","message":" ","timestamp":"12:07:00"}
+{"level":"info","message":"tempFileName 1: videoFile-1520838420138.mp4","timestamp":"12:07:00"}
+{"level":"info","message":"folder : ./public/videos/videoFile-1520838420138.mp4","timestamp":"12:07:00"}
+{"level":"info","message":"tempFileName 2 : videoFile-1520838420138.mp4","timestamp":"12:07:00"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:07:00"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"12:07:00"}
+{"level":"info","message":"New Post Created","timestamp":"12:07:00"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:08:49"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:08:49"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:08:49"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"12:08:49"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"12:08:49"}
+{"level":"info","message":"File Is uploaded","timestamp":"12:08:50"}
+{"level":"info","message":" ","timestamp":"12:08:50"}
+{"level":"info","message":"tempFileName 1: videoFile-1520838529776.mp4","timestamp":"12:08:50"}
+{"level":"info","message":"folder : ./public/videos/videoFile-1520838529776.mp4","timestamp":"12:08:50"}
+{"level":"info","message":"tempFileName 2 : videoFile-1520838529776.mp4","timestamp":"12:08:50"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:08:50"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"12:08:50"}
+{"level":"info","message":"New Post Created","timestamp":"12:08:50"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:10:45"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:10:45"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:10:45"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"12:10:47"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"12:10:47"}
+{"level":"info","message":"File Is uploaded","timestamp":"12:10:48"}
+{"level":"info","message":" ","timestamp":"12:10:48"}
+{"level":"info","message":"tempFileName 1: videoFile-1520838647918.mp4","timestamp":"12:10:48"}
+{"level":"info","message":"folder : ./public/videos/videoFile-1520838647918.mp4","timestamp":"12:10:48"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"12:10:48"}
+{"level":"info","message":"tempFileName 2 : ","timestamp":"12:13:16"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:13:16"}
+{"level":"info","message":"New Post Created","timestamp":"12:13:16"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:22:40"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:22:40"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:22:40"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"12:22:40"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"12:22:40"}
+{"level":"info","message":"File Is uploaded","timestamp":"12:22:40"}
+{"level":"info","message":" ","timestamp":"12:22:40"}
+{"level":"info","message":"tempFileName 1: videoFile-1520839360354.mp4","timestamp":"12:22:40"}
+{"level":"info","message":"folder : ./public/videos/videoFile-1520839360354.mp4","timestamp":"12:22:40"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"12:22:40"}
+{"level":"info","message":"tempFileName 2 : ","timestamp":"12:25:07"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:25:07"}
+{"level":"info","message":"New Post Created","timestamp":"12:25:07"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:28:26"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:28:26"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:28:26"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"12:28:26"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"12:28:26"}
+{"level":"info","message":"File Is uploaded","timestamp":"12:28:26"}
+{"level":"info","message":" ","timestamp":"12:28:26"}
+{"level":"info","message":"tempFileName 1: videoFile-1520839706647.mp4","timestamp":"12:28:26"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"12:28:26"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:29:03"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:29:03"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:29:03"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"12:29:03"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"12:29:03"}
+{"level":"info","message":"File Is uploaded","timestamp":"12:29:03"}
+{"level":"info","message":" ","timestamp":"12:29:03"}
+{"level":"info","message":"tempFileName 1: videoFile-1520839743423.mp4","timestamp":"12:29:03"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"12:29:03"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:29:34"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:29:34"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:29:34"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"12:29:34"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"12:29:34"}
+{"level":"info","message":"File Is uploaded","timestamp":"12:29:35"}
+{"level":"info","message":" ","timestamp":"12:29:35"}
+{"level":"info","message":"tempFileName 1: videoFile-1520839774833.mp4","timestamp":"12:29:35"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"12:29:35"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:30:09"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:30:09"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:30:09"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"12:30:09"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"12:30:09"}
+{"level":"info","message":"File Is uploaded","timestamp":"12:30:09"}
+{"level":"info","message":" ","timestamp":"12:30:09"}
+{"level":"info","message":"tempFileName 1: videoFile-1520839809718.mp4","timestamp":"12:30:09"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:30:35"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"12:30:35"}
+{"level":"info","message":"New Post Created","timestamp":"12:30:35"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:33:11"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:33:11"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:33:11"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"12:33:12"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"12:33:12"}
+{"level":"info","message":"File Is uploaded","timestamp":"12:33:12"}
+{"level":"info","message":" ","timestamp":"12:33:12"}
+{"level":"info","message":"tempFileName 1: videoFile-1520839992023.mp4","timestamp":"12:33:12"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:33:48"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"12:33:48"}
+{"level":"info","message":"New Post Created","timestamp":"12:33:49"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:55:55"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:55:55"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:55:55"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"12:55:56"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"12:55:56"}
+{"level":"info","message":"File Is uploaded","timestamp":"12:55:56"}
+{"level":"info","message":" ","timestamp":"12:55:56"}
+{"level":"info","message":"tempFileName 1: videoFile-1520841356552.mp4","timestamp":"12:55:56"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:57:14"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"12:57:14"}
+{"level":"info","message":"New Post Created","timestamp":"12:57:14"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:57:28"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:57:28"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:57:28"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"12:57:28"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"12:57:28"}
+{"level":"info","message":"File Is uploaded","timestamp":"12:57:29"}
+{"level":"info","message":" ","timestamp":"12:57:29"}
+{"level":"info","message":"tempFileName 1: videoFile-1520841448878.mp4","timestamp":"12:57:29"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:57:52"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:57:52"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:57:52"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"12:57:53"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"12:57:53"}
+{"level":"info","message":"File Is uploaded","timestamp":"12:57:53"}
+{"level":"info","message":" ","timestamp":"12:57:53"}
+{"level":"info","message":"tempFileName 1: videoFile-1520841473837.jpg","timestamp":"12:57:53"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:57:54"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"12:57:54"}
+{"level":"info","message":"New Post Created","timestamp":"12:57:56"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:58:27"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:58:27"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:58:27"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"12:58:28"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"12:58:28"}
+{"level":"info","message":"File Is uploaded","timestamp":"12:58:28"}
+{"level":"info","message":" ","timestamp":"12:58:28"}
+{"level":"info","message":"tempFileName 1: videoFile-1520841508082.jpg","timestamp":"12:58:28"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:58:28"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"12:58:28"}
+{"level":"info","message":"New Post Created","timestamp":"12:58:29"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:59:29"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:59:29"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:59:29"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"12:59:29"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"12:59:29"}
+{"level":"info","message":"File Is uploaded","timestamp":"12:59:29"}
+{"level":"info","message":" ","timestamp":"12:59:29"}
+{"level":"info","message":"tempFileName 1: videoFile-1520841569623.jpg","timestamp":"12:59:29"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:59:30"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"12:59:30"}
+{"level":"info","message":"New Post Created","timestamp":"12:59:30"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"13:00:18"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"13:00:18"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"13:00:18"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"13:00:19"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"13:00:19"}
+{"level":"info","message":"File Is uploaded","timestamp":"13:00:19"}
+{"level":"info","message":" ","timestamp":"13:00:19"}
+{"level":"info","message":"tempFileName 1: videoFile-1520841619445.jpg","timestamp":"13:00:19"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"13:00:19"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"13:00:20"}
+{"level":"info","message":"New Post Created","timestamp":"13:00:20"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"13:00:44"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"13:00:44"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"13:00:44"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"13:00:45"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"13:00:45"}
+{"level":"info","message":"File Is uploaded","timestamp":"13:00:45"}
+{"level":"info","message":" ","timestamp":"13:00:45"}
+{"level":"info","message":"tempFileName 1: videoFile-1520841645139.mp4","timestamp":"13:00:45"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"13:03:06"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"13:03:06"}
+{"level":"info","message":"New Post Created","timestamp":"13:03:06"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"13:03:49"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"13:03:49"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"13:03:49"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"13:03:49"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"13:03:49"}
+{"level":"info","message":"File Is uploaded","timestamp":"13:03:52"}
+{"level":"info","message":" ","timestamp":"13:03:52"}
+{"level":"info","message":"tempFileName 1: videoFile-1520841829904.mp4","timestamp":"13:03:52"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"13:04:31"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"13:04:31"}
+{"level":"info","message":"New Post Created","timestamp":"13:04:32"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"13:12:52"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"13:12:52"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"13:12:52"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"13:12:52"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"13:12:52"}
+{"level":"info","message":"File Is uploaded","timestamp":"13:12:52"}
+{"level":"info","message":" ","timestamp":"13:12:52"}
+{"level":"info","message":"tempFileName 1: videoFile-1520842372364.mp4","timestamp":"13:12:52"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"13:14:20"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"13:14:20"}
+{"level":"info","message":"New Post Created","timestamp":"13:14:20"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"13:15:56"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"13:15:56"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"13:15:56"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"13:15:56"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"13:15:56"}
+{"level":"info","message":"File Is uploaded","timestamp":"13:15:56"}
+{"level":"info","message":" ","timestamp":"13:15:56"}
+{"level":"info","message":"tempFileName 1: videoFile-1520842556974.jpg","timestamp":"13:15:56"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"13:15:57"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"13:15:57"}
+{"level":"info","message":"New Post Created","timestamp":"13:15:58"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"13:16:21"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"13:16:21"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"13:16:21"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"13:16:23"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"13:16:23"}
+{"level":"info","message":"File Is uploaded","timestamp":"13:16:23"}
+{"level":"info","message":" ","timestamp":"13:16:23"}
+{"level":"info","message":"tempFileName 1: videoFile-1520842583251.jpg","timestamp":"13:16:23"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"13:16:24"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"13:16:24"}
+{"level":"info","message":"New Post Created","timestamp":"13:16:24"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"13:34:08"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"13:34:08"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"13:34:08"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"13:34:08"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"13:34:08"}
+{"level":"info","message":"File Is uploaded","timestamp":"13:34:08"}
+{"level":"info","message":" ","timestamp":"13:34:08"}
+{"level":"info","message":"tempFileName 1: videoFile-1520843648557.jpg","timestamp":"13:34:08"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"13:34:09"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"13:34:09"}
+{"level":"info","message":"New Post Created","timestamp":"13:34:09"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:03:42"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:03:42"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:03:42"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"15:03:42"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:03:42"}
+{"level":"info","message":"File Is uploaded","timestamp":"15:03:42"}
+{"level":"info","message":" ","timestamp":"15:03:42"}
+{"level":"info","message":"tempFileName 1: videoFile-1520849022580.jpg","timestamp":"15:03:42"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:08:06"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:08:06"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:08:06"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"15:08:07"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:08:07"}
+{"level":"info","message":"File Is uploaded","timestamp":"15:08:07"}
+{"level":"info","message":" ","timestamp":"15:08:07"}
+{"level":"info","message":"tempFileName 1: videoFile-1520849287235.jpg","timestamp":"15:08:07"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"16:19:02"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:19:02"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:19:02"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"16:19:02"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"16:19:02"}
+{"level":"info","message":"File Is uploaded","timestamp":"16:19:02"}
+{"level":"info","message":" ","timestamp":"16:19:02"}
+{"level":"info","message":"tempFileName 1: videoFile-1520853542639.jpg","timestamp":"16:19:02"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"16:22:52"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:22:52"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:22:52"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"16:22:53"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"16:22:53"}
+{"level":"info","message":"File Is uploaded","timestamp":"16:22:53"}
+{"level":"info","message":" ","timestamp":"16:22:53"}
+{"level":"info","message":"tempFileName 1: videoFile-1520853773206.jpg","timestamp":"16:22:53"}
+{"level":"info","message":"200","timestamp":"16:22:54"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"16:23:36"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:23:36"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:23:36"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"16:23:36"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"16:23:36"}
+{"level":"info","message":"File Is uploaded","timestamp":"16:23:36"}
+{"level":"info","message":" ","timestamp":"16:23:36"}
+{"level":"info","message":"tempFileName 1: videoFile-1520853816637.jpg","timestamp":"16:23:36"}
+{"_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":true,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":1,"socket":{"connecting":false,"_hadError":false,"_handle":{"bytesRead":625,"_externalStream":{},"fd":-1,"reading":true,"owner":{"$ref":"$[\"socket\"]"},"onconnection":null,"writeQueueSize":0},"_parent":null,"_host":"brandedsms.net","_readableState":{"objectMode":false,"highWaterMark":16384,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":true,"ended":false,"endEmitted":false,"reading":false,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{"end":[null,null],"close":[null,null]},"_eventsCount":9,"_writableState":{"objectMode":false,"highWaterMark":16384,"finalCalled":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"destroyed":false,"decodeStrings":false,"defaultEncoding":"utf8","length":0,"writing":false,"corked":0,"sync":false,"bufferProcessing":false,"writecb":null,"writelen":0,"bufferedRequest":null,"lastBufferedRequest":null,"pendingcb":0,"prefinished":false,"errorEmitted":false,"bufferedRequestCount":0,"corkedRequestsFree":{"next":{"next":null,"entry":null},"entry":null}},"writable":true,"allowHalfOpen":false,"_bytesDispatched":23508,"_sockname":null,"_pendingData":null,"_pendingEncoding":"","server":null,"_server":null,"parser":{"4":null,"_headers":[],"_url":"","_consumed":false,"socket":{"$ref":"$[\"socket\"]"},"incoming":{"$ref":"$"},"outgoing":{"domain":null,"_events":{},"_eventsCount":3,"output":[],"outputEncodings":[],"outputCallbacks":[],"outputSize":0,"writable":true,"_last":true,"upgrading":false,"chunkedEncoding":false,"shouldKeepAlive":false,"useChunkedEncodingByDefault":true,"sendDate":false,"_removedConnection":false,"_removedContLen":false,"_removedTE":false,"_contentLength":null,"_hasBody":true,"_trailer":"","finished":true,"_headerSent":true,"socket":{"$ref":"$[\"socket\"]"},"connection":{"$ref":"$[\"socket\"]"},"_header":"POST /postvideo/postvideo.php HTTP/1.1\r\ncontent-type: multipart/form-data; boundary=--------------------------942283883750132114909287\r\nHost: brandedsms.net\r\nContent-Length: 23306\r\nConnection: close\r\n\r\n","agent":{"domain":null,"_events":{},"_eventsCount":1,"defaultPort":80,"protocol":"http:","options":{"path":null},"requests":{},"sockets":{"brandedsms.net:80:":[{"$ref":"$[\"socket\"]"}]},"freeSockets":{},"keepAliveMsecs":1000,"keepAlive":false,"maxSockets":null,"maxFreeSockets":256},"method":"POST","path":"/postvideo/postvideo.php","_ended":false,"res":{"$ref":"$"},"timeoutCb":null,"upgradeOrConnect":false,"parser":{"$ref":"$[\"socket\"][\"parser\"]"},"maxHeadersCount":null},"maxHeaderPairs":2000},"_httpMessage":{"$ref":"$[\"socket\"][\"parser\"][\"outgoing\"]"},"_consuming":true},"connection":{"$ref":"$[\"socket\"]"},"httpVersionMajor":1,"httpVersionMinor":1,"httpVersion":"1.1","complete":false,"headers":{"date":"Mon, 12 Mar 2018 11:24:50 GMT","content-type":"text/html; charset=utf-8","transfer-encoding":"chunked","connection":"close","set-cookie":["__cfduid=d4bbe7bafd375f224266b117632f3710c1520853889; expires=Tue, 12-Mar-19 11:24:49 GMT; path=/; domain=.brandedsms.net; HttpOnly"],"vary":"Accept-Encoding","x-powered-by":"PHP/5.4.45","x-content-type-options":"nosniff","x-xss-protection":"1;mode=block","x-frame-options":"SAMEORIGIN","access-control-allow-origin":"*","x-supported-by":"Kloxo-MR 7.0","server":"cloudflare","cf-ray":"3fa5e58bc0a217ec-SIN"},"rawHeaders":["Date","Mon, 12 Mar 2018 11:24:50 GMT","Content-Type","text/html; charset=utf-8","Transfer-Encoding","chunked","Connection","close","Set-Cookie","__cfduid=d4bbe7bafd375f224266b117632f3710c1520853889; expires=Tue, 12-Mar-19 11:24:49 GMT; path=/; domain=.brandedsms.net; HttpOnly","Vary","Accept-Encoding","X-Powered-By","PHP/5.4.45","X-Content-Type-Options","nosniff","X-XSS-Protection","1;mode=block","X-Frame-Options","SAMEORIGIN","Access-Control-Allow-Origin","*","X-Supported-By","Kloxo-MR 7.0","Server","cloudflare","CF-RAY","3fa5e58bc0a217ec-SIN"],"trailers":{},"rawTrailers":[],"upgrade":false,"url":"","method":null,"statusCode":200,"statusMessage":"OK","client":{"$ref":"$[\"socket\"]"},"_consuming":false,"_dumped":false,"req":{"$ref":"$[\"socket\"][\"parser\"][\"outgoing\"]"},"level":"info","message":"","timestamp":"16:23:37"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"16:25:31"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:25:31"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:25:31"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"16:25:32"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"16:25:32"}
+{"level":"info","message":"File Is uploaded","timestamp":"16:25:32"}
+{"level":"info","message":" ","timestamp":"16:25:32"}
+{"level":"info","message":"tempFileName 1: videoFile-1520853932654.jpg","timestamp":"16:25:32"}
+{"level":"info","message":"","timestamp":"16:25:34"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"16:26:43"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:26:43"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:26:43"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"16:26:45"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"16:26:45"}
+{"level":"info","message":"File Is uploaded","timestamp":"16:26:45"}
+{"level":"info","message":" ","timestamp":"16:26:45"}
+{"level":"info","message":"tempFileName 1: videoFile-1520854005628.jpg","timestamp":"16:26:45"}
+{"level":"info","message":"body: undefined","timestamp":"16:26:46"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"16:27:28"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:27:28"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:27:28"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"16:27:29"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"16:27:29"}
+{"level":"info","message":"File Is uploaded","timestamp":"16:27:29"}
+{"level":"info","message":" ","timestamp":"16:27:29"}
+{"level":"info","message":"tempFileName 1: videoFile-1520854049664.jpg","timestamp":"16:27:29"}
+{"level":"info","message":"body: undefined","timestamp":"16:27:30"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"16:27:53"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:27:53"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:27:53"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"16:27:53"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"16:27:53"}
+{"level":"info","message":"File Is uploaded","timestamp":"16:27:53"}
+{"level":"info","message":" ","timestamp":"16:27:53"}
+{"level":"info","message":"tempFileName 1: videoFile-1520854073473.jpg","timestamp":"16:27:53"}
+{"level":"info","message":"body: undefined","timestamp":"16:27:54"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"16:32:10"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:32:10"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:32:10"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"16:32:10"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"16:32:10"}
+{"level":"info","message":"File Is uploaded","timestamp":"16:32:10"}
+{"level":"info","message":" ","timestamp":"16:32:10"}
+{"level":"info","message":"tempFileName 1: videoFile-1520854330461.jpg","timestamp":"16:32:10"}
+{"level":"info","message":"body: OK","timestamp":"16:32:11"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"16:37:24"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:37:24"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:37:24"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"16:37:25"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"16:37:25"}
+{"level":"info","message":"File Is uploaded","timestamp":"16:37:25"}
+{"level":"info","message":" ","timestamp":"16:37:25"}
+{"level":"info","message":"tempFileName 1: videoFile-1520854645025.jpg","timestamp":"16:37:25"}
+{"level":"info","message":"body: OK","timestamp":"16:37:26"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"16:38:56"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:38:56"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:38:56"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"16:38:58"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"16:38:58"}
+{"level":"info","message":"File Is uploaded","timestamp":"16:38:58"}
+{"level":"info","message":" ","timestamp":"16:38:58"}
+{"level":"info","message":"tempFileName 1: videoFile-1520854738260.jpg","timestamp":"16:38:58"}
+{"level":"info","message":"body: undefined","timestamp":"16:38:59"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"16:39:33"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:39:33"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:39:33"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"16:39:34"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"16:39:34"}
+{"level":"info","message":"File Is uploaded","timestamp":"16:39:34"}
+{"level":"info","message":" ","timestamp":"16:39:34"}
+{"level":"info","message":"tempFileName 1: videoFile-1520854774801.jpg","timestamp":"16:39:34"}
+{"level":"info","message":"body: undefined","timestamp":"16:39:36"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"16:40:29"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:40:29"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:40:29"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"16:40:29"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"16:40:29"}
+{"level":"info","message":"File Is uploaded","timestamp":"16:40:30"}
+{"level":"info","message":" ","timestamp":"16:40:30"}
+{"level":"info","message":"tempFileName 1: videoFile-1520854829962.mp4","timestamp":"16:40:30"}
+{"level":"info","message":"body: undefined","timestamp":"16:41:02"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"16:49:58"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:49:58"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:49:58"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"16:49:59"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"16:49:59"}
+{"level":"info","message":"File Is uploaded","timestamp":"16:49:59"}
+{"level":"info","message":" ","timestamp":"16:49:59"}
+{"level":"info","message":"tempFileName 1: videoFile-1520855399096.jpg","timestamp":"16:49:59"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"16:52:28"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:52:28"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:52:28"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"16:52:29"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"16:52:29"}
+{"level":"info","message":"File Is uploaded","timestamp":"16:52:29"}
+{"level":"info","message":" ","timestamp":"16:52:29"}
+{"level":"info","message":"tempFileName 1: videoFile-1520855549479.jpg","timestamp":"16:52:29"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"16:52:31"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"16:54:34"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:54:34"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:54:34"}
+{"level":"info","message":"in routes - upload/video : ","timestamp":"16:54:36"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"16:54:36"}
+{"level":"info","message":"File Is uploaded","timestamp":"16:54:36"}
+{"level":"info","message":" ","timestamp":"16:54:36"}
+{"level":"info","message":"tempFileName 1: videoFile-1520855676923.jpg","timestamp":"16:54:36"}
+{"level":"info","message":"Setting tempFileNameto Null","timestamp":"16:54:38"}
+{"level":"info","message":"Video File Received Temp Name :video-1520861902209.GIF","timestamp":"18:38:22"}
+{"level":"info","message":"Image File Received Temp Name :image-1520861902671.jpg","timestamp":"18:38:22"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"18:52:42"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"18:52:42"}
+{"level":"info","message":"Video File Received Temp Name :video-1520862762491.mp4","timestamp":"18:52:42"}
+{"level":"info","message":"Image File Received Temp Name :image-1520862762655.jpg","timestamp":"18:52:42"}
+{"level":"info","message":"File Is uploaded","timestamp":"18:52:42"}
+{"level":"info","message":"Description : [object Object]","timestamp":"18:52:42"}
+{"level":"info","message":"tempFileName 1: image-1520862762655.jpg","timestamp":"18:52:42"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"18:55:52"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"18:55:59"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"18:55:59"}
+{"level":"info","message":"Video File Received Temp Name :video-1520862960069.mp4","timestamp":"18:56:00"}
+{"level":"info","message":"Image File Received Temp Name :image-1520862960307.jpg","timestamp":"18:56:00"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"18:56:00"}
+{"level":"info","message":"Description : [object Object]","timestamp":"18:56:00"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"19:14:52"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"19:14:52"}
+{"level":"info","message":"Video File Received Temp Name :video-1520864092376.mp4","timestamp":"19:14:52"}
+{"level":"info","message":"Image File Received Temp Name :image-1520864092587.jpg","timestamp":"19:14:52"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"19:14:52"}
+{"level":"info","message":"Description : [object Object]","timestamp":"19:14:52"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"19:17:48"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"19:17:48"}
+{"level":"info","message":"Video File Received Temp Name :video-1520864269168.mp4","timestamp":"19:17:49"}
+{"level":"info","message":"Image File Received Temp Name :image-1520864269351.jpg","timestamp":"19:17:49"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"19:17:49"}
+{"level":"info","message":"Description : [object Object]","timestamp":"19:17:49"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"19:18:53"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"19:18:53"}
+{"level":"info","message":"Video File Received Temp Name :video-1520864333376.mp4","timestamp":"19:18:53"}
+{"level":"info","message":"Image File Received Temp Name :image-1520864333675.jpg","timestamp":"19:18:53"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"19:18:53"}
+{"level":"info","message":"Description : [object Object]","timestamp":"19:18:53"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"19:19:39"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"19:19:39"}
+{"level":"info","message":"Video File Received Temp Name :video-1520864379344.mp4","timestamp":"19:19:39"}
+{"level":"info","message":"Image File Received Temp Name :image-1520864379607.jpg","timestamp":"19:19:39"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"19:19:39"}
+{"level":"info","message":"Description : [object Object]","timestamp":"19:19:39"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"19:29:05"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"19:29:05"}
+{"level":"info","message":"Video File Received Temp Name :video-1520864948050.mp4","timestamp":"19:29:08"}
+{"level":"info","message":"Image File Received Temp Name :image-1520864948203.jpg","timestamp":"19:29:08"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"19:29:08"}
+{"level":"info","message":"Description : [object Object]","timestamp":"19:29:08"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"19:30:19"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"19:30:19"}
+{"level":"info","message":"Video File Received Temp Name :video-1520865019483.mp4","timestamp":"19:30:19"}
+{"level":"info","message":"Image File Received Temp Name :image-1520865019692.jpg","timestamp":"19:30:19"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"19:30:19"}
+{"level":"info","message":"Description : [object Object]","timestamp":"19:30:19"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"19:33:14"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"19:33:14"}
+{"level":"info","message":"Video File Received Temp Name :video-1520865194553.mp4","timestamp":"19:33:14"}
+{"level":"info","message":"Image File Received Temp Name :image-1520865194851.jpg","timestamp":"19:33:14"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"19:33:14"}
+{"level":"info","message":"Description : [object Object]","timestamp":"19:33:14"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"19:36:49"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"19:36:49"}
+{"level":"info","message":"Video File Received Temp Name :video-1520865409765.mp4","timestamp":"19:36:49"}
+{"level":"info","message":"Image File Received Temp Name :image-1520865410017.jpg","timestamp":"19:36:50"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"19:36:50"}
+{"level":"info","message":"Description : [object Object]","timestamp":"19:36:50"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"19:39:35"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"19:39:35"}
+{"level":"info","message":"Video File Received Temp Name :video-1520865575525.mp4","timestamp":"19:39:35"}
+{"level":"info","message":"Image File Received Temp Name :image-1520865575716.jpg","timestamp":"19:39:35"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"19:39:35"}
+{"level":"info","message":"Description : [object Object]","timestamp":"19:39:35"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"19:40:22"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"19:40:22"}
+{"level":"info","message":"Video File Received Temp Name :video-1520865623135.mp4","timestamp":"19:40:23"}
+{"level":"info","message":"Image File Received Temp Name :image-1520865623329.jpg","timestamp":"19:40:23"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"19:40:23"}
+{"level":"info","message":"Description : [object Object]","timestamp":"19:40:23"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"19:41:03"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"19:41:03"}
+{"level":"info","message":"Video File Received Temp Name :video-1520865663720.mp4","timestamp":"19:41:03"}
+{"level":"info","message":"Image File Received Temp Name :image-1520865663980.jpg","timestamp":"19:41:03"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"19:41:04"}
+{"level":"info","message":"Description : [object Object]","timestamp":"19:41:04"}
+{"level":"info","message":"Video File Received Temp Name :video-1520865711971.mp4","timestamp":"19:41:51"}
+{"level":"info","message":"Image File Received Temp Name :image-1520865712130.jpg","timestamp":"19:41:52"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"19:41:52"}
+{"level":"info","message":"Description : [object Object]","timestamp":"19:41:52"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"19:43:22"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"19:43:22"}
+{"level":"info","message":"Video File Received Temp Name :video-1520865804733.mp4","timestamp":"19:43:24"}
+{"level":"info","message":"Image File Received Temp Name :image-1520865804913.jpg","timestamp":"19:43:24"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"19:43:24"}
+{"level":"info","message":"Description : [object Object]","timestamp":"19:43:24"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"19:43:57"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"19:43:57"}
+{"level":"info","message":"Video File Received Temp Name :video-1520865839093.mp4","timestamp":"19:43:59"}
+{"level":"info","message":"Image File Received Temp Name :image-1520865839258.jpg","timestamp":"19:43:59"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"19:43:59"}
+{"level":"info","message":"Description : [object Object]","timestamp":"19:43:59"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"19:45:18"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"19:45:18"}
+{"level":"info","message":"New Post Created","timestamp":"19:45:18"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"19:53:20"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"19:53:20"}
+{"level":"info","message":"Video File Received Temp Name :video-1520866401178.mp4","timestamp":"19:53:21"}
+{"level":"info","message":"Image File Received Temp Name :image-1520866401393.jpg","timestamp":"19:53:21"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"19:53:21"}
+{"level":"info","message":"Description : [object Object]","timestamp":"19:53:21"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"19:53:51"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"19:53:51"}
+{"level":"info","message":"New Post Created","timestamp":"19:53:51"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"19:58:54"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"19:58:54"}
+{"level":"info","message":"Video File Received Temp Name :video-1520866735179.mp4","timestamp":"19:58:55"}
+{"level":"info","message":"Image File Received Temp Name :image-1520866735319.jpg","timestamp":"19:58:55"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"19:58:55"}
+{"level":"info","message":"Description : [object Object]","timestamp":"19:58:55"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"19:59:15"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"19:59:15"}
+{"level":"info","message":"Video File Received Temp Name :video-1520866755444.mp4","timestamp":"19:59:15"}
+{"level":"info","message":"Image File Received Temp Name :image-1520866755608.jpg","timestamp":"19:59:15"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"19:59:15"}
+{"level":"info","message":"Description : [object Object]","timestamp":"19:59:15"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"19:59:40"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"19:59:40"}
+{"level":"info","message":"New Post Created","timestamp":"19:59:41"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"20:00:10"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"20:00:10"}
+{"level":"info","message":"Video File Received Temp Name :video-1520866810678.mp4","timestamp":"20:00:10"}
+{"level":"info","message":"Image File Received Temp Name :image-1520866811083.jpg","timestamp":"20:00:11"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"20:00:11"}
+{"level":"info","message":"Description : [object Object]","timestamp":"20:00:11"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"20:01:12"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"20:01:12"}
+{"level":"info","message":"New Post Created","timestamp":"20:01:13"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"20:01:17"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"20:01:17"}
+{"level":"info","message":"Video File Received Temp Name :video-1520866877351.mp4","timestamp":"20:01:17"}
+{"level":"info","message":"Image File Received Temp Name :image-1520866877467.jpg","timestamp":"20:01:17"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"20:01:17"}
+{"level":"info","message":"Description : [object Object]","timestamp":"20:01:17"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"20:01:39"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"20:01:39"}
+{"level":"info","message":"New Post Created","timestamp":"20:01:40"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"20:06:46"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"20:06:46"}
+{"level":"info","message":"Video File Received Temp Name :video-1520867206464.mp4","timestamp":"20:06:46"}
+{"level":"info","message":"Image File Received Temp Name :image-1520867206609.png","timestamp":"20:06:46"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"20:06:46"}
+{"level":"info","message":"Description : [object Object]","timestamp":"20:06:46"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"20:07:20"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"20:07:20"}
+{"level":"info","message":"New Post Created","timestamp":"20:07:20"}

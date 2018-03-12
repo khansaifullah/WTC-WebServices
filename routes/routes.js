@@ -23,23 +23,26 @@ var request=require("request");
 var fs = require('fs');
 
 var tempFileName;
+var videoFileTempName;
+var imageFileTempName;
 var storage = multer.diskStorage({
 	destination: function(req, file, callback) {
 		callback(null, './public/videos')
 	},
 	filename: function(req, file, callback) {
-		/*
-		if (file){
-				console.log('File Found : ' + file);
-			}
-			else {
-				console.log('File Not Found : ' + file);
-			}
-			*/
-			
+	
 		tempFileName="";
+		//videoFileTempName="";
+		//imageFileTempName="";
 		//console.log("Printing in File Name Field :" + 'file.fieldname : ' + file.fieldname + ' file.originalname :' + file.originalname );
 		tempFileName=file.fieldname + '-' + Date.now() + path.extname(file.originalname);
+		if (file.fieldname==="image"){
+			imageFileTempName=tempFileName;
+			logger.info ("Image File Received Temp Name :"+ imageFileTempName);
+		} else if (file.fieldname==="video"){
+			videoFileTempName=tempFileName;
+			logger.info ("Video File Received Temp Name :"+ videoFileTempName);
+		}
 		//console.log("File NEW Name  :" +tempFileName );
 		callback(null,tempFileName );
 	}
@@ -68,7 +71,7 @@ module.exports = function(app) {
 
 		logger.info("in routes - authenticate ");
 		var token = req.header('x-auth');
-		logger.info("Token: "+ token);
+		//logger.info("Token: "+ token);
 		if (token===undefined){
 			res.jsonp({ status:"Failure",
 			message:"Auth Token Required",
@@ -91,16 +94,11 @@ module.exports = function(app) {
 									message:"Unable To Authenticate",
 									object:[]}));
 				});
-		}
-		
-
+		}	
 	};
 	
 	
 	app.get('/', function(req, res) {
-	//var object =new Object({"Field1":"Value1","Field2":"Value2"});
-	//NotificationController.sendNotifcationToPlayerId("03bd1410-c6f1-4e14-9e12-02e6fd718691",object,"TestEvent");
-	//NotificationController.sendNotifcationToPlayerId();
 		res.end("WTC-WebServices"); 
 	});
 
@@ -110,35 +108,81 @@ module.exports = function(app) {
 		 res.end("Empty Body");  
 		 }
 			 
-		 logger.verbose('register-POST called ');
-			 
+		 logger.verbose('register-POST called '); 
 		 var reqData=req.body;
-		// console.log("reqData : "+ reqData.phoneNo);
-		 // let phoneNo = req.query.phoneNo;;
-		 logger.info("in routes /register ");
-		 //console.log(reqData);
-			
+		 logger.info("in routes /register - Req Data : "+ reqData);
 		 regCtrl.register(reqData,res);	
 	 
 	 });
 	
-	 // POST /users/login {email, password}
 	app.post('/login', (req, res) => {
 		if(req.body === undefined||req.body === null) {
 			res.end("Empty Body");  
 			}
 				
-			logger.verbose('login-POST called ');
-				
+			logger.verbose('login-POST called ');	
 			var reqData=req.body;
 			//console.log("reqData : "+ reqData.phoneNo);
 			// let phoneNo = req.query.phoneNo;;
-			logger.info("in routes /login ");
-			//console.log(reqData);
-			   
+			logger.info("in routes /login - Req Data : "+ reqData);   
 			regCtrl.login(reqData,res);
 		
 	});
+
+	var upload = multer({ storage : storage });
+
+	app.post('/upload/video2',authenticate,upload.fields([{ name: 'video', maxCount: 1}, { name: 'image', maxCount: 1}]),
+	 function(req, resp, next){
+
+		logger.info ("File Is uploaded New Method");
+		logger.info ("Description : " + req);
+
+		var form = new FormData();
+		console.log("form.append 1");
+		console.log("videoFileTempName: "+videoFileTempName);
+		console.log("imageFileTempName: "+imageFileTempName);
+		form.append('video', fs.createReadStream( './/public//videos//'+videoFileTempName));
+		console.log("form.append 2");
+		form.append('image', fs.createReadStream( './/public//videos//'+imageFileTempName));
+		console.log("form.append 3");
+		form.submit('http://brandedsms.net/postvideo/postvideoNew.php', function(err, res) {
+			console.log("In submit");
+			if (err){
+				logger.info("Error : "+ err);
+				resp.jsonp({status:"Failure",
+							message:"Error Uploading File",
+							object:[]});
+			}else{
+				console.log("In else");
+				var body = '';
+				res.on('data', function(chunk) {
+				  body += chunk;
+				});
+				res.on('end', function() {
+				  console.log("body : "+body);
+				  var urls = JSON.parse(body);
+				  console.log("video : "+urls.videourl);
+				  var videoUrl=urls.videourl;
+				  var imageUrl=urls.imageurl;
+			
+				PostController.uploadPost(req,videoUrl,imageUrl,"video",resp);  
+				logger.info ("Setting tempFileNames to Null");
+				tempFileName="";
+				videoFileTempName="";
+				imageFileTempName="";
+				});
+			}	
+		});
+		//logger.info("tempFileName 1: "+tempFileName);
+
+	});
+
+
+	// app.post('/upload/video1', upload.any(), function(req, res, next){
+	// 	console.log("Uploaded Files: "+req.files[0].originalname)  // <-- it always return [] array
+	
+		
+ 	// 	 });
 	
 	app.post('/upload/video', authenticate, function(req,res){
 
@@ -154,7 +198,6 @@ module.exports = function(app) {
 		var upload = multer({
 			storage: storage,
 			fileFilter: function(req, file, callback) {
-
 				fileToUpload=file;
 				var ext = path.extname(file.originalname)
 				if (ext !== '.mp4' && ext !== '.png' && ext !== '.jpg' && ext !== '.gif' && ext !== '.jpeg' && ext !== '.PNG' && ext !== '.JPG' && ext !== '.GIF' && ext !== '.JPEG') {
@@ -163,6 +206,7 @@ module.exports = function(app) {
 				callback(null, true)
 			}
 		}).single('videoFile');
+		
 		upload(req, res, function(err) {
 			if (err){
 				logger.info("Error Uploading File : "+err);				
@@ -172,46 +216,32 @@ module.exports = function(app) {
 			}
 			else{
 			logger.info ("File Is uploaded");
-			logger.info (" ");
 
-
-			// var form = new FormData();
-			// logger.info("fileToUpload: "+fileToUpload.originalname);
-			// //form.append('video', fileToUpload,"videoFileName1.mp4");
-			// form.append('file',fileToUpload, { type: 'video/mp4', name: 'upload.mp4'})
+			var form = new FormData();
+			form.append('video', fs.createReadStream( './/public//videos//'+tempFileName));
+			form.append('image', fs.createReadStream( './/public//videos//'+tempFileName));
+			form.submit('http://brandedsms.net/postvideo/postvideoNew.php', function(err, res) {
+				if (err){
+					logger.info("Error : "+ err);
+				}
+				var body = '';
+				res.on('data', function(chunk) {
+				  body += chunk;
+				});
+				res.on('end', function() {
+				  console.log("body : "+body);
+				  var urls = JSON.parse(body);
+				  console.log("video : "+urls.videourl);
+				  var videoUrl=urls.videourl;
+				  var imageUrl=urls.imageurl;
 			
-			// form.submit('http://postvideo.exaride.com//uplaod-video.php', function(err, res) {
-			// // res – response object (http.IncomingMessage)  //
-			// logger.info(res);
-			// });
-
-
-			// var formData = {
-			// 	my_field: 'video',
-			// 	my_file:  new Buffer(fileToUpload, 'base64')
-			//   };
-			  
-			 
-
-			//   request.post({url:'http://postvideo.exaride.com//uplaod-video.php', formData: formData}, function(err, httpResponse, body) {
-			// 	if (err) {
-			// 	  return console.error('upload failed:', err);
-			// 	}
-			// 	console.log('Upload successful!  Server responded with:', body);
-			//   });
-
-			var videoUrl="https://wtcapps.herokuapp.com/videos/"+tempFileName;
-			//var videoUrl="https://aldaalah.herokuapp.com/images/profileImages/"+tempFileName;
-			//logger.info("Video" + profilePhotoUrl);
-			//var profilePhotoUrl ="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAA1DAAAAJDAzYjg1ZDYwLTI1YjQtNDJkOS04OTkwLTUyMjkwNGJiMTY4Yg.jpg";
-			PostController.uploadPost(req,videoUrl,res);
-				
-				// res.jsonp({status:"Success",
-				// 			message:"File Successfully Uploaded",
-				// 			object:[{"Fileurl":videoUrl}]});
-
+				PostController.uploadPost(req,videoUrl,imageUrl,"video",res);  
 				logger.info ("Setting tempFileNameto Null");
 				tempFileName="";
+				});
+			
+			});
+			logger.info("tempFileName 1: "+tempFileName);
 
 			}
 			
@@ -221,7 +251,6 @@ module.exports = function(app) {
 	
 	app.get('/timeline', authenticate,function(req, res) {
 		logger.info("User Received After Authetication: "+req.user.email);
-
 
 		PostController.findAllPosts(function (posts) {
 			logger.info("Response Of findAllPosts Method");

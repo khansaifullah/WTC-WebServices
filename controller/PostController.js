@@ -68,15 +68,18 @@ exports.findAllQuotes=function(callback){
 	}
 }
 
-exports.uploadPost = function (req,attachmentUrl,res){
+exports.uploadPost = function (req,_attachmentUrl,_thumbnailUrl,_postType,res){
     logger.info("User Received After Authetication: "+req.user._id);
-    var desc=req.body.description;
+	var desc=req.body.description;
+	var title=req.body.title;
 
     var newPost=new Post({  
     _postedByUserId:req.user._id,
-    postType:"video",
-    postDescription:desc,
-    attachmentUrl: attachmentUrl                      
+    postType:_postType,
+	postDescription:desc,
+	title:title,
+	attachmentUrl: _attachmentUrl,
+	thumbnailUrl:  _thumbnailUrl                    
     });
 
     newPost.save(function (err, post){

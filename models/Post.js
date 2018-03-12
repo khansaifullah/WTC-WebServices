@@ -9,7 +9,9 @@ var PostSchema   = new mongoose.Schema({
     _postedByUserId: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
     postType:String,
     postDescription:String,
-    attachmentUrl:String
+    attachmentUrl:String,
+    thumbnailUrl:String,
+    title:String
 
    
 } , {timestamps: true});
