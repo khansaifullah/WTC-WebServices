@@ -1,0 +1,9 @@
+{"level":"info","message":"in routes - authenticate ","timestamp":"11:36:18"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"11:36:18"}
+{"level":"info","message":"Video File Received Temp Name :video-1520922978659.mp4","timestamp":"11:36:18"}
+{"level":"info","message":"Image File Received Temp Name :image-1520922978786.GIF","timestamp":"11:36:18"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"11:36:18"}
+{"level":"info","message":"Description : [object Object]","timestamp":"11:36:18"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"11:37:09"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"11:37:09"}
+{"level":"info","message":"New Post Created","timestamp":"11:37:10"}
