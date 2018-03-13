@@ -209,35 +209,49 @@ exports.login=function(reqData,res){
     
     try{
  	
-    logger.info('RegistrationController.login called  :'+ reqData.email );
-   
+    
     var email = reqData.email;
     var password = reqData.password;
-    
-    User.findByCredentails(email, password)
-    .then((user) => {
-        userResponseObject={
-            "_id":user._id,
-            "email":user.email,
-            "userType":user.user_type,
-            
-        };
-		return user.generateAuthToken().then((token) => {
-                //res.header('x-auth', token).send(user);
-                res.setHeader('x-auth', token);
-                res.jsonp({status:"Success",
-                 message:"Successfully Logged In",
-                 object:userResponseObject}); 
-                
-		});
-        })
-        .catch((e) => {
-        //res.status(400).send();
-        logger.info("Exception Occured while Login"+e);
+    logger.info('RegistrationController.login called  :'+ email  );
+   
+//     //Check If User Exists
+    userExists(email,function(userExist){
+    logger.info('User Exists Response : ' + userExist );
+    if (userExist===null){
         res.jsonp({status:"Failure",
-        message:"Unable To Login",
-        object:[]});
-		})
+                 message:"No User Exist with Email : "+email,
+                 object:[]}); 
+    }else{
+
+        User.findByCredentails(email, password)
+        .then((user) => {
+            
+            userResponseObject={
+                "_id":user._id,
+                "email":user.email,
+                "userType":user.user_type,
+                
+            };
+            return user.generateAuthToken().then((token) => {
+                    //res.header('x-auth', token).send(user);
+                    res.setHeader('x-auth', token);
+                    res.jsonp({status:"Success",
+                     message:"Successfully Logged In",
+                     object:userResponseObject}); 
+                    
+            });
+            
+            })
+            .catch((e) => {
+            //res.status(400).send();
+            logger.info("Exception Occured while Login"+e);
+            res.jsonp({status:"Failure",
+            message:"Unable To Login",
+            object:[]});
+            })
+    }
+    });
+
          
     logger.info(' End RegistrationController.register Method');
     }catch (err){

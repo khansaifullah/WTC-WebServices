@@ -15,6 +15,6 @@ var PostSchema   = new mongoose.Schema({
 
    
 } , {timestamps: true});
-//OwnerSchema.index({createdOnUTC:1})
+PostSchema.index({_postedByUserId:1})
 // Export the Mongoose model
 module.exports = mongoose.model('Post', PostSchema);

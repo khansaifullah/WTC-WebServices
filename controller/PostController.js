@@ -67,10 +67,10 @@ exports.findAllPosts=function(_id,callback){
 }
 
 
-exports.findTopStories=function(_id,res,callback){
+exports.findTopStories=function(id,res,callback){
     
     try{
-		
+	
 			TopStory.find({},{ _postId: 1, _id:0 },function(err,stories){
 				if (err){
 					res.status(400).send({status:"Failure",
@@ -83,36 +83,94 @@ exports.findTopStories=function(_id,res,callback){
 					
 					logger.info(stories.length + ' stories Found');
 					logger.info(stories.length + stories);
-					Post.find({_id:stories}, function(err, posts) {
-					if (err){
-						logger.info("Error Occured While Finding Top Story Posts"+err );
-						res.status(400).send({status:"Failure",
-												message:err,
-												object:[]
-						});
+					var postids=[];
+					stories.forEach(story => {
+						postids.push(story._postId);
+					});
+					
+					if (ObjectId.isValid(id)){
+
+						Post.find({$and: [ { _id:postids }, { _id: {'$gt': id}}  ]}, function(err, posts) {
+							if (err){
+								logger.info("Error Occured While Finding Top Story Posts"+err );
+								res.status(400).send({status:"Failure",
+														message:err,
+														object:[]
+								});
+							}					
+							else{ 
+								logger.info(posts.length + 'Top Story posts Found');
+								callback(posts);		
+							} 
+						}).limit(pageSize);
 					}
-					
-					else{ 
-						logger.info(posts.length + 'Top Story posts Found');
-						callback(posts);
-						
-					} 
-				}).limit(pageSize);
-					
-				
+					else{
+						Post.find({ _id:postids}, function(err, posts) {
+							if (err){
+								logger.info("Error Occured While Finding Top Story Posts"+err );
+								res.status(400).send({status:"Failure",
+														message:err,
+														object:[]
+								});
+							}					
+							else{ 
+								logger.info(posts.length + 'Top Story posts Found');
+								callback(posts);		
+							} 
+						}).limit(pageSize);
+					}
 				
 				} 
 
 			});
-		
-		
-	
-     
+   
 		}catch (err){
 		logger.info('An Exception Has occured in findAllPosts method' + err);
 	}
 }
 
+exports.myPosts=function(postId,userId,callback){
+ 
+    try{
+		//userId="5aa80c922d3fdd0014a06694";
+		if (ObjectId.isValid(postId)){
+
+			logger.info("Valid Object Id");
+			Post.find({$and: [ { _postedByUserId:userId }, { _id: {'$gt': id}}  ]}, function(err, posts) {
+			//Post.find({'_id': {'$gt': postId}}, function(err, posts) {
+				if (err){ 
+					 res.status(400).send({status:"Failure",
+											  message:err,
+											  object:[]
+											});
+				}
+				
+				else{ 
+					logger.info(posts.length + ' posts Found');
+					callback(posts);
+				} 
+				}).limit(pageSize);
+		}else {
+			logger.info("In Valid Object Id");
+			Post.find({ _postedByUserId:userId }, function(err, posts) {
+				if (err){
+					 res.status(400).send({status:"Failure",
+											  message:err,
+											  object:[]
+											});
+				}
+				else{ 
+					logger.info(posts.length + ' posts Found');
+					callback(posts);
+					//process.exit();
+				} 
+				}).limit(pageSize);
+		}
+     
+		}catch (err){
+		logger.info('An Exception Has occured in findAllPosts method' + err);
+	}
+}
 
 exports.addToTopStories = function (reqData,res){
    

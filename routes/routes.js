@@ -194,7 +194,7 @@ module.exports = function(app) {
 
 		var id = req.query.id;
 		logger.info("id : "+id);
-		PostController.findAllPosts(id,function (posts) {
+		PostController.findTopStories(id,res,function (posts) {
 			logger.info("Response Of findTopStories Method");
 			res.jsonp({ status:"Success",
 			message:"List Of Posts",
@@ -205,11 +205,13 @@ module.exports = function(app) {
 		});
 
 	app.get('/myVideos', authenticate,function(req, res) {
-		logger.info("User Received After Authetication: "+req.user.email);
-		var id = req.query.id;
-		logger.info("id : "+id);
-		PostController.findAllPosts(id,function (posts) {
-			logger.info("Response Of findAllPosts Method");
+		logger.info("User Received After Authetication in /myVideos: "+req.user.email);
+		var postId = req.query.id;
+		var userId=req.user._id;
+		logger.info("postId : "+postId);
+		logger.info("userId : "+userId);
+		PostController.myPosts(postId,userId,function (posts) {
+			logger.info("Response Of myPosts Method");
 			res.jsonp({ status:"Success",
 			message:"List Of Posts",
 			object:posts});

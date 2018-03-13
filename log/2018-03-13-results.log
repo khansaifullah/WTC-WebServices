@@ -211,3 +211,190 @@
 {"level":"info","message":"In Valid Object Id","timestamp":"22:03:17"}
 {"level":"info","message":"5 posts Found","timestamp":"22:03:22"}
 {"level":"info","message":"Response Of findTopStories Method","timestamp":"22:03:22"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"02:50:50"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"02:50:50"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"02:50:51"}
+{"level":"info","message":"id : undefined","timestamp":"02:50:51"}
+{"level":"info","message":"In Valid Object Id","timestamp":"02:50:51"}
+{"level":"info","message":"10 posts Found","timestamp":"02:50:52"}
+{"level":"info","message":"Response Of findAllPosts Method","timestamp":"02:50:52"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"02:51:17"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"02:51:17"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"02:51:20"}
+{"level":"info","message":"id : undefined","timestamp":"02:51:20"}
+{"level":"info","message":"In Valid Object Id","timestamp":"02:51:20"}
+{"level":"info","message":"10 posts Found","timestamp":"02:51:22"}
+{"level":"info","message":"Response Of findAllPosts Method","timestamp":"02:51:22"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"02:52:12"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"02:52:12"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"02:52:13"}
+{"level":"info","message":"id : undefined","timestamp":"02:52:13"}
+{"level":"info","message":"An Exception Has occured in findAllPosts methodTypeError: TopStory.find(...).toArray is not a function","timestamp":"02:52:13"}
+{"level":"info","message":"2 stories Found","timestamp":"02:52:13"}
+{"level":"info","message":"2{ _postId: 5aa778e3cc9e6e001440ea97 },{ _postId: 5aa15fb8e17a6d3cecf0570b }","timestamp":"02:52:13"}
+{"level":"info","message":"Error Occured While Finding Top Story PostsCastError: Cast to ObjectId failed for value \"{ _postId: 5aa778e3cc9e6e001440ea97 }\" at path \"_id\" for model \"Post\"","timestamp":"02:52:13"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"02:56:15"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"02:56:15"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"02:56:15"}
+{"level":"info","message":"id : undefined","timestamp":"02:56:15"}
+{"level":"info","message":"2 stories Found","timestamp":"02:56:15"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"02:57:10"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"02:57:10"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"02:57:13"}
+{"level":"info","message":"id : undefined","timestamp":"02:57:13"}
+{"level":"info","message":"2 stories Found","timestamp":"02:57:13"}
+{"level":"info","message":"2{ _postId: 5aa778e3cc9e6e001440ea97 },{ _postId: 5aa15fb8e17a6d3cecf0570b }","timestamp":"02:57:13"}
+{"level":"info","message":"2Top Story posts Found","timestamp":"02:57:13"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"02:57:13"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"02:58:20"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"02:58:20"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"02:58:20"}
+{"level":"info","message":"id : 5aa15fb8e17a6d3cecf0570b","timestamp":"02:58:20"}
+{"level":"info","message":"2 stories Found","timestamp":"02:58:20"}
+{"level":"info","message":"2{ _postId: 5aa778e3cc9e6e001440ea97 },{ _postId: 5aa15fb8e17a6d3cecf0570b }","timestamp":"02:58:20"}
+{"level":"info","message":"2Top Story posts Found","timestamp":"02:58:21"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"02:58:21"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"03:04:43"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"03:04:43"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"03:04:47"}
+{"level":"info","message":"id : 5aa15fb8e17a6d3cecf0570b","timestamp":"03:04:47"}
+{"level":"info","message":"2 stories Found","timestamp":"03:04:48"}
+{"level":"info","message":"2{ _postId: 5aa778e3cc9e6e001440ea97 },{ _postId: 5aa15fb8e17a6d3cecf0570b }","timestamp":"03:04:48"}
+{"level":"info","message":"10Top Story posts Found","timestamp":"03:04:48"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"03:04:48"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"03:07:02"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"03:07:02"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"03:07:05"}
+{"level":"info","message":"id : 5aa15fb8e17a6d3cecf0570b","timestamp":"03:07:05"}
+{"level":"info","message":"2 stories Found","timestamp":"03:07:05"}
+{"level":"info","message":"2{ _postId: 5aa778e3cc9e6e001440ea97 },{ _postId: 5aa15fb8e17a6d3cecf0570b }","timestamp":"03:07:05"}
+{"level":"info","message":"1Top Story posts Found","timestamp":"03:07:05"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"03:07:05"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"03:07:41"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"03:07:41"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"03:07:42"}
+{"level":"info","message":"id : undefined","timestamp":"03:07:42"}
+{"level":"info","message":"2 stories Found","timestamp":"03:07:42"}
+{"level":"info","message":"2{ _postId: 5aa778e3cc9e6e001440ea97 },{ _postId: 5aa15fb8e17a6d3cecf0570b }","timestamp":"03:07:42"}
+{"level":"info","message":"0Top Story posts Found","timestamp":"03:07:42"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"03:07:42"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"03:09:38"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"03:09:38"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"03:09:41"}
+{"level":"info","message":"id : undefined","timestamp":"03:09:41"}
+{"level":"info","message":"2 stories Found","timestamp":"03:09:42"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"03:10:11"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"03:10:11"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"03:10:13"}
+{"level":"info","message":"id : undefined","timestamp":"03:10:13"}
+{"level":"info","message":"2 stories Found","timestamp":"03:10:14"}
+{"level":"info","message":"2{ _postId: 5aa778e3cc9e6e001440ea97 },{ _postId: 5aa15fb8e17a6d3cecf0570b }","timestamp":"03:10:14"}
+{"level":"info","message":"2Top Story posts Found","timestamp":"03:10:14"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"03:10:14"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"03:10:25"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"03:10:25"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"03:10:26"}
+{"level":"info","message":"id : 5aa15fb8e17a6d3cecf0570b","timestamp":"03:10:26"}
+{"level":"info","message":"2 stories Found","timestamp":"03:10:26"}
+{"level":"info","message":"2{ _postId: 5aa778e3cc9e6e001440ea97 },{ _postId: 5aa15fb8e17a6d3cecf0570b }","timestamp":"03:10:26"}
+{"level":"info","message":"1Top Story posts Found","timestamp":"03:10:26"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"03:10:26"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"03:10:34"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"03:10:34"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"03:10:34"}
+{"level":"info","message":"id : 5aa778e3cc9e6e001440ea97","timestamp":"03:10:34"}
+{"level":"info","message":"2 stories Found","timestamp":"03:10:35"}
+{"level":"info","message":"2{ _postId: 5aa778e3cc9e6e001440ea97 },{ _postId: 5aa15fb8e17a6d3cecf0570b }","timestamp":"03:10:35"}
+{"level":"info","message":"0Top Story posts Found","timestamp":"03:10:35"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"03:10:35"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"03:10:56"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"03:10:56"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"03:10:56"}
+{"level":"info","message":"id : 5","timestamp":"03:10:56"}
+{"level":"info","message":"2 stories Found","timestamp":"03:10:56"}
+{"level":"info","message":"2{ _postId: 5aa778e3cc9e6e001440ea97 },{ _postId: 5aa15fb8e17a6d3cecf0570b }","timestamp":"03:10:56"}
+{"level":"info","message":"2Top Story posts Found","timestamp":"03:10:56"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"03:10:56"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"03:20:10"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"03:20:10"}
+{"level":"info","message":"User Received After Authetication in /myVideos: saifullah19q9@gmail.com","timestamp":"03:20:11"}
+{"level":"info","message":"postId : undefined","timestamp":"03:20:11"}
+{"level":"info","message":"userId : 5aa02e946d20c800141b9541","timestamp":"03:20:11"}
+{"level":"info","message":"In Valid Object Id","timestamp":"03:20:11"}
+{"level":"info","message":"10 posts Found","timestamp":"03:20:11"}
+{"level":"info","message":"Response Of myPosts Method","timestamp":"03:20:11"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"03:24:19"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"03:24:19"}
+{"level":"info","message":"User Received After Authetication in /myVideos: saifullah19q9@gmail.com","timestamp":"03:24:20"}
+{"level":"info","message":"postId : undefined","timestamp":"03:24:20"}
+{"level":"info","message":"userId : 5aa02e946d20c800141b9541","timestamp":"03:24:20"}
+{"level":"info","message":"In Valid Object Id","timestamp":"03:24:20"}
+{"level":"info","message":"2 posts Found","timestamp":"03:24:20"}
+{"level":"info","message":"Response Of myPosts Method","timestamp":"03:24:20"}
+{"level":"verbose","message":"login-POST called ","timestamp":"03:32:49"}
+{"level":"info","message":"in routes /login - Req Data : [object Object]","timestamp":"03:32:49"}
+{"level":"info","message":"RegistrationController.login called  :SaifTesting1@gmail.com","timestamp":"03:32:49"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"03:32:49"}
+{"level":"info","message":"Exception Occured while Loginundefined","timestamp":"03:32:50"}
+{"level":"verbose","message":"login-POST called ","timestamp":"03:38:53"}
+{"level":"info","message":"in routes /login - Req Data : [object Object]","timestamp":"03:38:53"}
+{"level":"info","message":"RegistrationController.login called  :SaifTesting1@gmail.com","timestamp":"03:38:53"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"03:38:53"}
+{"level":"info","message":"Exception Occured while Loginundefined","timestamp":"03:38:53"}
+{"level":"verbose","message":"login-POST called ","timestamp":"03:39:51"}
+{"level":"info","message":"in routes /login - Req Data : [object Object]","timestamp":"03:39:51"}
+{"level":"info","message":"RegistrationController.login called  :SaifTesting1@gmail.com","timestamp":"03:39:51"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"03:39:51"}
+{"level":"info","message":"Exception Occured while Loginundefined","timestamp":"03:39:54"}
+{"level":"verbose","message":"login-POST called ","timestamp":"03:40:54"}
+{"level":"info","message":"in routes /login - Req Data : [object Object]","timestamp":"03:40:56"}
+{"level":"info","message":"RegistrationController.login called  :SaifTesting1@gmail.com","timestamp":"03:40:56"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"03:40:56"}
+{"level":"info","message":"Exception Occured while Loginundefined","timestamp":"03:40:57"}
+{"level":"verbose","message":"login-POST called ","timestamp":"03:41:03"}
+{"level":"info","message":"in routes /login - Req Data : [object Object]","timestamp":"03:41:03"}
+{"level":"info","message":"RegistrationController.login called  :SaifTesting1@gmail.com","timestamp":"03:41:03"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"03:41:03"}
+{"level":"info","message":"Exception Occured while Loginundefined","timestamp":"03:41:06"}
+{"level":"verbose","message":"login-POST called ","timestamp":"03:43:05"}
+{"level":"info","message":"in routes /login - Req Data : [object Object]","timestamp":"03:43:05"}
+{"level":"info","message":"RegistrationController.login called  :SaifTesting1@gmail.com","timestamp":"03:43:05"}
+{"level":"info","message":"UserExists Method Called","timestamp":"03:43:05"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"03:43:05"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"03:43:05"}
+{"level":"info","message":"User Not Found with Email :SaifTesting1@gmail.com","timestamp":"03:43:08"}
+{"level":"info","message":"User Exists Response : null","timestamp":"03:43:08"}
+{"level":"info","message":"Exception Occured while Loginundefined","timestamp":"03:43:08"}
+{"level":"verbose","message":"login-POST called ","timestamp":"03:45:17"}
+{"level":"info","message":"in routes /login - Req Data : [object Object]","timestamp":"03:45:17"}
+{"level":"info","message":"RegistrationController.login called  :SaifTesting1@gmail.com","timestamp":"03:45:17"}
+{"level":"info","message":"UserExists Method Called","timestamp":"03:45:17"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"03:45:17"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"03:45:17"}
+{"level":"info","message":"User Not Found with Email :SaifTesting1@gmail.com","timestamp":"03:45:18"}
+{"level":"info","message":"User Exists Response : null","timestamp":"03:45:18"}
+{"level":"verbose","message":"login-POST called ","timestamp":"03:45:26"}
+{"level":"info","message":"in routes /login - Req Data : [object Object]","timestamp":"03:45:26"}
+{"level":"info","message":"RegistrationController.login called  :SaifTesting1@gmail.com","timestamp":"03:45:26"}
+{"level":"info","message":"UserExists Method Called","timestamp":"03:45:26"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"03:45:26"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"03:45:26"}
+{"level":"info","message":"User Not Found with Email :SaifTesting1@gmail.com","timestamp":"03:45:26"}
+{"level":"info","message":"User Exists Response : null","timestamp":"03:45:26"}
+{"level":"verbose","message":"register-POST called ","timestamp":"03:45:51"}
+{"level":"info","message":"in routes /register - Req Data : [object Object]","timestamp":"03:45:51"}
+{"level":"info","message":"RegistrationController.register called  :SaifTesting1@gmail.com","timestamp":"03:45:51"}
+{"level":"info","message":"UserExists Method Called","timestamp":"03:45:51"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"03:45:51"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"03:45:51"}
+{"level":"info","message":"User Not Found with Email :SaifTesting1@gmail.com","timestamp":"03:45:52"}
+{"level":"info","message":"User Exists Response : null","timestamp":"03:45:52"}
+{"level":"info","message":"Creation New User","timestamp":"03:45:52"}
+{"level":"verbose","message":"login-POST called ","timestamp":"03:46:17"}
+{"level":"info","message":"in routes /login - Req Data : [object Object]","timestamp":"03:46:17"}
+{"level":"info","message":"RegistrationController.login called  :SaifTesting1@gmail.com","timestamp":"03:46:17"}
+{"level":"info","message":"UserExists Method Called","timestamp":"03:46:17"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"03:46:17"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"03:46:17"}
+{"level":"info","message":"User Found with Email :SaifTesting1@gmail.com","timestamp":"03:46:17"}
+{"level":"info","message":"User Exists Response : { _id: 5aa854a0da9adf34c8aa796c,\n  updatedAt: 2018-03-13T22:45:52.873Z,\n  createdAt: 2018-03-13T22:45:52.349Z,\n  email: 'SaifTesting1@gmail.com',\n  password: '$2a$10$Hukyx.FwRdr0aKPKaxVKEecunh336WYoJwczPyGrW3Yu2pKjbfyZm',\n  user_type: 'mentor',\n  verified_user: false,\n  __v: 1,\n  deactivate_user: false,\n  tokens: \n   [ { access: 'auth',\n       token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWE4NTRhMGRhOWFkZjM0YzhhYTc5NmMiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwOTgxMTUyfQ.0YTNwsjVssJBXKK4UW1upohBohrLTa28vpKcLDeN_VA',\n       _id: 5aa854a0da9adf34c8aa796e } ],\n  profile_photo_url: null }","timestamp":"03:46:17"}

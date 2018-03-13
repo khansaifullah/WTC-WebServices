@@ -60,7 +60,7 @@ var UserSchema = new Schema({
 }, {timestamps: true},
    { usePushEach: true});
 
-//userSchema.index({phone:1});
+UserSchema.index({email:1});
 //userSchema.index({ loc: '2d' });
 UserSchema.methods.toJSON = function () {
   var user = this;
