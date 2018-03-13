@@ -55,7 +55,6 @@ module.exports = function(app) {
 	 //Enable All CORS Requests
 	app.use(cors());
 	app.use(function(req, res, next) {
-		//res.header("Access-Control-Allow-Origin", "*");
 		res.header("Access-Control-Allow-Headers", "*");
 		next();
 	  });
@@ -138,13 +137,13 @@ module.exports = function(app) {
 		logger.info ("Description : " + req);
 
 		var form = new FormData();
-		console.log("form.append 1");
+		//console.log("form.append 1");
 		console.log("videoFileTempName: "+videoFileTempName);
 		console.log("imageFileTempName: "+imageFileTempName);
 		form.append('video', fs.createReadStream( './/public//videos//'+videoFileTempName));
-		console.log("form.append 2");
+		//console.log("form.append 2");
 		form.append('image', fs.createReadStream( './/public//videos//'+imageFileTempName));
-		console.log("form.append 3");
+		//console.log("form.append 3");
 		form.submit('http://brandedsms.net/postvideo/postvideoNew.php', function(err, res) {
 			console.log("In submit");
 			if (err){
@@ -177,13 +176,62 @@ module.exports = function(app) {
 
 	});
 
-
-	// app.post('/upload/video1', upload.any(), function(req, res, next){
-	// 	console.log("Uploaded Files: "+req.files[0].originalname)  // <-- it always return [] array
-	
+	app.post('/topStory',authenticate,function(req,res){                         
 		
- 	// 	 });
+		if(req.body === undefined||req.body === null) {
+		 res.end("Empty Body");  
+		 }
+			 
+		 logger.verbose('topStory-POST called '); 
+		 var reqData=req.body;
+		 logger.info("in routes post /topStory - Req Data : "+ reqData);
+		 PostController.addToTopStories(reqData,res);	
+	 
+	 });
 	
+	 app.get('/topStory',authenticate,function(req,res){   
+		logger.info("User Received After Authetication: "+req.user.email);
+
+		var id = req.query.id;
+		logger.info("id : "+id);
+		PostController.findAllPosts(id,function (posts) {
+			logger.info("Response Of findTopStories Method");
+			res.jsonp({ status:"Success",
+			message:"List Of Posts",
+			object:posts});
+	 
+	 	});
+
+		});
+
+	app.get('/myVideos', authenticate,function(req, res) {
+		logger.info("User Received After Authetication: "+req.user.email);
+		var id = req.query.id;
+		logger.info("id : "+id);
+		PostController.findAllPosts(id,function (posts) {
+			logger.info("Response Of findAllPosts Method");
+			res.jsonp({ status:"Success",
+			message:"List Of Posts",
+			object:posts});
+											
+		});	
+
+	});
+
+	app.get('/ideas', authenticate,function(req, res) {
+		logger.info("User Received After Authetication: "+req.user.email);
+		var id = req.query.id;
+		logger.info("id : "+id);
+		PostController.findAllPosts(id,function (posts) {
+			logger.info("Response Of findAllPosts Method");
+			res.jsonp({ status:"Success",
+			message:"List Of Posts",
+			object:posts});
+											
+		});	
+	
+	});
+		
 	app.post('/upload/video', authenticate, function(req,res){
 
 		logger.info("in routes - upload/video : " );
@@ -251,10 +299,11 @@ module.exports = function(app) {
 	
 	app.get('/timeline', authenticate,function(req, res) {
 		logger.info("User Received After Authetication: "+req.user.email);
-
-		PostController.findAllPosts(function (posts) {
+		var id = req.query.id;
+		logger.info("id : "+id);
+		PostController.findAllPosts(id,function (posts) {
 			logger.info("Response Of findAllPosts Method");
-			res.jsonp({ status:"success",
+			res.jsonp({ status:"Success",
 			message:"List Of Posts",
 			object:posts});
 										 
@@ -267,13 +316,14 @@ module.exports = function(app) {
 
 		PostController.findAllQuotes(function (quotes) {
 			logger.info("Response Of findAllQuotes Method");
-			res.jsonp({ status:"success",
+			res.jsonp({ status:"Success",
 			message:"List Of Quotes",
 			object:quotes});
 										 
 		});	
 
 	});
+	
 
 };
 	 

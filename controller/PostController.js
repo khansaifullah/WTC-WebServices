@@ -3,6 +3,7 @@ const _ = require('lodash');
 var User = require('../models/User.js');
 var Owner = require('../models/Owner.js');
 var Post = require('../models/Post.js');
+var TopStory = require('../models/TopStory.js');
 var Quote = require('../models/Quote.js');
 var Mentor = require('../models/Mentor.js');
 var db = require('../config/db');
@@ -19,31 +20,126 @@ var http = require("http");
 var querystring = require('querystring');
 //package to generate a random number
 var randomize = require('randomatic');
+var ObjectId = require('mongoose').Types.ObjectId;
 
+var pageSize=10;
 
-
-exports.findAllPosts=function(callback){
-     
+exports.findAllPosts=function(_id,callback){
+ 
     try{
-        Post.find({}, function(err, posts) {
-			if (err){
-				 res.status(400).send({status:"failure",
-										  message:err,
-										  object:[]
-										});
-			}
-			
-			else{ 
-				logger.info(posts.length + ' posts Found');
-				callback(posts);
-				//process.exit();
-			} 
-			});
+		if (ObjectId.isValid(_id)){
+
+			logger.info("Valid Object Id");
+	
+			Post.find({'_id': {'$gt': _id}}, function(err, posts) {
+				if (err){ 
+					 res.status(400).send({status:"Failure",
+											  message:err,
+											  object:[]
+											});
+				}
+				
+				else{ 
+					logger.info(posts.length + ' posts Found');
+					callback(posts);
+				} 
+				}).limit(pageSize);
+		}else {
+			logger.info("In Valid Object Id");
+			Post.find({}, function(err, posts) {
+				if (err){
+					 res.status(400).send({status:"Failure",
+											  message:err,
+											  object:[]
+											});
+				}
+				else{ 
+					logger.info(posts.length + ' posts Found');
+					callback(posts);
+					//process.exit();
+				} 
+				}).limit(pageSize);
+		}
+     
 		}catch (err){
 		logger.info('An Exception Has occured in findAllPosts method' + err);
 	}
 }
 
+
+exports.findTopStories=function(_id,res,callback){
+    
+    try{
+		
+			TopStory.find({},{ _postId: 1, _id:0 },function(err,stories){
+				if (err){
+					res.status(400).send({status:"Failure",
+											message:err,
+											object:[]
+										});
+				}
+						
+				else{ 
+					
+					logger.info(stories.length + ' stories Found');
+					logger.info(stories.length + stories);
+					Post.find({_id:stories}, function(err, posts) {
+					if (err){
+						logger.info("Error Occured While Finding Top Story Posts"+err );
+						res.status(400).send({status:"Failure",
+												message:err,
+												object:[]
+						});
+					}
+					
+					else{ 
+						logger.info(posts.length + 'Top Story posts Found');
+						callback(posts);
+						
+					} 
+				}).limit(pageSize);
+					
+				
+				
+				} 
+
+			});
+		
+		
+	
+     
+		}catch (err){
+		logger.info('An Exception Has occured in findAllPosts method' + err);
+	}
+}
+
+
+exports.addToTopStories = function (reqData,res){
+   
+	var postId=reqData.postId;
+	logger.info("postId: "+postId);
+
+    var topStory=new TopStory({  
+		_postId:postId 	
+    });
+
+    topStory.save(function (err, story){
+        if(err){
+            logger.error('Some Error while Adding Post To Top Stories' + err ); 
+          
+            res.jsonp({status:"Failure",
+            message:"Error while Adding Post To Top Stories",
+            object:[]});
+        }
+        else{
+            logger.info('Adding Post To New Top Stories' );
+            res.jsonp({status:"Success",
+							message:"Post Added To Top Stories",
+							object:story});
+        
+        }
+      });
+}
 
 exports.findAllQuotes=function(callback){
      
@@ -51,7 +147,7 @@ exports.findAllQuotes=function(callback){
         
         Quote.find({}, function(err, quotes) {
 			if (err){
-				 res.status(400).send({status:"failure",
+				 res.status(400).send({status:"Failure",
 										  message:err,
 										  object:[]
 										});
@@ -98,10 +194,6 @@ exports.uploadPost = function (req,_attachmentUrl,_thumbnailUrl,_postType,res){
             //callback(user);
         }
       });
-
-
-
-
 }
 
 
