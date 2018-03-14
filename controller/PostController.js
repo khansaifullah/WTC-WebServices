@@ -3,6 +3,7 @@ const _ = require('lodash');
 var User = require('../models/User.js');
 var Owner = require('../models/Owner.js');
 var Post = require('../models/Post.js');
+var OwnerPost = require('../models/OwnerPost.js');
 var TopStory = require('../models/TopStory.js');
 var Quote = require('../models/Quote.js');
 var Mentor = require('../models/Mentor.js');
@@ -172,6 +173,68 @@ exports.myPosts=function(postId,userId,callback){
 	}
 }
 
+exports.ownersIdeas=function(postId,callback){
+ 
+    try{
+		
+		OwnerPost.find({},{ _postId: 1, _id:0 },function(err,posts){
+		if (err){
+			res.status(400).send({status:"Failure",
+									message:err,
+									object:[]
+								});
+		}
+				
+		else{ 
+			
+			logger.info(posts.length + ' posts Found');
+			//logger.info(posts.length + posts);
+			var postids=[];
+			posts.forEach(post => {
+				postids.push(post._postId);
+			});
+			
+			if (ObjectId.isValid(postId)){
+				logger.info("Valid Object Id");
+				Post.find({$and: [ { _id:postids }, { _id: {'$gt': id}}  ]}, function(err, posts) {
+				
+				if (err){ 
+					 res.status(400).send({status:"Failure",
+											  message:err,
+											  object:[]
+											});
+				}
+				
+				else{ 
+					logger.info(posts.length + ' posts Found');
+					callback(posts);
+				} 
+				}).limit(pageSize);
+		}else {
+			logger.info("In Valid Object Id");
+			Post.find({ _id:postids}, function(err, posts) {
+				if (err){
+					logger.info("Error Occured While Finding Owners Posts"+err );
+					res.status(400).send({status:"Failure",
+											message:err,
+											object:[]
+					});
+				}					
+				else{ 
+					logger.info(posts.length + 'Owners posts Found');
+					callback(posts);		
+				} 
+			}).limit(pageSize);
+			
+			}
+		}
+	});
+     
+	}catch (err){
+		logger.info('An Exception Has occured in findAllPosts method' + err);
+	}
+}
+
 exports.addToTopStories = function (reqData,res){
    
 	var postId=reqData.postId;
@@ -199,6 +262,182 @@ exports.addToTopStories = function (reqData,res){
       });
 }
 
+
+//Update TopStory
+
+exports.updateTopStory=function(reqData,res){
+	try{
+			var storyId=reqData._id;
+			//bool
+			var show=reqData.show;
+		
+			logger.info('PostController.updateTopStory called for id :' + storyId );						  
+			var query = { _id : storyId };
+			// find TopStory by Id	 
+			TopStory.findOne(query).exec(function(err, story){
+				if (err){
+					logger.error('Some Error while finding story' + err );
+					res.status(400).send({status:"Failure",
+										message:err,
+										object:[]
+					});
+				}
+				else{
+					if (story){
+						if (show===true){
+							story.show=true;
+						}
+						if (show===false){
+							story.show=false;
+						}
+						
+						story.save(function (err, story){
+							if(err){
+								logger.error('Some Error while updating story' + err );
+								res.jsonp({status:"Failure",
+								message:"Error Occured while Updating story ",
+									object:[]}); 	
+							}
+							else{
+								logger.info('story updated  '  );												
+								res.jsonp({status:"Success",
+								message:"Stroy Updated!",
+									object:story}); 
+							}								 							  
+						  });
+					}
+					else {
+						logger.error('No  Such story found to update ' + err );
+						res.status(400).send({status:"Failure",
+											message:'No  Such story found to update ' +err,
+											object:[]
+										});
+					}
+				}
+			});
+	}catch (err){
+		logger.info('An Exception Has occured in updateStory method' + err);
+	}
+}
+
+exports.addQuote = function (reqData,res){
+   
+	
+	var userId=reqData.user._id;
+	var text=reqData.text;
+	var author=reqData.author;
+	logger.info("userId: "+userId + " - Author - "+ author);
+
+	var newQuote=new Quote({  
+	_postedByUserId: userId,
+	quoteText:text,
+	author:author                      
+	
+	});
+
+	  newQuote.save(function (err, quote){
+        if(err){
+            logger.error('Some Error while Adding New Quote : ' + err ); 
+          
+            res.jsonp({status:"Failure",
+            message:"Error while Adding New Quote",
+            object:[]});
+        }
+        else{
+            logger.info('New Quote Added' );
+            res.jsonp({status:"Success",
+							message:"New Quote Added",
+							object:quote});
+        
+        }
+      });
+}
+
+//Update Quote
+
+exports.updateQuote=function(reqData,res){
+	try{
+			var quoteId=reqData._id;
+			var text=reqData.text;
+			var author=reqData.author;
+		
+			logger.info('PostController.updateQuote called for id :' + quoteId );						  
+			var query = { _id : quoteId };
+			// find Quote by Id	 
+			Quote.findOne(query).exec(function(err, quote){
+				if (err){
+					logger.error('Some Error while finding Quote' + err );
+					res.status(400).send({status:"Failure",
+										message:err,
+										object:[]
+					});
+				}
+				else{
+					if (quote){
+						if (text){
+							quote.text=text;
+						}
+						
+						if (author){
+							quote.author=author;
+						}
+						
+						quote.save(function (err, quote){
+							if(err){
+								logger.error('Some Error while updating quote' + err );
+								res.jsonp({status:"Failure",
+								message:"Error Occured while Updating quote ",
+									object:[]}); 	
+							}
+							else{
+								logger.info('Quote updated  '  );												
+								res.jsonp({status:"Success",
+								message:"Quote Updated!",
+									object:quote}); 
+							}								 							  
+						  });
+					}
+					else {
+						logger.error('No  Such quote found to update ' + err );
+						res.status(400).send({status:"Failure",
+											message:'No  Such quote found to update ' +err,
+											object:[]
+										});
+					}
+				}
+			});
+	}catch (err){
+		logger.info('An Exception Has occured in updateQuote method' + err);
+	}
+}
+
+//Delete Quote
+
+exports.deleteQuote=function(quoteId,res){
+    try {
+		
+		logger.info('deleteQuote Method Called for id : '+quoteId);		
+		Quote.remove({ _id: quoteId}, function (err) {
+				if (err){
+					logger.error('Error Occured while Removing  Quote :'+ err);
+					res.jsonp({status:"Failure",
+                            message:"Error Occured while removing Quote",
+                            object:[]}); 
+				}
+				else{
+					logger.info('Quote with id ' +quoteId + ' successfully Removed' );
+					res.jsonp({status:"Success",
+								message:"Quote successfully Removed!",
+								object:[]}); 
+				}
+				// removed!
+		});				                                                
+	}catch  (err){
+		logger.info ('An Exception occured PostController.deleteQuote ' + err);
+	}	
+	
+}
+
 exports.findAllQuotes=function(callback){
      
     try{
@@ -223,7 +462,8 @@ exports.findAllQuotes=function(callback){
 }
 
 exports.uploadPost = function (req,_attachmentUrl,_thumbnailUrl,_postType,res){
-    logger.info("User Received After Authetication: "+req.user._id);
+	logger.info("User Received After Authetication: "+req.user._id);
+	logger.info("User Type: "+req.user.user_type);
 	var desc=req.body.description;
 	var title=req.body.title;
 
@@ -245,6 +485,19 @@ exports.uploadPost = function (req,_attachmentUrl,_thumbnailUrl,_postType,res){
             object:[]});
         }
         else{
+			if (req.user.user_type==="owner"){
+				logger.info("Owner is Uploading video with Id: "+req.user._id );
+				var newOwnerPost=new OwnerPost({  	
+					_postId:post._id,
+					_userId: req.user._id                     
+				});
+				newOwnerPost.save(function (err, ownerPost){
+					if(err)
+						logger.error('Some Error while Creating New Owner Post' + err );
+
+					  
+				});
+			}
             logger.info('New Post Created' );
             res.jsonp({status:"Success",
 							message:"File Successfully Uploaded",
@@ -254,14 +507,3 @@ exports.uploadPost = function (req,_attachmentUrl,_thumbnailUrl,_postType,res){
       });
 }
 
-
-// var newQuote=new Quote({  
-//     //_conversationId: { type: mongoose.Schema.Types.ObjectId, ref: 'Conversation' },
-// _postedByUserId: req.user._id,
-// quoteText:"Words, without power, is mere philosophy.",
-// author:"Allama Iqbal"                      
-//     });
-
-//     newQuote.save(function (err, post){
-      
-//       });

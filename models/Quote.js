@@ -8,7 +8,8 @@ var QuoteSchema   = new mongoose.Schema({
     //_conversationId: { type: mongoose.Schema.Types.ObjectId, ref: 'Conversation' },
     _postedByUserId: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
     quoteText:String,
-    author:String
+    author:String,
+    show:{ type: Boolean, default: true}
 
    
 } , {timestamps: true});

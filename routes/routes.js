@@ -134,7 +134,7 @@ module.exports = function(app) {
 	 function(req, resp, next){
 
 		logger.info ("File Is uploaded New Method");
-		logger.info ("Description : " + req);
+		//logger.info ("Description : " + req);
 
 		var form = new FormData();
 		//console.log("form.append 1");
@@ -203,6 +203,30 @@ module.exports = function(app) {
 	 	});
 
 		});
+		
+	// 	//update topStory
+	app.put('/topStory',function(req,res){
+			
+		if(req.body === undefined||req.body === null) {
+		res.end("Empty Body"); 
+		}
+		console.log("in routes PUT : /topStory");
+		var reqData=req.body;
+		PostController.updateTopStory(reqData,res);
+	});
+
+
+	// 	// delete topStory
+	// app.delete('/topStory',function(req,res){
+
+	// 	if(req.body === undefined||req.body === null) {
+	// 	res.end("Empty Body"); 
+	// 	}
+	// 	var storyId = req.query.storyId;
+	// 	console.log("in routes delete /topStory");
+		
+	// 	PostController.deleteMarkerCategory(categoryId,res);
+	// });
 
 	app.get('/myVideos', authenticate,function(req, res) {
 		logger.info("User Received After Authetication in /myVideos: "+req.user.email);
@@ -224,8 +248,8 @@ module.exports = function(app) {
 		logger.info("User Received After Authetication: "+req.user.email);
 		var id = req.query.id;
 		logger.info("id : "+id);
-		PostController.findAllPosts(id,function (posts) {
-			logger.info("Response Of findAllPosts Method");
+		PostController.ownersIdeas(id,function (posts) {
+			logger.info("Response Of ownersIdeas Method");
 			res.jsonp({ status:"Success",
 			message:"List Of Posts",
 			object:posts});
@@ -313,6 +337,19 @@ module.exports = function(app) {
 
 		});
 
+		
+	app.post('/quote',authenticate,function(req,res){                         
+		
+		if(req.body === undefined||req.body === null) {
+		 res.end("Empty Body");  
+		 }
+			 
+		 logger.verbose('quote-POST called '); 
+		 var reqData=req.body;
+		 logger.info("in routes post /quote - Req Data : "+ reqData.author);
+		 PostController.addQuote(reqData,res);	
+	 
+	 });
 	app.get('/quotes', authenticate,function(req, res) {
 		logger.info("User Received After Authetication: "+req.user.email);
 
@@ -325,6 +362,30 @@ module.exports = function(app) {
 		});	
 
 	});
+	
+// 	//update Quote
+		 app.put('/quote',function(req,res){
+		
+			if(req.body === undefined||req.body === null) {
+			 res.end("Empty Body"); 
+			 }
+			 console.log("in routes PUT : /quote");
+			 var reqData=req.body;
+			 PostController.updateQuote(reqData,res);
+		 });
+
+
+// 	// delete Quote
+		 app.delete('/quote',function(req,res){
+		
+			if(req.body === undefined||req.body === null) {
+			 res.end("Empty Body"); 
+			 }
+			 var quoteId = req.query.categoryId;
+			 console.log("in routes delete /quote");
+			
+			 PostController.deleteQuote(quoteId,res);
+		 });
 	
 
 };
