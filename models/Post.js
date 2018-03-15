@@ -11,7 +11,8 @@ var PostSchema   = new mongoose.Schema({
     postDescription:String,
     attachmentUrl:String,
     thumbnailUrl:String,
-    title:String
+    title:String,
+    ratedValue:{type: Number, default: 0 }
 
    
 } , {timestamps: true});

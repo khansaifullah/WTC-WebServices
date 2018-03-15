@@ -4,6 +4,7 @@ var User = require('../models/User.js');
 var Owner = require('../models/Owner.js');
 var Post = require('../models/Post.js');
 var OwnerPost = require('../models/OwnerPost.js');
+var PostRating = require('../models/PostRating.js');
 var TopStory = require('../models/TopStory.js');
 var Quote = require('../models/Quote.js');
 var Mentor = require('../models/Mentor.js');
@@ -318,6 +319,82 @@ exports.updateTopStory=function(reqData,res){
 	}catch (err){
 		logger.info('An Exception Has occured in updateStory method' + err);
 	}
+}
+
+//Rate Post
+
+exports.ratePost = function (req,res){
+   
+	var reqData=req.body;
+	var ratedByUserId=req.user._id;
+	var postId=reqData.postId;
+	var ratedValue=reqData.ratedValue;
+	
+	logger.info("ratedByUserId: "+ratedByUserId );
+
+	// Chk if Same User Have Rated Same Video Before
+	var query = {$and: [ { _ratedByUserId : ratedByUserId }, { _postId:postId}]};
+	
+	PostRating.findOne(query).exec(function(err, rating){
+		if(err){
+            logger.error('Some Error while Rating Post : ' + err ); 
+            res.jsonp({status:"Failure",
+            message:"Error while Rating a Post.",
+			object:[]});
+		}else{
+				if (rating){
+					logger.info('Editing Previous Rating Found with iD :'+ rating._id  );
+					
+					rating._postId=postId;
+					rating._ratedByUserId=ratedByUserId;
+					rating.ratedValue=ratedValue;
+
+							rating.save(function (err, rate) {
+								if (rate){
+									res.jsonp({status:"Success",
+									message:"Updated Previous Rating!",
+									object:rate});
+								}
+							
+								else{
+									logger.info('Error in Updated Previous Rating! :'  );
+									res.jsonp({status:"Failure",
+											message:"Failed updating Updated Previous Rating!",
+											object:[]});
+								}
+							});	
+				}else {
+					logger.info('Adding New ratings :'  );
+					var newPostRating=new PostRating({  
+						_postId: postId,
+						_ratedByUserId:ratedByUserId ,
+						ratedValue:ratedValue                   
+					
+					});
+				
+					newPostRating.save(function (err, postRating){
+						if(err){
+							logger.error('Some Error while Rating Post : ' + err ); 
+						
+							res.jsonp({status:"Failure",
+							message:"Error while Rating a Post.",
+							object:[]});
+						}
+						else{
+							logger.info('New Quote Added' );
+							res.jsonp({status:"Success",
+											message:"Post Successfully Rated.",
+											object:postRating});
+						
+						}
+					});
+					
+
+			}
+		}
+
+	});
+	
 }
 
 exports.addQuote = function (reqData,res){

@@ -228,6 +228,16 @@ module.exports = function(app) {
 	// 	PostController.deleteMarkerCategory(categoryId,res);
 	// });
 
+	app.post('/ratePost',authenticate,function(req,res){                         
+		logger.info("User Received After Authetication in /ratePost: "+req.user._id);
+		if(req.body === undefined||req.body === null) {
+		 res.end("Empty Body");  
+		 }
+
+		 PostController.ratePost(req,res);	
+	 
+	 });
+
 	app.get('/myVideos', authenticate,function(req, res) {
 		logger.info("User Received After Authetication in /myVideos: "+req.user.email);
 		var postId = req.query.id;

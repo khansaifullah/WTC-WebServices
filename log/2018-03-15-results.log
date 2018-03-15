@@ -1,0 +1,41 @@
+{"level":"info","message":"in routes - authenticate ","timestamp":"20:56:34"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"20:56:34"}
+{"level":"verbose","message":"ratePost-POST called ","timestamp":"20:56:34"}
+{"level":"info","message":"in routes post /ratePost -  : ","timestamp":"20:56:34"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"20:58:37"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"20:58:37"}
+{"level":"info","message":"User Received After Authetication in /ratePost: 5aa02e946d20c800141b9541","timestamp":"20:58:39"}
+{"level":"verbose","message":"ratePost-POST called ","timestamp":"20:58:39"}
+{"level":"info","message":"in routes post /ratePost -  : ","timestamp":"20:58:39"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"21:00:26"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"21:00:26"}
+{"level":"info","message":"User Received After Authetication in /ratePost: 5aa02e946d20c800141b9541","timestamp":"21:00:26"}
+{"level":"info","message":"ratedByUserId: 5aa02e946d20c800141b9541","timestamp":"21:00:26"}
+{"level":"info","message":"Adding New ratings :","timestamp":"21:00:27"}
+{"level":"info","message":"New Quote Added","timestamp":"21:00:27"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"21:00:42"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"21:00:42"}
+{"level":"info","message":"User Received After Authetication in /ratePost: 5aa02e946d20c800141b9541","timestamp":"21:00:42"}
+{"level":"info","message":"ratedByUserId: 5aa02e946d20c800141b9541","timestamp":"21:00:42"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"21:01:21"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"21:01:21"}
+{"level":"info","message":"User Received After Authetication in /ratePost: 5aa02e946d20c800141b9541","timestamp":"21:01:22"}
+{"level":"info","message":"ratedByUserId: 5aa02e946d20c800141b9541","timestamp":"21:01:22"}
+{"level":"info","message":"Editing Previous Rating Found with iD :5aaa989b8fb4701ae8f9b19f","timestamp":"21:01:22"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"21:01:37"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"21:01:37"}
+{"level":"info","message":"User Received After Authetication in /ratePost: 5aa02e946d20c800141b9541","timestamp":"21:01:37"}
+{"level":"info","message":"ratedByUserId: 5aa02e946d20c800141b9541","timestamp":"21:01:37"}
+{"level":"info","message":"Editing Previous Rating Found with iD :5aaa989b8fb4701ae8f9b19f","timestamp":"21:01:37"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"22:44:33"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"22:44:33"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"22:44:34"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"22:44:34"}
+{"level":"info","message":"User Received After Authetication in /ratePost: 5aa02e946d20c800141b9541","timestamp":"22:44:34"}
+{"level":"info","message":"ratedByUserId: 5aa02e946d20c800141b9541","timestamp":"22:44:34"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"22:44:34"}
+{"level":"info","message":"id : undefined","timestamp":"22:44:34"}
+{"level":"info","message":"In Valid Object Id","timestamp":"22:44:34"}
+{"level":"info","message":"Editing Previous Rating Found with iD :5aaa989b8fb4701ae8f9b19f","timestamp":"22:44:34"}
+{"level":"info","message":"10 posts Found","timestamp":"22:44:34"}
+{"level":"info","message":"Response Of findAllPosts Method","timestamp":"22:44:34"}
