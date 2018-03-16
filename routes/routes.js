@@ -233,7 +233,10 @@ module.exports = function(app) {
 		if(req.body === undefined||req.body === null) {
 		 res.end("Empty Body");  
 		 }
-
+			 
+		 logger.verbose('ratePost-POST called '); 
+		 //var reqData=req.body;
+		 logger.info("in routes post /ratePost  : ");
 		 PostController.ratePost(req,res);	
 	 
 	 });
@@ -398,8 +401,24 @@ module.exports = function(app) {
 		 });
 	
 
+		 //Get list of Images for Gallery
+		app.get('/gallery/images', authenticate,function(req, res) {
+			logger.info("User Received After Authetication: "+req.user.email);
+			var id = req.query.id;
+			logger.info("id : "+id);
+			PostController.getImageGallery(id,function (images) {
+				logger.info("Response Of getImageGallery Method");
+				res.jsonp({ status:"Success",
+				message:"List Of Gallery Images",
+				object:images});
+												
+			});	
+
+		});
 };
 	 
+
+
 //     app.post('/verificationcode',function(req,res){                         
 		
 // 	   if(req.body === undefined||req.body === null) {

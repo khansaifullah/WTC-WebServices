@@ -7,6 +7,7 @@ var OwnerPost = require('../models/OwnerPost.js');
 var PostRating = require('../models/PostRating.js');
 var TopStory = require('../models/TopStory.js');
 var Quote = require('../models/Quote.js');
+var GalleryImage = require('../models/GalleryImage.js');
 var Mentor = require('../models/Mentor.js');
 var db = require('../config/db');
 var logger = require('../config/lib/logger.js');
@@ -584,3 +585,29 @@ exports.uploadPost = function (req,_attachmentUrl,_thumbnailUrl,_postType,res){
       });
 }
 
+
+exports.getImageGallery=function(postId,callback){
+ 
+    try{
+		// var newPost=new GalleryImage({  
+		// 	imageTitle:"WTC In hall ", 
+		// 	imageUrl:"http://www.alhussainproperties.com/wp-content/uploads/2018/01/Giga-Mall-Shopping-Home-Page-Slider-Banner-3-1-1.jpg",
+			                
+		// 	});
+		// 	newPost.save(function (err, post){});
+		GalleryImage.find({},function(err,images){
+		if (err){
+			res.status(400).send({status:"Failure",
+									message:err,
+									object:[]
+								});
+		}else {
+			callback(images);
+		}
+		
+	});
+     
+	}catch (err){
+		logger.info('An Exception Has occured in findAllPosts method' + err);
+	}
+}
