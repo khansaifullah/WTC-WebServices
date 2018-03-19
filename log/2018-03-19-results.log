@@ -247,3 +247,17 @@
 {"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-36-40-WTCimage.jpg","timestamp":"12:35:24"}
 {"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:35:24"}
 {"level":"info","message":"Image Uploaded with id : 5aaf683cf61a4f34a060b676","timestamp":"12:35:25"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:35:10"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:35:10"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:35:13"}
+{"level":"info","message":"id : undefined","timestamp":"14:35:13"}
+{"level":"info","message":"In Valid Object Id","timestamp":"14:35:13"}
+{"level":"info","message":"10 posts Found","timestamp":"14:35:14"}
+{"level":"info","message":"Response Of findAllPosts Method","timestamp":"14:35:14"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:40:23"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:40:23"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:40:26"}
+{"level":"info","message":"id : undefined","timestamp":"14:40:26"}
+{"level":"info","message":"In Valid Object Id","timestamp":"14:40:26"}
+{"level":"info","message":"10 posts Found","timestamp":"14:40:27"}
+{"level":"info","message":"Response Of findAllPosts Method","timestamp":"14:40:27"}

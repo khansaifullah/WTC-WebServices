@@ -61,7 +61,7 @@ exports.findAllPosts=function(_id,callback){
 					callback(posts);
 					//process.exit();
 				} 
-				}).limit(pageSize);
+				}).sort( [['_id', -1]] ).limit(pageSize);
 		}
      
 		}catch (err){
@@ -167,7 +167,7 @@ exports.myPosts=function(postId,userId,callback){
 					callback(posts);
 					//process.exit();
 				} 
-				}).limit(pageSize);
+				}).sort( [['_id', -1]] ).limit(pageSize);
 		}
      
 		}catch (err){
