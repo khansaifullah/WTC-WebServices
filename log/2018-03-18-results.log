@@ -1,0 +1,80 @@
+{"level":"info","message":"in routes - authenticate ","timestamp":"02:07:23"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"02:08:02"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"02:08:02"}
+{"level":"verbose","message":"/gallery/image-POST called ","timestamp":"02:08:02"}
+{"level":"info","message":"in routes post /gallery/image ","timestamp":"02:08:02"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"02:10:59"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"02:10:59"}
+{"level":"info","message":"Image File Received Temp Name :image-1521407464034.jpg","timestamp":"02:11:04"}
+{"level":"info","message":"Image is Uploaded","timestamp":"02:11:04"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"02:11:09"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"02:11:09"}
+{"level":"info","message":"Image Uploaded with id : 5aaed5edc79fdf1af8e137ef","timestamp":"02:11:10"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"02:14:40"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"02:14:40"}
+{"level":"info","message":"Image File Received Temp Name :image-1521407683482.jpg","timestamp":"02:14:43"}
+{"level":"info","message":"Image is Uploaded","timestamp":"02:14:43"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"02:14:46"}
+{"level":"error","message":"imageUrl : error","timestamp":"02:14:46"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"02:14:46"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"02:16:44"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"02:16:44"}
+{"level":"info","message":"Image File Received Temp Name :image-1521407805318.jpg","timestamp":"02:16:45"}
+{"level":"info","message":"Image is Uploaded","timestamp":"02:16:45"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"02:16:48"}
+{"level":"error","message":"imageUrl : http://postvideo.exaride.com/upload/2018:03:18-image-1521407805318.jpg","timestamp":"02:16:48"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"02:16:48"}
+{"level":"info","message":"Image Uploaded with id : 5aaed74090440522f03b7020","timestamp":"02:16:48"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"02:17:41"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"02:17:41"}
+{"level":"info","message":"Image File Received Temp Name :image-1521407862089.jpg","timestamp":"02:17:42"}
+{"level":"info","message":"Image is Uploaded","timestamp":"02:17:42"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"02:17:42"}
+{"level":"error","message":"imageUrl : <!DOCTYPE html>\n<html style=\"height:100%\">\n<head><title> 302 Found\r\n</title></head>\n<body style=\"color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;\">\n<div style=\"height:auto; min-height:100%; \">     <div style=\"text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;\">\n        <h1 style=\"margin:0; font-size:150px; line-height:150px; font-weight:bold;\">302</h1>\n<h2 style=\"margin-top:20px;font-size: 30px;\">Found\r\n</h2>\n<p>The document has been temporarily moved.</p>\n</div></div><div style=\"color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;\">\n<br>Proudly powered by  <a style=\"color:#fff;\" href=\"http://www.litespeedtech.com/error-page\">LiteSpeed Web Server</a><p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n","timestamp":"02:17:42"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"02:17:42"}
+{"level":"info","message":"Error : Error: write ECONNRESET","timestamp":"02:17:43"}
+{"level":"info","message":"Image Uploaded with id : 5aaed77690440522f03b7021","timestamp":"02:17:43"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"02:22:47"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"02:22:47"}
+{"level":"info","message":"Image File Received Temp Name :image-1521408173026.jpg","timestamp":"02:22:54"}
+{"level":"info","message":"Image is Uploaded","timestamp":"02:22:54"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"02:22:55"}
+{"level":"error","message":"imageUrl : <!DOCTYPE html>\n<html style=\"height:100%\">\n<head><title> 302 Found\r\n</title></head>\n<body style=\"color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;\">\n<div style=\"height:auto; min-height:100%; \">     <div style=\"text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;\">\n        <h1 style=\"margin:0; font-size:150px; line-height:150px; font-weight:bold;\">302</h1>\n<h2 style=\"margin-top:20px;font-size: 30px;\">Found\r\n</h2>\n<p>The document has been temporarily moved.</p>\n</div></div><div style=\"color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;\">\n<br>Proudly powered by  <a style=\"color:#fff;\" href=\"http://www.litespeedtech.com/error-page\">LiteSpeed Web Server</a><p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n","timestamp":"02:22:55"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"02:22:56"}
+{"level":"info","message":"Error : Error: read ECONNRESET","timestamp":"02:22:56"}
+{"level":"info","message":"Image Uploaded with id : 5aaed8b06509813008708419","timestamp":"02:22:56"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"02:24:00"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"02:24:00"}
+{"level":"info","message":"Image File Received Temp Name :image-1521408246888.jpg","timestamp":"02:24:06"}
+{"level":"info","message":"Image is Uploaded","timestamp":"02:24:06"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"02:24:07"}
+{"level":"error","message":"imageUrl : <!DOCTYPE html>\n<html style=\"height:100%\">\n<head><title> 302 Found\r\n</title></head>\n<body style=\"color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;\">\n<div style=\"height:auto; min-height:100%; \">     <div style=\"text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;\">\n        <h1 style=\"margin:0; font-size:150px; line-height:150px; font-weight:bold;\">302</h1>\n<h2 style=\"margin-top:20px;font-size: 30px;\">Found\r\n</h2>\n<p>The document has been temporarily moved.</p>\n</div></div><div style=\"color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;\">\n<br>Proudly powered by  <a style=\"color:#fff;\" href=\"http://www.litespeedtech.com/error-page\">LiteSpeed Web Server</a><p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n","timestamp":"02:24:07"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"02:24:07"}
+{"level":"info","message":"Error : Error: write ECONNRESET","timestamp":"02:24:07"}
+{"level":"info","message":"Image Uploaded with id : 5aaed8f77da6ad2fe4616c79","timestamp":"02:24:07"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"02:27:49"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"02:27:49"}
+{"level":"info","message":"Image File Received Temp Name :image-1521408473509.jpg","timestamp":"02:27:53"}
+{"level":"info","message":"Image is Uploaded","timestamp":"02:27:53"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"02:27:54"}
+{"level":"error","message":"imageUrl : <!DOCTYPE html>\n<html style=\"height:100%\">\n<head><title> 302 Found\r\n</title></head>\n<body style=\"color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;\">\n<div style=\"height:auto; min-height:100%; \">     <div style=\"text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;\">\n        <h1 style=\"margin:0; font-size:150px; line-height:150px; font-weight:bold;\">302</h1>\n<h2 style=\"margin-top:20px;font-size: 30px;\">Found\r\n</h2>\n<p>The document has been temporarily moved.</p>\n</div></div><div style=\"color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;\">\n<br>Proudly powered by  <a style=\"color:#fff;\" href=\"http://www.litespeedtech.com/error-page\">LiteSpeed Web Server</a><p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n","timestamp":"02:27:54"}
+{"level":"error","message":"imageUrl.indexOf(\"http://postvideo\") : -1","timestamp":"02:27:54"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"02:27:54"}
+{"level":"info","message":"Error : Error: write ECONNRESET","timestamp":"02:27:54"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"02:31:08"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"02:31:08"}
+{"level":"info","message":"Image File Received Temp Name :image-1521408669618.jpg","timestamp":"02:31:09"}
+{"level":"info","message":"Image is Uploaded","timestamp":"02:31:09"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"02:31:10"}
+{"level":"error","message":"imageUrl : <!DOCTYPE html>\n<html style=\"height:100%\">\n<head><title> 302 Found\r\n</title></head>\n<body style=\"color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;\">\n<div style=\"height:auto; min-height:100%; \">     <div style=\"text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;\">\n        <h1 style=\"margin:0; font-size:150px; line-height:150px; font-weight:bold;\">302</h1>\n<h2 style=\"margin-top:20px;font-size: 30px;\">Found\r\n</h2>\n<p>The document has been temporarily moved.</p>\n</div></div><div style=\"color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;\">\n<br>Proudly powered by  <a style=\"color:#fff;\" href=\"http://www.litespeedtech.com/error-page\">LiteSpeed Web Server</a><p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n","timestamp":"02:31:10"}
+{"level":"error","message":"imageUrl.indexOf(\"http://postvideo\") : -1","timestamp":"02:31:10"}
+{"level":"info","message":"Error : Error: write ECONNRESET","timestamp":"02:31:11"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"02:35:42"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"02:35:42"}
+{"level":"info","message":"Image File Received Temp Name :image-1521408942729.jpg","timestamp":"02:35:42"}
+{"level":"info","message":"Image is Uploaded","timestamp":"02:35:42"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"02:35:43"}
+{"level":"error","message":"imageUrl : <!DOCTYPE html>\n<html style=\"height:100%\">\n<head><title> 302 Found\r\n</title></head>\n<body style=\"color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;\">\n<div style=\"height:auto; min-height:100%; \">     <div style=\"text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;\">\n        <h1 style=\"margin:0; font-size:150px; line-height:150px; font-weight:bold;\">302</h1>\n<h2 style=\"margin-top:20px;font-size: 30px;\">Found\r\n</h2>\n<p>The document has been temporarily moved.</p>\n</div></div><div style=\"color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;\">\n<br>Proudly powered by  <a style=\"color:#fff;\" href=\"http://www.litespeedtech.com/error-page\">LiteSpeed Web Server</a><p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n","timestamp":"02:35:43"}
+{"level":"error","message":"imageUrl.indexOf(\"http://postvideo\") : -1","timestamp":"02:35:43"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"02:35:43"}
+{"level":"info","message":"Error : Error: write ECONNRESET","timestamp":"02:35:43"}

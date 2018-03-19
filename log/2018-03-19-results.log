@@ -1,0 +1,249 @@
+{"level":"info","message":"in routes - authenticate ","timestamp":"08:17:04"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"08:17:04"}
+{"level":"info","message":"Image File Received Temp Name :image-1521429425537.jpg","timestamp":"08:17:05"}
+{"level":"info","message":"Image is Uploaded","timestamp":"08:17:05"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"08:17:07"}
+{"level":"error","message":"imageUrl : <!DOCTYPE html>\n<html style=\"height:100%\">\n<head><title> 404 Not Found\r\n</title></head>\n<body style=\"color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;\">\n<div style=\"height:auto; min-height:100%; \">     <div style=\"text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;\">\n        <h1 style=\"margin:0; font-size:150px; line-height:150px; font-weight:bold;\">404</h1>\n<h2 style=\"margin-top:20px;font-size: 30px;\">Not Found\r\n</h2>\n<p>The resource requested could not be found on this server!</p>\n</div></div><div style=\"color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;\">\n<br>Proudly powered by  <a style=\"color:#fff;\" href=\"http://www.litespeedtech.com/error-page\">LiteSpeed Web Server</a><p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>\n","timestamp":"08:17:07"}
+{"level":"error","message":"imageUrl.indexOf(\"http://postvideo\") : -1","timestamp":"08:17:07"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"08:17:07"}
+{"level":"info","message":"Error : Error: write ECONNRESET","timestamp":"08:17:07"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:23:02"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:23:02"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444182942.jpg","timestamp":"12:23:02"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:23:02"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:23:05"}
+{"level":"error","message":"imageUrl : {\"imageurl\":\"https:\\/\\/brandedsms.net\\/postvideo\\/upload\\/2018-03-1907-24-21-WTCimage.jpg\"}","timestamp":"12:23:05"}
+{"level":"error","message":"imageUrl.indexOf(\"http://postvideo\") : -1","timestamp":"12:23:05"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:23:05"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:28:32"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:28:32"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444512535.jpg","timestamp":"12:28:32"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:28:32"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:28:33"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-29-49-WTCimage.jpg","timestamp":"12:28:33"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:28:33"}
+{"level":"info","message":"Image Uploaded with id : 5aaf66a1f61a4f34a060b65a","timestamp":"12:28:34"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:29:11"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:29:11"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444551851.jpg","timestamp":"12:29:11"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:29:11"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:29:12"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-30-28-WTCimage.jpg","timestamp":"12:29:12"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:29:12"}
+{"level":"info","message":"Image Uploaded with id : 5aaf66c8f61a4f34a060b65b","timestamp":"12:29:13"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:29:22"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:29:22"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444562932.jpg","timestamp":"12:29:22"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:29:22"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:29:24"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-30-40-WTCimage.jpg","timestamp":"12:29:24"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:29:24"}
+{"level":"info","message":"Image Uploaded with id : 5aaf66d4f61a4f34a060b65c","timestamp":"12:29:24"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:29:45"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:29:45"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444585925.jpg","timestamp":"12:29:45"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:29:45"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:29:47"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-31-03-WTCimage.jpg","timestamp":"12:29:47"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:29:47"}
+{"level":"info","message":"Image Uploaded with id : 5aaf66ebf61a4f34a060b65d","timestamp":"12:29:47"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:29:55"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:29:55"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444595773.jpg","timestamp":"12:29:55"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:29:55"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:29:57"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-31-12-WTCimage.jpg","timestamp":"12:29:57"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:29:57"}
+{"level":"info","message":"Image Uploaded with id : 5aaf66f5f61a4f34a060b65e","timestamp":"12:29:57"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:30:05"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:30:05"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444605426.jpg","timestamp":"12:30:05"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:30:05"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:30:06"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-31-21-WTCimage.jpg","timestamp":"12:30:06"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:30:06"}
+{"level":"info","message":"Image Uploaded with id : 5aaf66fef61a4f34a060b65f","timestamp":"12:30:06"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:30:13"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:30:13"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444613649.jpg","timestamp":"12:30:13"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:30:13"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:30:14"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-31-30-WTCimage.jpg","timestamp":"12:30:14"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:30:14"}
+{"level":"info","message":"Image Uploaded with id : 5aaf6706f61a4f34a060b660","timestamp":"12:30:14"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:30:23"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:30:23"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444624114.jpg","timestamp":"12:30:24"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:30:24"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:30:24"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-31-40-WTCimage.jpg","timestamp":"12:30:25"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:30:25"}
+{"level":"info","message":"Image Uploaded with id : 5aaf6711f61a4f34a060b661","timestamp":"12:30:25"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:30:32"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:30:32"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444632869.jpg","timestamp":"12:30:32"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:30:32"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:30:33"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-31-49-WTCimage.jpg","timestamp":"12:30:33"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:30:33"}
+{"level":"info","message":"Image Uploaded with id : 5aaf6719f61a4f34a060b662","timestamp":"12:30:34"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:30:42"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:30:42"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444642522.jpg","timestamp":"12:30:42"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:30:42"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:30:43"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-31-59-WTCimage.jpg","timestamp":"12:30:43"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:30:43"}
+{"level":"info","message":"Image Uploaded with id : 5aaf6723f61a4f34a060b663","timestamp":"12:30:43"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:30:51"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:30:51"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444651734.jpg","timestamp":"12:30:51"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:30:51"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:30:52"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-32-08-WTCimage.jpg","timestamp":"12:30:52"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:30:52"}
+{"level":"info","message":"Image Uploaded with id : 5aaf672cf61a4f34a060b664","timestamp":"12:30:52"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:31:16"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:31:16"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444676583.jpg","timestamp":"12:31:16"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:31:16"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:31:17"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-32-33-WTCimage.jpg","timestamp":"12:31:17"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:31:17"}
+{"level":"info","message":"Image Uploaded with id : 5aaf6745f61a4f34a060b665","timestamp":"12:31:17"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:31:50"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:31:50"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444711269.jpg","timestamp":"12:31:51"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:31:51"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:31:53"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-33-07-WTCimage.jpg","timestamp":"12:31:53"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:31:53"}
+{"level":"info","message":"Image Uploaded with id : 5aaf6769f61a4f34a060b666","timestamp":"12:31:53"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:32:07"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:32:07"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444727917.jpg","timestamp":"12:32:07"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:32:07"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:32:08"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-33-24-WTCimage.jpg","timestamp":"12:32:08"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:32:08"}
+{"level":"info","message":"Image Uploaded with id : 5aaf6778f61a4f34a060b667","timestamp":"12:32:08"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:32:23"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:32:23"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444743793.jpg","timestamp":"12:32:23"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:32:23"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:32:25"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-33-41-WTCimage.jpg","timestamp":"12:32:25"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:32:25"}
+{"level":"info","message":"Image Uploaded with id : 5aaf6789f61a4f34a060b668","timestamp":"12:32:25"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:32:37"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:32:37"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444758187.jpg","timestamp":"12:32:38"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:32:38"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:32:38"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-33-54-WTCimage.jpg","timestamp":"12:32:38"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:32:38"}
+{"level":"info","message":"Image Uploaded with id : 5aaf6796f61a4f34a060b669","timestamp":"12:32:38"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:32:50"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:32:50"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444770682.jpg","timestamp":"12:32:50"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:32:50"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:32:51"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-34-07-WTCimage.jpg","timestamp":"12:32:51"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:32:51"}
+{"level":"info","message":"Image Uploaded with id : 5aaf67a3f61a4f34a060b66a","timestamp":"12:32:51"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:33:02"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:33:02"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444782936.jpg","timestamp":"12:33:02"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:33:02"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:33:03"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-34-19-WTCimage.jpg","timestamp":"12:33:03"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:33:03"}
+{"level":"info","message":"Image Uploaded with id : 5aaf67aff61a4f34a060b66b","timestamp":"12:33:03"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:33:14"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:33:14"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444794965.jpg","timestamp":"12:33:14"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:33:14"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:33:15"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-34-31-WTCimage.jpg","timestamp":"12:33:15"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:33:15"}
+{"level":"info","message":"Image Uploaded with id : 5aaf67bbf61a4f34a060b66c","timestamp":"12:33:15"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:33:36"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:33:36"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444817039.jpg","timestamp":"12:33:37"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:33:37"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:33:37"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-34-53-WTCimage.jpg","timestamp":"12:33:37"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:33:37"}
+{"level":"info","message":"Image Uploaded with id : 5aaf67d1f61a4f34a060b66d","timestamp":"12:33:37"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:33:48"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:33:48"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444828724.jpg","timestamp":"12:33:48"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:33:48"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:33:49"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-35-05-WTCimage.jpg","timestamp":"12:33:49"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:33:49"}
+{"level":"info","message":"Image Uploaded with id : 5aaf67ddf61a4f34a060b66e","timestamp":"12:33:50"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:34:01"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:34:01"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444841467.jpg","timestamp":"12:34:01"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:34:01"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:34:02"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-35-18-WTCimage.jpg","timestamp":"12:34:02"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:34:02"}
+{"level":"info","message":"Image Uploaded with id : 5aaf67eaf61a4f34a060b66f","timestamp":"12:34:02"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:34:11"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:34:11"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444851840.jpg","timestamp":"12:34:11"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:34:11"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:34:12"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-35-28-WTCimage.jpg","timestamp":"12:34:12"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:34:12"}
+{"level":"info","message":"Image Uploaded with id : 5aaf67f4f61a4f34a060b670","timestamp":"12:34:12"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:34:24"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:34:24"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444864328.jpg","timestamp":"12:34:24"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:34:24"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:34:24"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-35-40-WTCimage.jpg","timestamp":"12:34:24"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:34:24"}
+{"level":"info","message":"Image Uploaded with id : 5aaf6800f61a4f34a060b671","timestamp":"12:34:25"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:34:34"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:34:34"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444874747.jpg","timestamp":"12:34:34"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:34:34"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:34:35"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-35-51-WTCimage.jpg","timestamp":"12:34:35"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:34:35"}
+{"level":"info","message":"Image Uploaded with id : 5aaf680bf61a4f34a060b672","timestamp":"12:34:35"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:34:48"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:34:48"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444889265.jpg","timestamp":"12:34:49"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:34:49"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:34:50"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-36-05-WTCimage.jpg","timestamp":"12:34:50"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:34:50"}
+{"level":"info","message":"Image Uploaded with id : 5aaf681af61a4f34a060b673","timestamp":"12:34:50"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:34:58"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:34:58"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444898841.jpg","timestamp":"12:34:58"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:34:58"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:34:59"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-36-15-WTCimage.jpg","timestamp":"12:34:59"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:34:59"}
+{"level":"info","message":"Image Uploaded with id : 5aaf6823f61a4f34a060b674","timestamp":"12:34:59"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:35:09"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:35:09"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444909734.jpg","timestamp":"12:35:09"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:35:09"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:35:10"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-36-26-WTCimage.jpg","timestamp":"12:35:10"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:35:10"}
+{"level":"info","message":"Image Uploaded with id : 5aaf682ef61a4f34a060b675","timestamp":"12:35:10"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:35:23"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:35:23"}
+{"level":"info","message":"Image File Received Temp Name :image-1521444924156.jpg","timestamp":"12:35:24"}
+{"level":"info","message":"Image is Uploaded","timestamp":"12:35:24"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:35:24"}
+{"level":"error","message":"imageUrl : https://brandedsms.net/postvideo/upload/2018-03-1907-36-40-WTCimage.jpg","timestamp":"12:35:24"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:35:24"}
+{"level":"info","message":"Image Uploaded with id : 5aaf683cf61a4f34a060b676","timestamp":"12:35:25"}

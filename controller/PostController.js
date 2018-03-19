@@ -46,7 +46,7 @@ exports.findAllPosts=function(_id,callback){
 					logger.info(posts.length + ' posts Found');
 					callback(posts);
 				} 
-				}).limit(pageSize);
+				}).sort( [['_id', -1]] ).limit(pageSize);
 		}else {
 			logger.info("In Valid Object Id");
 			Post.find({}, function(err, posts) {
@@ -120,7 +120,7 @@ exports.findTopStories=function(id,res,callback){
 								logger.info(posts.length + 'Top Story posts Found');
 								callback(posts);		
 							} 
-						}).limit(pageSize);
+						}).sort( [['_id', -1]] ).limit(pageSize);
 					}
 				
 				} 
@@ -152,7 +152,7 @@ exports.myPosts=function(postId,userId,callback){
 					logger.info(posts.length + ' posts Found');
 					callback(posts);
 				} 
-				}).limit(pageSize);
+				}).sort( [['_id', -1]] ).limit(pageSize);
 		}else {
 			logger.info("In Valid Object Id");
 			Post.find({ _postedByUserId:userId }, function(err, posts) {
@@ -211,7 +211,7 @@ exports.ownersIdeas=function(postId,callback){
 					logger.info(posts.length + ' posts Found');
 					callback(posts);
 				} 
-				}).limit(pageSize);
+				}).sort( [['_id', -1]] ).limit(pageSize);
 		}else {
 			logger.info("In Valid Object Id");
 			Post.find({ _id:postids}, function(err, posts) {
@@ -226,7 +226,7 @@ exports.ownersIdeas=function(postId,callback){
 					logger.info(posts.length + 'Owners posts Found');
 					callback(posts);		
 				} 
-			}).limit(pageSize);
+			}).sort( [['_id', -1]] ).limit(pageSize);
 			
 			}
 		}
@@ -533,7 +533,7 @@ exports.findAllQuotes=function(callback){
 				callback(quotes);
 				//process.exit();
 			} 
-			});
+			}).sort( [['_id', -1]] );
 		}catch (err){
 		logger.info('An Exception Has occured in findAllQuotes method' + err);
 	}
@@ -586,6 +586,48 @@ exports.uploadPost = function (req,_attachmentUrl,_thumbnailUrl,_postType,res){
 }
 
 
+exports.uploadImageForGallery = function (req,imageUrl,res){
+	logger.info("User Received After Authetication: "+req.user._id);
+	//logger.info("User Type: "+req.user.user_type);
+	var imageTitle=req.body.imageTitle;
+	logger.info('imageUrl : '+ imageUrl ); 
+	if(imageUrl.indexOf("https:") > -1) {
+	
+		var newPost=new GalleryImage({  
+			imageTitle:imageTitle, 
+			imageUrl:imageUrl,
+			                
+			});
+			newPost.save(function (err, post){
+				if(err){
+					logger.error('Some Error while Uploading New Image' + err ); 
+				  
+					res.jsonp({status:"Failure",
+					message:"Error in Uploading New Image",
+					object:[]});
+				}
+				else{
+				
+					logger.info('Image Uploaded with id : '+ post._id );
+					res.jsonp({status:"Success",
+									message:"Image Successfully Uploaded",
+									object:post});
+					
+				}
+			});
+	}else{
+
+		logger.error('imageUrl.indexOf("http://postvideo") : '+ imageUrl.indexOf("http://postvideo") ); 	  
+		res.jsonp({status:"Failure",
+		message:"Error in Uploading New Image",
+		object:[]});
+		
+	}
+
+
+}
+
+
 exports.getImageGallery=function(postId,callback){
  
     try{
@@ -605,7 +647,7 @@ exports.getImageGallery=function(postId,callback){
 			callback(images);
 		}
 		
-	});
+	}).sort( [['_id', -1]] );
      
 	}catch (err){
 		logger.info('An Exception Has occured in findAllPosts method' + err);

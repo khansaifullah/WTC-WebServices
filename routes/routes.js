@@ -172,8 +172,7 @@ module.exports = function(app) {
 				});
 			}	
 		});
-		//logger.info("tempFileName 1: "+tempFileName);
-
+		
 	});
 
 	app.post('/topStory',authenticate,function(req,res){                         
@@ -400,6 +399,62 @@ module.exports = function(app) {
 			 PostController.deleteQuote(quoteId,res);
 		 });
 	
+
+		 // Post Image to Gallery
+		//  app.post('/gallery/image',authenticate,function(req,res){                         
+		
+		// 	if(req.body === undefined||req.body === null) {
+		// 	 res.end("Empty Body");  
+		// 	 }
+				 
+		// 	 logger.verbose('/gallery/image-POST called '); 
+		// 	 var reqData=req.body;
+		// 	 logger.info("in routes post /gallery/image ");
+		// 	 PostController.addQuote(reqData,res);	
+		 
+		//  });
+		 app.post('/gallery/image',authenticate,upload.fields([ { name: 'image', maxCount: 1}]),
+		 function(req, resp, next){
+	
+			logger.info ("Image is Uploaded");
+			
+			var form = new FormData();
+			
+			console.log("imageFileTempName: "+imageFileTempName);
+			//form.append('video', fs.createReadStream( './/public//videos//'+videoFileTempName));
+			form.append('image', fs.createReadStream( './/public//videos//'+imageFileTempName));
+			form.submit('https://brandedsms.net/postvideo/postimage.php', function(err, res) {
+				 
+
+				console.log("In submit");
+				if (err){
+					logger.info("Error : "+ err);
+					resp.jsonp({status:"Failure",
+								message:"Error Uploading Image",
+								object:[]});
+				}else{
+					console.log("In else");
+					var body = '';
+					res.on('data', function(chunk) {
+					  body += chunk;
+					});
+					res.on('end', function() {
+					  console.log("body : "+body);
+					  var urls = JSON.parse(body);
+					  console.log("video : "+urls.imageurl);
+					 
+					  var imageUrl=urls.imageurl;
+				
+					PostController.uploadImageForGallery(req,imageUrl,resp);  
+					logger.info ("Setting tempFileNames to Null");
+					tempFileName="";
+					videoFileTempName="";
+					imageFileTempName="";
+					});
+				}	
+			});
+			
+		});
 
 		 //Get list of Images for Gallery
 		app.get('/gallery/images', authenticate,function(req, res) {
