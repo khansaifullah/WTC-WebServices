@@ -198,7 +198,7 @@ exports.ownersIdeas=function(postId,callback){
 			
 			if (ObjectId.isValid(postId)){
 				logger.info("Valid Object Id");
-				Post.find({$and: [ { _id:postids }, { _id: {'$gt': id}}  ]}, function(err, posts) {
+				Post.find({$and: [ { _id:postids }, { _id: {'$gt': postId}}  ]}, function(err, posts) {
 				
 				if (err){ 
 					 res.status(400).send({status:"Failure",
