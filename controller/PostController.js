@@ -192,7 +192,7 @@ exports.ownersIdeas=function(postId,callback){
 		else{ 
 			
 			logger.info(posts.length + ' posts Found');
-			//logger.info(posts.length + posts);
+			logger.info(posts.length);
 			var postids=[];
 			posts.forEach(post => {
 				postids.push(post._postId);
