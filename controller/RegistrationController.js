@@ -1,6 +1,7 @@
 const _ = require('lodash');
 //var AppController= require('../controller/AppController.js');
 var User = require('../models/User.js');
+var Admin = require('../models/Admin.js');
 var Owner = require('../models/Owner.js');
 var Mentor = require('../models/Mentor.js');
 var db = require('../config/db');
@@ -58,7 +59,38 @@ var userExists=function(email,callback){
     
     logger.info(' Exit UserExists Method');	
 }
-  
+
+
+
+var adminExists=function(email,callback){
+    
+    logger.info('adminExists Method Called');
+     var query = { email : email };
+     Admin.findOne(query).exec(function(err, admin){
+        if (err){
+            logger.error('Some Error while finding Admin' + err );
+            res.status(400).send({status:"failure",
+                                  message:err,
+                                  object:[]
+            });
+        }
+        else{
+            if (admin){
+                
+                logger.info('Admin Found with Email :'+email); 
+                callback (admin);
+            }
+            else{
+        
+                logger.info('Admin Not Found with Email :'+email);
+                callback( admin);
+                
+            }
+       }
+     });
+    
+    logger.info(' Exit AdminExists Method');	
+} 
 
 
 
@@ -127,18 +159,7 @@ exports.register=function(reqData,res){
                         "userType":user.user_type,
                         
                     };
-                    if (userType==="owner"){
-
-                        newOwner=new Owner({
-                            _userId:user._id
-                        });
-                        newOwner.save(function (err, owner) {
-                            if (err){
-                                logger.info ('Error While Creating New Owner ');
-                            }
-                        });
-
-                    }
+                 
                     if (userType==="owner"){
 
                         newOwner=new Owner({
@@ -202,14 +223,85 @@ exports.register=function(reqData,res){
 	}
 }
             
+exports.adminRegister=function(reqData,res){
+    
+    try{    
+    logger.info('RegistrationController.adminRegister called  :'+ reqData.email );
+    
+    var email = reqData.email;
+    var password = reqData.password;
+    var userType = "Admin";
+    var newAdmin;
+    var userResponseObject;
 
+    if (password!==undefined&&email!==undefined){
+        
+        adminExists(email,function(userExist){
+            logger.info('Admin Exists Response : ' + userExist );
+            if (userExist===null){
+                logger.info("Creation New User");
+           
+              
+                newAdmin = new Admin({  
+                            email: email,
+                            password:password,
+                            user_type:userType,
+                            verified_user:false                          
+                        });
+                        
+                newAdmin.save().then((user) => {
+                
+                    logger.info("Admin : "+ user);
+                    userResponseObject={
+                        "_id":user._id,
+                        "email":user.email,
+                        "userType":user.user_type,
+                        
+                    };
+                   
+                    return user.generateAuthToken();
+                    })
+                    .then((token) => {
+                   
+                   res.setHeader('x-auth', token);
+                   res.jsonp({status:"Success",
+                    message:"Successfully Registered",
+                    object:userResponseObject}); 
+                    })
+                    .catch((e) => {
+                    //res.status(400).send(e);
+                    logger.info('Error in Admin Registeration: ', e);
+                    res.jsonp({status:"Failure",
+                    message:"Some Error Occured While Registering New Admin",
+                    object:[]}); 
+                    })
+
+        }
+        else{
+            res.jsonp({status:"Failure",
+            message:"Admin with this Email Already Exists",
+            object:[]});
+        }
+    });
+    }
+    else {
+        res.jsonp({status:"Failure",
+        message:"Please Enter All Required Fields for Registration",
+        object:[]});
+    }
+   
+ 
+         
+    logger.info(' End RegistrationController.register Method');
+    }catch (err){
+		logger.info('An Exception Has occured in RegistrationController.register method' + err);
+	}
+}
 
 exports.login=function(reqData,res){
     var userResponseObject;
     
     try{
- 	
-    
     var email = reqData.email;
     var password = reqData.password;
     logger.info('RegistrationController.login called  :'+ email  );
@@ -251,15 +343,65 @@ exports.login=function(reqData,res){
             })
     }
     });
-
          
-    logger.info(' End RegistrationController.register Method');
+    logger.info(' End RegistrationController.login Method');
     }catch (err){
-		logger.info('An Exception Has occured in RegistrationController.register method' + err);
+		logger.info('An Exception Has occured in RegistrationController.login method' + err);
 	}
 }
 
 
+exports.adminLogin=function(reqData,res){
+    var userResponseObject;
+    
+    try{   
+    var email = reqData.email;
+    var password = reqData.password;
+    logger.info('RegistrationController.adminLogin called  :'+ email  );
+   
+//     //Check If User Exists
+    adminExists(email,function(userExist){
+    logger.info('User Exists Response : ' + userExist );
+    if (userExist===null){
+        res.jsonp({status:"Failure",
+                 message:"No Admin Exist with Email : "+email,
+                 object:[]}); 
+    }else{
+
+        Admin.findByCredentails(email, password)
+        .then((user) => {
+            
+            userResponseObject={
+                "_id":user._id,
+                "email":user.email,
+                "userType":user.user_type,
+                
+            };
+            return user.generateAuthToken().then((token) => {
+                    //res.header('x-auth', token).send(user);
+                    res.setHeader('x-auth', token);
+                    res.jsonp({status:"Success",
+                     message:"Successfully Logged In",
+                     object:userResponseObject}); 
+                    
+            });
+            
+            })
+            .catch((e) => {
+            //res.status(400).send();
+            logger.info("Exception Occured while Login"+e);
+            res.jsonp({status:"Failure",
+            message:"Unable To Login",
+            object:[]});
+            })
+    }
+    });
+         
+    logger.info(' End RegistrationController.adminLogin Method');
+    }catch (err){
+		logger.info('An Exception Has occured in RegistrationController.adminLogin method' + err);
+	}
+}
 
 
 
@@ -298,7 +440,7 @@ exports.sendVerificationCode=function(reqData,res){
     userExists(phoneNo,function(user){
 		logger.info('User Exists Response : ' + user );
         if (!user){
-             console.log (" User do not exist,  Creating user");
+             logger.info (" User does not exist,  Creating user");
             if (resend==="true"||resend==1){
             res.jsonp({status:"failure",
             message:"Please Create User First",

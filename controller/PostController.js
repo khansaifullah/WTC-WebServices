@@ -34,7 +34,7 @@ exports.findAllPosts=function(_id,callback){
 
 			logger.info("Valid Object Id");
 	
-			Post.find({'_id': {'$gt': _id}}, function(err, posts) {
+			Post.find({'_id': {'$lt': _id}}, function(err, posts) {
 				if (err){ 
 					 res.status(400).send({status:"Failure",
 											  message:err,
@@ -85,15 +85,16 @@ exports.findTopStories=function(id,res,callback){
 				else{ 
 					
 					logger.info(stories.length + ' stories Found');
-					logger.info(stories.length + stories);
+					//logger.info(stories.length + stories);
 					var postids=[];
 					stories.forEach(story => {
+						logger.info('Adding Story Post Id' + story._postId)
 						postids.push(story._postId);
 					});
 					
 					if (ObjectId.isValid(id)){
-
-						Post.find({$and: [ { _id:postids }, { _id: {'$gt': id}}  ]}, function(err, posts) {
+						logger.info('Valid Post Id : '+ id);
+						Post.find({$and: [ { _id:postids }, { _id: {'$lt': id}}  ]}, function(err, posts) {
 							if (err){
 								logger.info("Error Occured While Finding Top Story Posts"+err );
 								res.status(400).send({status:"Failure",
@@ -102,12 +103,13 @@ exports.findTopStories=function(id,res,callback){
 								});
 							}					
 							else{ 
-								logger.info(posts.length + 'Top Story posts Found');
+								logger.info(posts.length + ' Top Story posts Found');
 								callback(posts);		
 							} 
-						}).limit(pageSize);
+						}).sort( [['_id', -1]] ).limit(pageSize);
 					}
 					else{
+						logger.info('Invalid Post Id : '+ id);
 						Post.find({ _id:postids}, function(err, posts) {
 							if (err){
 								logger.info("Error Occured While Finding Top Story Posts"+err );
@@ -128,7 +130,7 @@ exports.findTopStories=function(id,res,callback){
 			});
    
 		}catch (err){
-		logger.info('An Exception Has occured in findAllPosts method' + err);
+		logger.info('An Exception Has occured in findTopStories method' + err);
 	}
 }
 
@@ -139,8 +141,8 @@ exports.myPosts=function(postId,userId,callback){
 		if (ObjectId.isValid(postId)){
 
 			logger.info("Valid Object Id");
-			Post.find({$and: [ { _postedByUserId:userId }, { _id: {'$gt': id}}  ]}, function(err, posts) {
-			//Post.find({'_id': {'$gt': postId}}, function(err, posts) {
+			Post.find({$and: [ { _postedByUserId:userId }, { _id: {'$lt': id}}  ]}, function(err, posts) {
+	
 				if (err){ 
 					 res.status(400).send({status:"Failure",
 											  message:err,
@@ -198,7 +200,7 @@ exports.ownersIdeas=function(postId,callback){
 			
 			if (ObjectId.isValid(postId)){
 				logger.info("Valid Object Id");
-				Post.find({$and: [ { _id:postids }, { _id: {'$gt': postId}}  ]}, function(err, posts) {
+				Post.find({$and: [ { _id:postids }, { _id: {'$lt': postId}}  ]}, function(err, posts) {
 				
 				if (err){ 
 					 res.status(400).send({status:"Failure",

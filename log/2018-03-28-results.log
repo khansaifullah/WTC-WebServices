@@ -1,0 +1,69 @@
+{"level":"verbose","message":"/admin/register-POST called ","timestamp":"13:55:02"}
+{"level":"info","message":"in routes /admin/register - Req Data : [object Object]","timestamp":"13:55:03"}
+{"level":"info","message":"RegistrationController.adminRegister called  :SaifTesting1@gmail.com","timestamp":"13:55:03"}
+{"level":"info","message":"UserExists Method Called","timestamp":"13:55:03"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"13:55:03"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"13:55:03"}
+{"level":"info","message":"User Found with Email :SaifTesting1@gmail.com","timestamp":"13:55:03"}
+{"level":"info","message":"User Exists Response : { _id: 5aa854a0da9adf34c8aa796c,\n  updatedAt: 2018-03-13T22:46:18.028Z,\n  createdAt: 2018-03-13T22:45:52.349Z,\n  email: 'SaifTesting1@gmail.com',\n  password: '$2a$10$Hukyx.FwRdr0aKPKaxVKEecunh336WYoJwczPyGrW3Yu2pKjbfyZm',\n  user_type: 'mentor',\n  verified_user: false,\n  __v: 2,\n  deactivate_user: false,\n  tokens: \n   [ { access: 'auth',\n       token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWE4NTRhMGRhOWFkZjM0YzhhYTc5NmMiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwOTgxMTUyfQ.0YTNwsjVssJBXKK4UW1upohBohrLTa28vpKcLDeN_VA',\n       _id: 5aa854a0da9adf34c8aa796e },\n     { access: 'auth',\n       token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWE4NTRhMGRhOWFkZjM0YzhhYTc5NmMiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwOTgxMTc4fQ.2qMmnQb-DPzi0OvT_HPdWYRAdCDyKmtmv6OA1lmGtts',\n       _id: 5aa854bada9adf34c8aa796f } ],\n  profile_photo_url: null }","timestamp":"13:55:04"}
+{"level":"verbose","message":"/admin/register-POST called ","timestamp":"13:56:57"}
+{"level":"info","message":"in routes /admin/register - Req Data : [object Object]","timestamp":"13:56:57"}
+{"level":"info","message":"RegistrationController.adminRegister called  :SaifTesting1@gmail.com","timestamp":"13:56:57"}
+{"level":"info","message":"UserExists Method Called","timestamp":"13:56:57"}
+{"level":"info","message":" Exit UserExists Method","timestamp":"13:56:57"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"13:56:57"}
+{"level":"info","message":"User Found with Email :SaifTesting1@gmail.com","timestamp":"13:56:57"}
+{"level":"info","message":"User Exists Response : { _id: 5aa854a0da9adf34c8aa796c,\n  updatedAt: 2018-03-13T22:46:18.028Z,\n  createdAt: 2018-03-13T22:45:52.349Z,\n  email: 'SaifTesting1@gmail.com',\n  password: '$2a$10$Hukyx.FwRdr0aKPKaxVKEecunh336WYoJwczPyGrW3Yu2pKjbfyZm',\n  user_type: 'mentor',\n  verified_user: false,\n  __v: 2,\n  deactivate_user: false,\n  tokens: \n   [ { access: 'auth',\n       token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWE4NTRhMGRhOWFkZjM0YzhhYTc5NmMiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwOTgxMTUyfQ.0YTNwsjVssJBXKK4UW1upohBohrLTa28vpKcLDeN_VA',\n       _id: 5aa854a0da9adf34c8aa796e },\n     { access: 'auth',\n       token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWE4NTRhMGRhOWFkZjM0YzhhYTc5NmMiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwOTgxMTc4fQ.2qMmnQb-DPzi0OvT_HPdWYRAdCDyKmtmv6OA1lmGtts',\n       _id: 5aa854bada9adf34c8aa796f } ],\n  profile_photo_url: null }","timestamp":"13:56:57"}
+{"level":"verbose","message":"/admin/register-POST called ","timestamp":"14:07:39"}
+{"level":"info","message":"in routes /admin/register - Req Data : [object Object]","timestamp":"14:07:40"}
+{"level":"info","message":"RegistrationController.adminRegister called  :SaifTesting1@gmail.com","timestamp":"14:07:40"}
+{"level":"info","message":"adminExists Method Called","timestamp":"14:07:40"}
+{"level":"info","message":" Exit AdminExists Method","timestamp":"14:07:40"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"14:07:40"}
+{"level":"info","message":"Admin Not Found with Email :SaifTesting1@gmail.com","timestamp":"14:07:43"}
+{"level":"info","message":"Admin Exists Response : null","timestamp":"14:07:43"}
+{"level":"info","message":"Creation New User","timestamp":"14:07:43"}
+{"level":"info","message":"Admin : { __v: 0,\n  updatedAt: 2018-03-28T09:07:43.350Z,\n  createdAt: 2018-03-28T09:07:43.350Z,\n  email: 'SaifTesting1@gmail.com',\n  password: '$2a$10$z1oN9d9uIDkeZz9GgWmD9uu7Fp.S4aPyuTYblO58b3WzibIvlHGm.',\n  user_type: 'Admin',\n  verified_user: false,\n  _id: 5abb5b5f8720401e8ce66a94,\n  deactivate_user: false,\n  tokens: [],\n  profile_photo_url: null }","timestamp":"14:07:48"}
+{"level":"verbose","message":"/admin/register-POST called ","timestamp":"14:08:08"}
+{"level":"info","message":"in routes /admin/register - Req Data : [object Object]","timestamp":"14:08:08"}
+{"level":"info","message":"RegistrationController.adminRegister called  :SaifTesting1@gmail.com","timestamp":"14:08:08"}
+{"level":"info","message":"adminExists Method Called","timestamp":"14:08:08"}
+{"level":"info","message":" Exit AdminExists Method","timestamp":"14:08:08"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"14:08:08"}
+{"level":"info","message":"Admin Found with Email :SaifTesting1@gmail.com","timestamp":"14:08:09"}
+{"level":"info","message":"Admin Exists Response : { _id: 5abb5b5f8720401e8ce66a94,\n  updatedAt: 2018-03-28T09:07:48.457Z,\n  createdAt: 2018-03-28T09:07:43.350Z,\n  email: 'SaifTesting1@gmail.com',\n  password: '$2a$10$z1oN9d9uIDkeZz9GgWmD9uu7Fp.S4aPyuTYblO58b3WzibIvlHGm.',\n  user_type: 'Admin',\n  verified_user: false,\n  __v: 1,\n  deactivate_user: false,\n  tokens: \n   [ { access: 'auth',\n       token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWJiNWI1Zjg3MjA0MDFlOGNlNjZhOTQiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIyMjI4MDY4fQ.LqK5pVxrXOx9tdZR6n7G_YzdsyWAjEeaKTVpEYnSvpk',\n       _id: 5abb5b648720401e8ce66a95 } ],\n  profile_photo_url: null }","timestamp":"14:08:10"}
+{"level":"verbose","message":"/admin/register-POST called ","timestamp":"14:17:28"}
+{"level":"info","message":"in routes /admin/register - Req Data : [object Object]","timestamp":"14:17:46"}
+{"level":"info","message":"RegistrationController.adminRegister called  :admin@gmail.com","timestamp":"14:17:46"}
+{"level":"info","message":"adminExists Method Called","timestamp":"14:17:46"}
+{"level":"info","message":" Exit AdminExists Method","timestamp":"14:17:46"}
+{"level":"info","message":" End RegistrationController.register Method","timestamp":"14:17:46"}
+{"level":"info","message":"Admin Not Found with Email :admin@gmail.com","timestamp":"14:17:47"}
+{"level":"info","message":"Admin Exists Response : null","timestamp":"14:17:47"}
+{"level":"info","message":"Creation New User","timestamp":"14:17:47"}
+{"level":"info","message":"Admin : { __v: 0,\n  updatedAt: 2018-03-28T09:17:47.209Z,\n  createdAt: 2018-03-28T09:17:47.209Z,\n  email: 'admin@gmail.com',\n  password: '$2a$10$L/5kO0J5.Nq8PdvePGTAKeAWdljBogV2WPvOsVGrWrcijZBBQsM4y',\n  user_type: 'Admin',\n  verified_user: false,\n  _id: 5abb5dbb8720401e8ce66a96,\n  deactivate_user: false,\n  tokens: [],\n  profile_photo_url: null }","timestamp":"14:17:47"}
+{"level":"verbose","message":"login-POST called ","timestamp":"14:18:07"}
+{"level":"info","message":"in routes /login - Req Data : [object Object]","timestamp":"14:18:07"}
+{"level":"info","message":"RegistrationController.adminLogin called  :admin1@gmail.com","timestamp":"14:18:07"}
+{"level":"info","message":"adminExists Method Called","timestamp":"14:18:07"}
+{"level":"info","message":" Exit AdminExists Method","timestamp":"14:18:07"}
+{"level":"info","message":" End RegistrationController.adminLogin Method","timestamp":"14:18:07"}
+{"level":"info","message":"Admin Not Found with Email :admin1@gmail.com","timestamp":"14:18:08"}
+{"level":"info","message":"User Exists Response : null","timestamp":"14:18:08"}
+{"level":"verbose","message":"login-POST called ","timestamp":"14:18:21"}
+{"level":"info","message":"in routes /login - Req Data : [object Object]","timestamp":"14:18:21"}
+{"level":"info","message":"RegistrationController.adminLogin called  :admin@gmail.com","timestamp":"14:18:21"}
+{"level":"info","message":"adminExists Method Called","timestamp":"14:18:21"}
+{"level":"info","message":" Exit AdminExists Method","timestamp":"14:18:21"}
+{"level":"info","message":" End RegistrationController.adminLogin Method","timestamp":"14:18:21"}
+{"level":"info","message":"Admin Found with Email :admin@gmail.com","timestamp":"14:18:22"}
+{"level":"info","message":"User Exists Response : { _id: 5abb5dbb8720401e8ce66a96,\n  updatedAt: 2018-03-28T09:17:47.629Z,\n  createdAt: 2018-03-28T09:17:47.209Z,\n  email: 'admin@gmail.com',\n  password: '$2a$10$L/5kO0J5.Nq8PdvePGTAKeAWdljBogV2WPvOsVGrWrcijZBBQsM4y',\n  user_type: 'Admin',\n  verified_user: false,\n  __v: 1,\n  deactivate_user: false,\n  tokens: \n   [ { access: 'auth',\n       token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWJiNWRiYjg3MjA0MDFlOGNlNjZhOTYiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIyMjI4NjY3fQ.xelDv8bdyG-Gn3Z7RqNZoJ-ncXfyix24gz8bvVhR_6c',\n       _id: 5abb5dbb8720401e8ce66a97 } ],\n  profile_photo_url: null }","timestamp":"14:18:22"}
+{"level":"info","message":"Exception Occured while Loginundefined","timestamp":"14:18:22"}
+{"level":"verbose","message":"login-POST called ","timestamp":"14:18:29"}
+{"level":"info","message":"in routes /login - Req Data : [object Object]","timestamp":"14:18:29"}
+{"level":"info","message":"RegistrationController.adminLogin called  :admin@gmail.com","timestamp":"14:18:29"}
+{"level":"info","message":"adminExists Method Called","timestamp":"14:18:29"}
+{"level":"info","message":" Exit AdminExists Method","timestamp":"14:18:29"}
+{"level":"info","message":" End RegistrationController.adminLogin Method","timestamp":"14:18:29"}
+{"level":"info","message":"Admin Found with Email :admin@gmail.com","timestamp":"14:18:29"}
+{"level":"info","message":"User Exists Response : { _id: 5abb5dbb8720401e8ce66a96,\n  updatedAt: 2018-03-28T09:17:47.629Z,\n  createdAt: 2018-03-28T09:17:47.209Z,\n  email: 'admin@gmail.com',\n  password: '$2a$10$L/5kO0J5.Nq8PdvePGTAKeAWdljBogV2WPvOsVGrWrcijZBBQsM4y',\n  user_type: 'Admin',\n  verified_user: false,\n  __v: 1,\n  deactivate_user: false,\n  tokens: \n   [ { access: 'auth',\n       token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWJiNWRiYjg3MjA0MDFlOGNlNjZhOTYiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIyMjI4NjY3fQ.xelDv8bdyG-Gn3Z7RqNZoJ-ncXfyix24gz8bvVhR_6c',\n       _id: 5abb5dbb8720401e8ce66a97 } ],\n  profile_photo_url: null }","timestamp":"14:18:29"}

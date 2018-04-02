@@ -113,6 +113,19 @@ module.exports = function(app) {
 		 regCtrl.register(reqData,res);	
 	 
 	 });
+
+	 app.post('/admin/register',function(req,res){                         
+		
+		if(req.body === undefined||req.body === null) {
+		 res.end("Empty Body");  
+		 }
+			 
+		 logger.verbose('/admin/register-POST called '); 
+		 var reqData=req.body;
+		 logger.info("in routes /admin/register - Req Data : "+ reqData);
+		 regCtrl.adminRegister(reqData,res);	
+	 
+	 });
 	
 	app.post('/login', (req, res) => {
 		if(req.body === undefined||req.body === null) {
@@ -128,6 +141,20 @@ module.exports = function(app) {
 		
 	});
 
+
+	app.post('/admin/login', (req, res) => {
+		if(req.body === undefined||req.body === null) {
+			res.end("Empty Body");  
+			}
+				
+			logger.verbose('login-POST called ');	
+			var reqData=req.body;
+			//console.log("reqData : "+ reqData.phoneNo);
+			// let phoneNo = req.query.phoneNo;;
+			logger.info("in routes /login - Req Data : "+ reqData);   
+			regCtrl.adminLogin(reqData,res);
+		
+	});
 	var upload = multer({ storage : storage });
 
 	app.post('/upload/video2',authenticate,upload.fields([{ name: 'video', maxCount: 1}, { name: 'image', maxCount: 1}]),
