@@ -14,7 +14,7 @@ mongoose.Promise = global.Promise;
 mongoose.connect(db.url);
 
 // Heroku assigns a port if port = process.env.PORT  
-var port = process.env.PORT || 3300;
+var port = process.env.PORT || 3500;
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 app.use(express.static('public'))

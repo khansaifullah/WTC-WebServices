@@ -25,7 +25,7 @@ exports.findAllUser=function(callback){
     try{
 			User.find({}, function(err, users) {
 			if (err){
-				 res.status(400).send({status:"failure",
+				 res.status(400).send({status:"Failure",
 										  message:err,
 										  object:[]
 										});
@@ -90,9 +90,9 @@ exports.findAllPhoneNo=function(callback){
 	}
 }
 
-exports.userExists=function(phoneNo,callback){
+exports.userExists=function(email,callback){
 	try{
-			 var query = { phone : phoneNo };
+			 var query = { email : email };
 			 User.findOne(query).exec(function(err, user){
 				if (err){
 					res.status(400).send({status:"failure",
@@ -102,11 +102,11 @@ exports.userExists=function(phoneNo,callback){
 				}
 				else{
 					if (user){
-					   logger.info("user found with phone no "+phoneNo);
+					   logger.info("user found with email "+email);
 						callback (user);
 					}
 					else{
-						logger.info("user not found with phone no "+phoneNo);
+						logger.info("user not found with email "+email);
 						callback( user);
 						
 					}

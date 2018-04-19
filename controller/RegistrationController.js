@@ -55,7 +55,7 @@ var userExists=function(email,callback){
                 
             }
        }
-     });
+     } );
     
     logger.info(' Exit UserExists Method');	
 }

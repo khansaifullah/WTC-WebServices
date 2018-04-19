@@ -1,5 +1,6 @@
 const _ = require('lodash');
 //var AppController= require('../controller/AppController.js');
+var NotificationController= require('../controller/PushNotificationController.js');
 var User = require('../models/User.js');
 var Owner = require('../models/Owner.js');
 var Post = require('../models/Post.js');

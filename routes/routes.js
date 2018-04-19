@@ -497,6 +497,46 @@ module.exports = function(app) {
 			});	
 
 		});
+
+		
+	/********  Admin Panel Apis********/
+	
+	 // getting List of users
+	 app.get('/users', authenticate, function(req,res){ 
+      	
+		logger.info("In routes get users");
+		AppController.findAllUser(function (users) {
+            logger.info("Response Of findAllUser Method");
+			res.jsonp({ status:"Success",
+                        message:"List Of users",
+                        object:users});
+                             
+	});		
+	});
+	 		 // getting User  By user id in Query Params
+	app.get('/user', authenticate, function(req,res){
+      	//var email = req.body.email;
+		let email = req.query.email;
+		logger.info("In routes get single user, where email : "+email);
+		AppController.userExists(email,function (user) {
+            logger.info("Response Of userExists Method : " + user);
+			
+			
+			if (user){
+			res.jsonp({status:"Success",
+                        message:"User Found",
+                        object:user});
+			}
+			else{
+			res.jsonp({status:"Failure",
+                        message:"User Not Found",
+                        object:[]});
+				
+			}
+                             
+	});		
+	});
+	
 };
 	 
 
@@ -613,547 +653,6 @@ module.exports = function(app) {
 		
 // 	});
     
-
-// 	app.post('/profilePhoto',function(req,res){
-		
-// 	   if(req.body === undefined||req.body === null) {
-//         res.end("Empty Body"); 
-//         }
-		
-// 		console.log("in routes");
-        
-// 		var upload = multer({
-// 			storage: storage,
-// 			fileFilter: function(req, file, callback) {
-// 				var ext = path.extname(file.originalname)
-// 				if (ext !== '.png' && ext !== '.jpg' && ext !== '.gif' && ext !== '.jpeg' && ext !== '.PNG' && ext !== '.JPG' && ext !== '.GIF' && ext !== '.JPEG') {
-// 					return callback(res.end('Only images are allowed'), null)
-// 				}
-// 				callback(null, true)
-// 			}
-// 		}).single('profilePhoto');
-// 		upload(req, res, function(err) {
-// 			if (err){
-// 				res.jsonp({status:"Failure",
-// 							message:"Error Uploading File",
-// 							object:[]});
-// 			}
-// 			else{        
-// 				logger.info ("Photo Is uploaded");
-// 				console.log(req.body.phone);
-// 			 //geneterate a url 
-// 			var profilePhotoUrl="https://aldaalah.herokuapp.com/images/profileImages/"+tempFileName;
-// 			//var profilePhotoUrl ="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAA1DAAAAJDAzYjg1ZDYwLTI1YjQtNDJkOS04OTkwLTUyMjkwNGJiMTY4Yg.jpg";
-		
-// 			regCtrl.updateProfilePhoto(req.body.phone,profilePhotoUrl,function(data){
-// 				tempFileName="";
-// 			});            
-				
-// 			}
-		
-// 		})
-		
-// 	});
-
-// 	app.post('/updateProfile',function(req,res){
-		
-// 		console.log("in routes updateProfile");
-// 		var user;
-// 		if(req.body === undefined||req.body === null) {
-//         res.end("Empty Body"); 
-//         }
-		
-// 		var upload = multer({
-// 			storage: storage,
-// 			fileFilter: function(req, file, callback) {
-// 				var ext = path.extname(file.originalname)
-// 				if (ext !== '.png' && ext !== '.jpg' && ext !== '.gif' && ext !== '.jpeg' && ext !== '.PNG' && ext !== '.JPG' && ext !== '.GIF' && ext !== '.JPEG') {
-// 					return callback(res.end('Only images are allowed'), null)
-// 				}
-// 				callback(null, true)
-// 			}
-// 		}).single('profilePhoto');
-// 		upload(req, res, function(err) {
-// 			if (err){
-// 				res.jsonp({status:"Failure",
-// 							message:"Error Uploading File",
-// 							object:[]});
-// 			}
-// 			else{      
-			
-// 				logger.info ("Photo Is uploaded");
-// 				console.log(req.body.phoneNo);
-// 				//geneterate a url 
-// 				var profilePhotoUrl="https://aldaalah.herokuapp.com/images/profileImages/"+tempFileName;
-// 				//var profilePhotoUrl ="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAA1DAAAAJDAzYjg1ZDYwLTI1YjQtNDJkOS04OTkwLTUyMjkwNGJiMTY4Yg.jpg";
-// 				console.log ("updateProfilePhotoFlag Without Parsing: " + req.body.updateProfilePhoto);
-// 				var updateProfilePhotoFlag = JSON.parse(req.body.updateProfilePhoto);
-// 				console.log ("updateProfilePhotoFlag with parsing : " + updateProfilePhotoFlag);
-// 				if ((req.body.updateProfilePhoto)&&(req.body.updateName)){
-// 					//update picture
-// 					regCtrl.updateProfilePhoto(req.body.phoneNo,profilePhotoUrl,function (data){
-// 						tempFileName="";
-// 					if (data){
-// 						 logger.info ('data received after updating profile picture');
-// 						 //update Name
-// 						regCtrl.updateName(req,function (user){
-// 						 if (user){
-// 							logger.info ('data received after updating profile picture');
-// 							res.jsonp({ status:"success",
-// 							message:"Profile has been Updated!",
-// 							object:user});
-// 						 }
-// 						 else{
-							 
-// 						 }
-// 						});
-// 					}
-// 					else{
-						
-// 					}
-// 					});
-					
-					
-// 				}
-// 				else {
-// 					if (req.body.updateProfilePhoto){
-// 						regCtrl.updateProfilePhoto(req.body.phoneNo,profilePhotoUrl,function (data){
-// 							tempFileName="";
-// 						if (data){
-// 							 user=data;
-// 							 res.jsonp({ status:"success",
-// 							message:"Profile Photo has been Updated!",
-// 							object:user});
-// 						}
-// 						});
-						
-// 					}
-// 					//Updating Name
-// 					if (req.body.updateName){
-// 						regCtrl.updateName(req,function (data){
-// 						if (data){
-// 							 user=data;
-// 							 res.jsonp({ status:"success",
-// 							message:"Name has been Updated!",
-// 							object:user});
-// 						}
-// 						});
-					
-// 					}
-// 				}
-					
-// 			}
-// 			});            
-// 	});
-		
-		
-//     app.post('/contacts',function(req,res){
-		
-// 	   if(req.body === undefined||req.body === null) {
-//         res.end("Empty Body"); 
-//         }
-// 		console.log("in routes /contacts");
-// 		regCtrl.syncContacts(req,res);
-// 	});
-  
-    
-//     app.get('/country',function(req,res){
-// //		  console.log("start"); 
-// //	      var country = new Country({ 
-// //                    _id:"4",
-// //                    country_id:4,
-// //                    name: "India", 
-// //                    code:"021",
-// //                    shortForm:"ind"
-// //                     });
-// //          country.save(function (err, country) {
-// //               console.log("in save"); 
-// //                    if(err){
-// //                       console.log(err); 
-// //                    }
-// //              else
-// //                  console.log("Country Saved"+country); 
-// //                    
-// //          });
-        
-// 		console.log("in routes get country");
-// 		AppController.findAllCountries(function (countries) {
-// 			console.log("Response Of findAllCountries Method");
-// 			res.jsonp({status:"success",
-//                         message:"List Of countries",
-//                         object:countries});
-                             
-// 	});		
-// 	});
-
-//     	app.post('/group',function(req,res){
-		
-// 	   if(req.body === undefined||req.body === null) {
-//         res.end("Empty Body"); 
-//         }
-		
-// 		console.log("in routes - group" );
-// 		var reqData=req.body;
-//          logger.info("reqData  :"+reqData.groupName);
-		 
-		 
-		 
-// 	 var upload = multer({
-// 		storage: storage,
-// 		fileFilter: function(req, file, callback) {
-				
-// 			var ext = path.extname(file.originalname)
-// 			if (ext !== '.png' && ext !== '.jpg' && ext !== '.gif' && ext !== '.jpeg' && ext !== '.PNG' && ext !== '.JPG' && ext !== '.GIF' && ext !== '.JPEG') {
-// 				return callback(res.end('Only images are allowed'), null)
-// 			}
-// 			callback(null, true)
-// 		}
-// 	}).single('profilePhoto');
-
-// 	//var file=upload.single('profilePhoto');
-// 	//console.log ('logging file : '+file);
-// 	//console.log ('logging upload : '+upload);
-// 	upload(req, res, function(err) {
-//         if (err){
-//             res.jsonp({status:"Failure",
-//                         message:"Error Uploading File",
-//                         object:[]});
-//         }
-//         else{  
-		
-//         logger.info ("Photo Is uploaded");
-// 		//if ()
-// 			//.single(fieldname
-// 		console.log (req.files);
-// 		var profilePhotoUrl="https://aldaalah.herokuapp.com/images/profileImages/"+tempFileName;
-// 		//var profilePhotoUrl ="https://cdn0.iconfinder.com/data/icons/education-59/128/communication_discussion_workshop-256.png"; 
-// 		ChatController.createGroup(req.body,profilePhotoUrl,res);	
-// 		tempFileName="";		
-// 		}
-		
-// 	});
-// 	});
-	
-	
-// 	app.post('/updateGroup',function(req,res){
-		
-// 		console.log("in routes updateGroup");
-// 		var conversation;
-// 		var conversationId
-// 		if(req.body === undefined||req.body === null) {
-//         res.end("Empty Body"); 
-//         }		
-// 		var upload = multer({
-// 			storage: storage,
-// 			fileFilter: function(req, file, callback) {
-// 				var ext = path.extname(file.originalname)
-// 				if (ext !== '.png' && ext !== '.jpg' && ext !== '.gif' && ext !== '.jpeg' && ext !== '.PNG' && ext !== '.JPG' && ext !== '.GIF' && ext !== '.JPEG') {
-// 					return callback(res.end('Only images are allowed'), null)
-// 				}
-// 				callback(null, true)
-// 			}
-// 		}).single('profilePhoto');
-// 		upload(req, res, function(err) {
-// 			if (err){
-// 				res.jsonp({status:"Failure",
-// 							message:"Error Uploading File",
-// 							object:[]});
-// 			}
-// 			else{
-// 				try{
-// 					var myDate;
-// 					var createdDate;
-// 				conversationId = req.body.conversationId;
-// 				logger.info ("Photo Is uploaded");
-// 				console.log("Conversation id : "+conversationId);
-// 				//geneterate a url 
-// 				var profilePhotoUrl="https://aldaalah.herokuapp.com/images/profileImages/"+tempFileName;
-// 				//var profilePhotoUrl ="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAA1DAAAAJDAzYjg1ZDYwLTI1YjQtNDJkOS04OTkwLTUyMjkwNGJiMTY4Yg.jpg";
-// 				console.log ("updateProfilePhotoFlag Without Parsing: " + req.body.updateProfilePhoto);
-// 				var updateProfilePhotoFlag = JSON.parse(req.body.updateProfilePhoto);
-// 				var updateNameFlag = JSON.parse(req.body.updateName);
-// 				console.log ("updateProfilePhotoFlag with parsing : " + updateProfilePhotoFlag);
-// 				if ((updateProfilePhotoFlag)&&(updateNameFlag)){
-// 					//update picture
-// 					ChatController.updateGroupProfilePhoto(conversationId,profilePhotoUrl,function (data){
-// 						tempFileName="";
-// 					if (data){
-// 						 logger.info ('data received after updating Group profile picture');
-// 						 //update Name
-// 						ChatController.updateGroupName(req,function (group){
-// 						 if (group){
-// 							 conversation=group;
-							 
-// 					//Sending update group Notifcation
-// 						ChatController.findConversationMembers(conversationId, function(members){
-// 						if (members){
-// 								logger.info ('findConversationMembers Response, Members List Size : ' + members.length);
-// 								myDate = new Date(conversation.createdAt);
-// 								createdDate = myDate.getTime();
-								
-// 								var conversationObj ={
-// 										//fromPhoneNo:userMobileNumberFrom,	
-// 										conversationId:conversationId, 
-// 										isGroupConversation:conversation.isGroupConversation,
-// 										adminMobile:conversation.adminMobile,
-// 										photoUrl:conversation.conversationImageUrl,
-// 										conversationName:conversation.conversationName,
-// 										createdAt:createdDate,
-										
-// 										}
-									
-										
-// 										//Notifying All Group Members
-// 								for (var i=0; i < members.length ; i++){
-// 									var phoneNo=members[i]._userMobile;
-// 									if (phoneNo!==(conversationObj.adminMobile)){
-										
-										
-// 										//Sending Push Notiifcation To Group Members								
-// 										logger.info('Sending Onesignal Notifcation of groupConversationRequest to '+  phoneNo  );
-// 										//var phoneNo=members[i]._userMobile;
-// 										var query = { phone : phoneNo };
-										
-// 										User.findOne(query).exec(function(err, user){
-// 											if (err){
-// 											 logger.error('Some Error occured while finding user' + err );
-// 											 }
-// 											if (user){
-// 											logger.info('User Found For Phone No: ' + phoneNo );
-// 											logger.info('Sending Notification to player id ' + user.palyer_id );
-// 											NotificationController.sendNotifcationToPlayerId(user.palyer_id,conversationObj,"groupUpdateRequest");
-// 											}
-// 											else {
-// 											 logger.info('User not Found For Phone No: ' + phoneNo );                 
-// 											}                               
-// 										});
-// 									}								
-// 								}
-// 						}
-// 						});
-// 							logger.info ('data received after updating profile picture');
-// 							res.jsonp({ status:"success",
-// 							message:"Group has been Updated!",
-// 							object:group});
-// 						 }
-// 						 else{
-							 
-// 						 }
-// 						});
-// 					}
-// 					else{
-						
-// 					}
-// 					});
-				
-// 				}
-// 				else {
-// 					if (updateProfilePhotoFlag){
-// 						ChatController.updateGroupProfilePhoto(conversationId,profilePhotoUrl,function (data){
-// 							tempFileName="";
-// 						if (data){
-// 							 conversation=data;
-							  
-// 					//Sending update group Notifcation
-// 						ChatController.findConversationMembers(conversationId, function(members){
-// 						if (members){
-// 								logger.info ('findConversationMembers Response, Members List Size : ' + members.length);
-// 								myDate = new Date(conversation.createdAt);
-// 								createdDate = myDate.getTime();
-								
-// 								var conversationObj ={
-// 										//fromPhoneNo:userMobileNumberFrom,	
-// 										conversationId:conversationId, 
-// 										isGroupConversation:conversation.isGroupConversation,
-// 										adminMobile:conversation.adminMobile,
-// 										photoUrl:conversation.conversationImageUrl,
-// 										conversationName:conversation.conversationName,
-// 										createdAt:createdDate,
-										
-// 										}
-									
-										
-// 										//Notifying All Group Members
-// 								for (var i=0; i < members.length ; i++){
-// 									var phoneNo=members[i]._userMobile;
-// 									if (phoneNo!==(conversationObj.adminMobile)){
-										
-										
-// 										//Sending Push Notiifcation To Group Members								
-// 										logger.info('Sending Onesignal Notifcation of groupConversationRequest to '+  phoneNo  );
-// 										//var phoneNo=members[i]._userMobile;
-// 										var query = { phone : phoneNo };
-										
-// 										User.findOne(query).exec(function(err, user){
-// 											if (err){
-// 											 logger.error('Some Error occured while finding user' + err );
-// 											 }
-// 											if (user){
-// 											logger.info('User Found For Phone No: ' + phoneNo );
-// 											logger.info('Sending Notification to player id ' + user.palyer_id );
-// 											if (!user.deactivate_user){
-// 											NotificationController.sendNotifcationToPlayerId(user.palyer_id,conversationObj,"groupUpdateRequest");	
-// 											}else{
-// 												logger.info('Can not send notification to deactivated user :  ' +phoneNo  );    
-												
-// 											}
-											
-// 											}
-// 											else {
-// 											 logger.info('User not Found For Phone No: ' + phoneNo );                 
-// 											}                               
-// 										});
-// 									}								
-// 								}
-// 						}
-// 						});
-// 							 res.jsonp({ status:"success",
-// 							message:"Group Profile Photo has been Updated!",
-// 							object:conversation});
-// 						}
-// 						});
-// 					}
-// 					//Updating Name
-// 					if (updateNameFlag){
-// 						ChatController.updateGroupName(req,function (data){
-// 						if (data){
-// 							 conversation=data;
-							  
-// 					//Sending update group Notifcation
-// 						ChatController.findConversationMembers(conversationId, function(members){
-// 						if (members){
-// 								logger.info ('findConversationMembers Response, Members List Size : ' + members.length);
-// 								myDate = new Date(conversation.createdAt);
-// 								createdDate = myDate.getTime();
-								
-// 								var conversationObj ={
-// 										//fromPhoneNo:userMobileNumberFrom,	
-// 										conversationId:conversationId, 
-// 										isGroupConversation:conversation.isGroupConversation,
-// 										adminMobile:conversation.adminMobile,
-// 										photoUrl:conversation.conversationImageUrl,
-// 										conversationName:conversation.conversationName,
-// 										createdAt:createdDate,
-										
-// 										}
-									
-										
-// 										//Notifying All Group Members
-// 								for (var i=0; i < members.length ; i++){
-// 									var phoneNo=members[i]._userMobile;
-// 									if (phoneNo!==(conversationObj.adminMobile)){
-										
-										
-// 										//Sending Push Notiifcation To Group Members								
-// 										logger.info('Sending Onesignal Notifcation of groupConversationRequest to '+  phoneNo  );
-// 										//var phoneNo=members[i]._userMobile;
-// 										var query = { phone : phoneNo };
-										
-// 										User.findOne(query).exec(function(err, user){
-// 											if (err){
-// 											 logger.error('Some Error occured while finding user' + err );
-// 											 }
-// 											if (user){
-// 											logger.info('User Found For Phone No: ' + phoneNo );
-// 											logger.info('Sending Notification to player id ' + user.palyer_id );
-// 											NotificationController.sendNotifcationToPlayerId(user.palyer_id,conversationObj,"groupUpdateRequest");
-// 											}
-// 											else {
-// 											 logger.info('User not Found For Phone No: ' + phoneNo );                 
-// 											}                               
-// 										});
-// 									}								
-// 								}
-// 						}
-// 						});
-// 							 res.jsonp({ status:"success",
-// 							message:"Group Name has been Updated!",
-// 							object:conversation});
-// 						}
-// 						});
-// 					}
-// 				}
-// 			}catch (err){
-// 				logger.info('An Exception Has occured in updateGroupName method' + err);
-// 				}		
-// 			}
-// 			});            
-// 	});
-	
-//      app.post('/deleteGroup',function(req,res){
-		
-// 	   if(req.body === undefined||req.body === null) {
-//         res.end("Empty Body"); 
-//         }
-// 		console.log("in routes post /deleteGroup");
-// 		ChatController.closeGroup(req,res);
-// 	});
-	
-// 	 app.post('/groupMember',function(req,res){
-		
-// 	   if(req.body === undefined||req.body === null) {
-//         res.end("Empty Body"); 
-//         }
-// 		console.log("in routes POST /groupMember");
-
-// 		ChatController.addGroupMember(req,res);
-// 	});
-// 	 app.post('/deleteMember',function(req,res){
-		
-// 	   if(req.body === undefined||req.body === null) {
-//         res.end("Empty Body"); 
-//         }
-// 		console.log("in routes post /groupMember");
-// 		ChatController.removeGroupMember(req,res);
-// 	});
-
-
-// 	/***** Location Apis ********/ 
-// 	//get location From Client
-	
-
-//     app.post('/location',function(req,res){
-		
-// 	   if(req.body === undefined||req.body === null) {
-//         res.end("Empty Body"); 
-//         }
-// 		/*
-// 		  console.log("start"); 
-// 	      var country = new Country({ 
-//                     _id:"4",
-//                     country_id:4,
-//                     name: "India", 
-//                     code:"021",
-//                     shortForm:"ind"
-//                      });
-//           country.save(function (err, country) {
-//                console.log("in save"); 
-//                     if(err){
-//                        console.log(err); 
-//                     }
-//               else
-//                   console.log("Country Saved"+country); 
-                    
-//           });
-// */
-// 		console.log("in routes /location");
-// 		var reqData=req.body;
-//         // console.log(reqData);
-// 		LocController.updateUserLocation(reqData,res);
-// 	});
-		
-	
-// 	  app.get('/groupLocation',function(req,res){
-		
-// 	   if(req.body === undefined||req.body === null) {
-//         res.end("Empty Body"); 
-//         }
-// 		var conversationId = req.query.conversationId;
-// 		console.log("in routes /location for group : "+conversationId );
-// 		//var reqData=req.body;
-//         // console.log(reqData);
-// 		LocController.getGroupUserLocations(conversationId,res);
-// 	});
 	
 // 	app.post('/shareLocation',function(req,res){
 		
@@ -1167,18 +666,6 @@ module.exports = function(app) {
 // 	});
 	
 
-// 	/*  Marker API's */
-// 	 app.post('/marker',function(req,res){
-		
-// 	   if(req.body === undefined||req.body === null) {
-//         res.end("Empty Body"); 
-//         }
-// 		console.log("in routes /marker");
-// 		var reqData=req.body;
-//         // console.log(reqData);
-// 		LocController.setMarker(reqData,res);
-// 	});
-	
 
 	
 
@@ -1205,23 +692,23 @@ module.exports = function(app) {
 // 		logger.info("In routes get users");
 // 		AppController.findAllUser(function (users) {
 //             logger.info("Response Of findAllUser Method");
-// 			res.jsonp({ status:"success",
+// 			res.jsonp({ status:"Success",
 //                         message:"List Of users",
 //                         object:users});
                              
 // 	});		
 // 	});
-// 		 // getting User  By user id in Query Params
+// // 		 // getting User  By user id in Query Params
 // 	app.post('/user',function(req,res){
-//       	var phoneNo = req.body.phoneNo;
-// 		//let phoneNo = req.query.phoneNo;
-// 		logger.info("In routes get single user, where phone NO. : "+phoneNo);
-// 		AppController.userExists(phoneNo,function (user) {
+//       	var email = req.body.email;
+		
+// 		logger.info("In routes get single user, where email : "+email);
+// 		AppController.userExists(email,function (user) {
 //             logger.info("Response Of userExists Method : " + user);
 			
 			
 // 			if (user){
-// 			res.jsonp({status:"success",
+// 			res.jsonp({status:"Success",
 //                         message:"User Found",
 //                         object:user});
 // 			}
