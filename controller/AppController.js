@@ -34,7 +34,7 @@ exports.findAllUser=function(callback){
 			else{ 
 				logger.info(users.length + ' Users Found');
 				callback(users);
-				//process.exit();
+				
 			} 
 			});
 		}catch (err){
@@ -56,9 +56,9 @@ exports.findAllCountries=function(callback){
     }
     
     else{ 
-       // console.log(countries);
+       
         callback(countries);
-       // process.exit();
+      
     } 
     });
 		}catch (err){

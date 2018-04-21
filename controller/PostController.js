@@ -401,11 +401,11 @@ exports.ratePost = function (req,res){
 	
 }
 
-exports.addQuote = function (reqData,res){
+exports.addQuote = function (req,res){
    
-	
-	var userId=reqData.user._id;
-	var text=reqData.text;
+	var reqData=req.body;
+	var userId=req.user._id;
+	var text=reqData.quoteText;
 	var author=reqData.author;
 	logger.info("userId: "+userId + " - Author - "+ author);
 

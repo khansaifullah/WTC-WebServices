@@ -45,7 +45,7 @@ var UserSchema = new Schema({
       verified_user:Boolean,
 	    deactivate_user:{ type: Boolean, default: false },
       country_code:String,
-      verification_code:String,
+      // verification_code:String,
       palyer_id:String,
       //share_location:{ type: Boolean, default: true },
       //share_loc_flag_time:{ type: Date, default: Date.now },

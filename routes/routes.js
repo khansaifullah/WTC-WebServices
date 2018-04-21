@@ -382,11 +382,12 @@ module.exports = function(app) {
 		if(req.body === undefined||req.body === null) {
 		 res.end("Empty Body");  
 		 }
-			 
+		//  logger.info("User Id"+ req.user._id);
+
 		 logger.verbose('quote-POST called '); 
 		 var reqData=req.body;
 		 logger.info("in routes post /quote - Req Data : "+ reqData.author);
-		 PostController.addQuote(reqData,res);	
+		 PostController.addQuote(req,res);	
 	 
 	 });
 	app.get('/quotes', authenticate,function(req, res) {
