@@ -1,0 +1,8 @@
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:44:59"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:44:59"}
+{"level":"info","message":"In routes get users","timestamp":"14:45:00"}
+{"level":"info","message":"An Exception Has occured in findAllUser methodReferenceError: full_name is not defined","timestamp":"14:45:00"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:45:42"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:45:42"}
+{"level":"info","message":"In routes get users","timestamp":"14:45:44"}
+{"level":"info","message":"An Exception Has occured in findAllUser methodReferenceError: email is not defined","timestamp":"14:45:44"}

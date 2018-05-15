@@ -1,0 +1,43 @@
+{"level":"info","message":"In routes get users","timestamp":"16:30:11"}
+{"level":"info","message":"69 Users Found","timestamp":"16:30:14"}
+{"level":"info","message":"Response Of findAllUser Method","timestamp":"16:30:14"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"16:32:41"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:32:41"}
+{"level":"info","message":"In routes get users","timestamp":"16:32:41"}
+{"level":"info","message":"69 Users Found","timestamp":"16:32:46"}
+{"level":"info","message":"Response Of findAllUser Method","timestamp":"16:32:46"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"16:33:20"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:33:20"}
+{"level":"info","message":"In routes get users","timestamp":"16:33:27"}
+{"level":"info","message":"69 Users Found","timestamp":"16:33:31"}
+{"level":"info","message":"Response Of findAllUser Method","timestamp":"16:33:31"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"16:33:40"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"16:37:51"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"16:37:57"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:37:57"}
+{"level":"info","message":"In routes get single user, where email : \"saifullahkhan@gmail.com\"","timestamp":"16:37:58"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"16:38:52"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:38:52"}
+{"level":"info","message":"In routes get single user, where email : \"saifullahkhan@gmail.com\"","timestamp":"16:38:53"}
+{"level":"info","message":"user not found with email \"saifullahkhan@gmail.com\"","timestamp":"16:38:53"}
+{"level":"info","message":"Response Of userExists Method : null","timestamp":"16:38:53"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"16:39:12"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:39:12"}
+{"level":"info","message":"In routes get single user, where email : \"khansaifullah@gmail.com\"","timestamp":"16:39:12"}
+{"level":"info","message":"user not found with email \"khansaifullah@gmail.com\"","timestamp":"16:39:13"}
+{"level":"info","message":"Response Of userExists Method : null","timestamp":"16:39:13"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"16:39:24"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:39:24"}
+{"level":"info","message":"In routes get users","timestamp":"16:39:24"}
+{"level":"info","message":"69 Users Found","timestamp":"16:39:27"}
+{"level":"info","message":"Response Of findAllUser Method","timestamp":"16:39:27"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"16:40:06"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:40:06"}
+{"level":"info","message":"In routes get single user, where email : \"khansaifullah1993@gmail.com\"","timestamp":"16:40:06"}
+{"level":"info","message":"user not found with email \"khansaifullah1993@gmail.com\"","timestamp":"16:40:07"}
+{"level":"info","message":"Response Of userExists Method : null","timestamp":"16:40:07"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"16:40:30"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"16:40:30"}
+{"level":"info","message":"In routes get single user, where email : khansaifullah1993@gmail.com","timestamp":"16:40:30"}
+{"level":"info","message":"user found with email khansaifullah1993@gmail.com","timestamp":"16:40:31"}
+{"level":"info","message":"Response Of userExists Method : { _id: 5a9fba4ee907333d1091549e,\n  updatedAt: 2018-03-07T10:09:19.364Z,\n  createdAt: 2018-03-07T10:09:18.901Z,\n  email: 'khansaifullah1993@gmail.com',\n  password: '$2a$10$7LOPEvWfhCAHWkpKxSG7ROF.a24kKq5QjFhzNuk722nEnHyNq4EDS',\n  verified_user: false,\n  __v: 1,\n  deactivate_user: false,\n  tokens: \n   [ { access: 'auth',\n       token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YTlmYmE0ZWU5MDczMzNkMTA5MTU0OWUiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNDE3MzU5fQ.6Exs5KiKpKxl6NmBy3VLZlwdgR9jiv6Hcd_D3LqEYX0',\n       _id: 5a9fba4fe907333d1091549f } ],\n  profile_photo_url: null }","timestamp":"16:40:31"}

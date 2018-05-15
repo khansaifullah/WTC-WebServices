@@ -325,6 +325,33 @@ exports.updateTopStory=function(reqData,res){
 	}
 }
 
+//Delete Top Story
+
+exports.deleteStory=function(postId,res){
+    try {
+		
+		logger.info('deleteStory Method Called for id : '+postId);		
+		TopStory.remove({ _postId: postId}, function (err) {
+				if (err){
+					logger.error('Error Occured while Removing  Top Story :'+ err);
+					res.jsonp({status:"Failure",
+                            message:"Error Occured while removing Top Story",
+                            object:[]}); 
+				}
+				else{
+					logger.info('Top Story with id ' +postId + ' successfully Removed' );
+					res.jsonp({status:"Success",
+								message:"Quote successfully Removed!",
+								object:[]}); 
+				}
+				// removed!
+		});				                                                
+	}catch  (err){
+		logger.info ('An Exception occured PostController.deleteStory ' + err);
+	}	
+	
+}
+
 //Rate Post
 
 exports.ratePost = function (req,res){
@@ -439,7 +466,7 @@ exports.addQuote = function (req,res){
 exports.updateQuote=function(reqData,res){
 	try{
 			var quoteId=reqData._id;
-			var text=reqData.text;
+			var text=reqData.quoteText;
 			var author=reqData.author;
 		
 			logger.info('PostController.updateQuote called for id :' + quoteId );						  
@@ -456,7 +483,8 @@ exports.updateQuote=function(reqData,res){
 				else{
 					if (quote){
 						if (text){
-							quote.text=text;
+							logger.info('quoteText :' + text );	
+							quote.quoteText=text;
 						}
 						
 						if (author){
@@ -587,6 +615,69 @@ exports.uploadPost = function (req,_attachmentUrl,_thumbnailUrl,_postType,res){
         }
       });
 }
+
+
+
+//Update Post
+
+exports.updatePost=function(reqData,res){
+	try{
+		
+			var postId=reqData._id;
+			var desc=reqData.postDescription;
+			var title=reqData.title;
+		
+			logger.info('PostController.updatePost called for id :' + postId );						  
+			var query = { _id : postId };
+			// find Post by Id	 
+			Post.findOne(query).exec(function(err, post){
+				if (err){
+					logger.error('Some Error while finding Post' + err );
+					res.status(400).send({status:"Failure",
+										message:err,
+										object:[]
+					});
+				}
+				else{
+					if (post){
+						if (desc){
+							logger.info('postDescription :' + desc );	
+							post.postDescription=desc;
+						}
+						
+						if (title){
+							post.title=title;
+						}
+						
+						post.save(function (err, post){
+							if(err){
+								logger.error('Some Error while updating post' + err );
+								res.jsonp({status:"Failure",
+								message:"Error Occured while Updating post ",
+									object:[]}); 	
+							}
+							else{
+								logger.info('Post updated  '  );												
+								res.jsonp({status:"Success",
+								message:"Post Updated!",
+									object:post}); 
+							}								 							  
+						  });
+					}
+					else {
+						logger.error('No  Such post found to update ' + err );
+						res.status(400).send({status:"Failure",
+											message:'No  Such post found to update ' +err,
+											object:[]
+										});
+					}
+				}
+			});
+	}catch (err){
+		logger.info('An Exception Has occured in updatePost method' + err);
+	}
+}
+
 
 
 exports.uploadImageForGallery = function (req,imageUrl,res){

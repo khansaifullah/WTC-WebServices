@@ -10,6 +10,7 @@ var bodyParser = require('body-parser');
 var Country = require('../models/Country.js');
 var Conversation = require('../models/Conversation.js');
 var User = require('../models/User.js');
+var Admin = require('../models/Admin.js');
 var db = require('../config/db');
 var logger = require('../config/lib/logger.js');
 require('datejs');
@@ -52,10 +53,28 @@ var storage = multer.diskStorage({
 module.exports = function(app) {	
 	 
 	 
+
 	 //Enable All CORS Requests
-	app.use(cors());
+
+	//  app.all('/*', function(req, res, next) {
+	// 	// CORS headers
+	// 	res.header("Access-Control-Allow-Origin", "*"); // restrict it to the required domain
+	// 	res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS');
+	// 	// Set custom headers for CORS
+	// 	res.header('Access-Control-Allow-Headers', 'Content-type,Accept,X-Access-Token,X-Key');
+	// 	if (req.method == 'OPTIONS') {
+	// 	  res.status(200).end();
+	// 	} else {
+	// 	  next();
+	// 	}
+	//   });
+
+	
 	app.use(function(req, res, next) {
+		res.header("Access-Control-Allow-Origin", "*");
 		res.header("Access-Control-Allow-Headers", "*");
+		
+		res.header("Access-Control-Expose-Headers", "*");
 		next();
 	  });
     app.use(bodyParser.urlencoded({
@@ -63,13 +82,14 @@ module.exports = function(app) {
     }));
 	// parse application/json
 	app.use(bodyParser.json())
-
+	app.use(cors());
 	
 	//private route
 	var authenticate = (req, res, next) => {
 
 		logger.info("in routes - authenticate ");
 		var token = req.header('x-auth');
+		var userType = req.header('user-type');
 		//logger.info("Token: "+ token);
 		if (token===undefined){
 			res.jsonp({ status:"Failure",
@@ -77,22 +97,45 @@ module.exports = function(app) {
 			object:[]});
 		}
 		else{
-			logger.info("Token Received : "+token);
-			User.findByToken(token).then((user) => {
-				if (!user) {
-					logger.info("User Not Found with token :  "+ token);
-					return Promise.reject();
-				}
+			logger.info("Token Received : "+token + "User Type : " + userType );
+
+			if (userType=== "Admin"){
+
+				Admin.findByToken(token).then((admin) => {
+					if (!admin) {
+						logger.info("admin Not Found with token :  "+ token);
+						return Promise.reject();
+					}
+				
+					req.user = admin;
+					req.token = token;
+					next();
+					}).catch((e) => {
+					logger.info("Exception Occured in Authenticate: "+e);
+					res.status(401).send(res.jsonp({ status:"Failure",
+										message:"Unable To Authenticate",
+										object:[]}));
+					});
+					
+			}else{
+
+				User.findByToken(token).then((user) => {
+					if (!user) {
+						logger.info("User Not Found with token :  "+ token);
+						return Promise.reject();
+					}
+				
+					req.user = user;
+					req.token = token;
+					next();
+					}).catch((e) => {
+					logger.info("Exception Occured in Authenticate: "+e);
+					res.status(401).send(res.jsonp({ status:"Failure",
+										message:"Unable To Authenticate",
+										object:[]}));
+					});
+			}
 			
-				req.user = user;
-				req.token = token;
-				next();
-				}).catch((e) => {
-				logger.info("Exception Occured in Authenticate: "+e);
-				res.status(401).send(res.jsonp({ status:"Failure",
-									message:"Unable To Authenticate",
-									object:[]}));
-				});
 		}	
 	};
 	
@@ -161,7 +204,7 @@ module.exports = function(app) {
 	 function(req, resp, next){
 
 		logger.info ("File Is uploaded New Method");
-		//logger.info ("Description : " + req);
+		logger.info ("Description : " + req.body.description);
 
 		var form = new FormData();
 		//console.log("form.append 1");
@@ -201,6 +244,19 @@ module.exports = function(app) {
 		});
 		
 	});
+
+
+	// 	//update post
+	app.put('/post',function(req,res){
+		
+		if(req.body === undefined||req.body === null) {
+		 res.end("Empty Body"); 
+		 }
+		 console.log("in routes PUT : /post");
+		 var reqData=req.body;
+		 PostController.updatePost(reqData,res);
+	 });
+
 
 	app.post('/topStory',authenticate,function(req,res){                         
 		
@@ -242,17 +298,17 @@ module.exports = function(app) {
 	});
 
 
-	// 	// delete topStory
-	// app.delete('/topStory',function(req,res){
+		// delete topStory
+	app.delete('/topStory',function(req,res){
 
-	// 	if(req.body === undefined||req.body === null) {
-	// 	res.end("Empty Body"); 
-	// 	}
-	// 	var storyId = req.query.storyId;
-	// 	console.log("in routes delete /topStory");
+		if(req.body === undefined||req.body === null) {
+		res.end("Empty Body"); 
+		}
+		var postId = req.query.postId;
+		console.log("in routes delete /topStory");
 		
-	// 	PostController.deleteMarkerCategory(categoryId,res);
-	// });
+		PostController.deleteStory(postId,res);
+	});
 
 	app.post('/ratePost',authenticate,function(req,res){                         
 		logger.info("User Received After Authetication in /ratePost: "+req.user._id);
@@ -421,7 +477,7 @@ module.exports = function(app) {
 			if(req.body === undefined||req.body === null) {
 			 res.end("Empty Body"); 
 			 }
-			 var quoteId = req.query.categoryId;
+			 var quoteId = req.query.quoteId;
 			 console.log("in routes delete /quote");
 			
 			 PostController.deleteQuote(quoteId,res);

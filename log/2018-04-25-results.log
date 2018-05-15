@@ -1,0 +1,1229 @@
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:07:29"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:07:29"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:07:29"}
+{"level":"info","message":"4 quotes Found","timestamp":"10:07:29"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:07:29"}
+{"level":"info","message":"PostController.updateQuote called for id :5adf224f87d57d0014bc61c6","timestamp":"10:07:36"}
+{"level":"info","message":"Quote updated  ","timestamp":"10:07:37"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:07:37"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:07:37"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:07:37"}
+{"level":"info","message":"4 quotes Found","timestamp":"10:07:37"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:07:37"}
+{"level":"info","message":"PostController.updateQuote called for id :5adf224f87d57d0014bc61c6","timestamp":"10:14:06"}
+{"level":"info","message":"Quote updated  ","timestamp":"10:14:07"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:14:07"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:14:07"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:14:07"}
+{"level":"info","message":"4 quotes Found","timestamp":"10:14:07"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:14:07"}
+{"level":"info","message":"PostController.updateQuote called for id :5adf224f87d57d0014bc61c6","timestamp":"10:14:58"}
+{"level":"info","message":"Quote updated  ","timestamp":"10:15:03"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:15:03"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:15:03"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:15:03"}
+{"level":"info","message":"4 quotes Found","timestamp":"10:15:04"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:15:04"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:15:16"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:15:16"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:15:17"}
+{"level":"info","message":"4 quotes Found","timestamp":"10:15:17"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:15:17"}
+{"level":"info","message":"PostController.updateQuote called for id :5adf224f87d57d0014bc61c6","timestamp":"10:17:35"}
+{"level":"info","message":"quoteText :Test Quote 1","timestamp":"10:17:35"}
+{"level":"info","message":"Quote updated  ","timestamp":"10:17:35"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:17:35"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:17:35"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:17:35"}
+{"level":"info","message":"4 quotes Found","timestamp":"10:17:36"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:17:36"}
+{"level":"info","message":"PostController.updateQuote called for id :5adf224f87d57d0014bc61c6","timestamp":"10:17:53"}
+{"level":"info","message":"quoteText :Test Quote 1","timestamp":"10:17:54"}
+{"level":"info","message":"Quote updated  ","timestamp":"10:17:54"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:17:54"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:17:54"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:17:54"}
+{"level":"info","message":"4 quotes Found","timestamp":"10:17:54"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:17:54"}
+{"level":"info","message":"PostController.updateQuote called for id :5adf224f87d57d0014bc61c6","timestamp":"10:18:57"}
+{"level":"info","message":"quoteText :Test Quote2","timestamp":"10:18:58"}
+{"level":"info","message":"Quote updated  ","timestamp":"10:18:58"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:18:58"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:18:58"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:18:58"}
+{"level":"info","message":"4 quotes Found","timestamp":"10:18:59"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:18:59"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:20:03"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:20:03"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:20:03"}
+{"level":"info","message":"4 quotes Found","timestamp":"10:20:04"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:20:04"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:20:11"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:20:11"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:20:11"}
+{"level":"info","message":"4 quotes Found","timestamp":"10:20:12"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:20:12"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:21:23"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:21:23"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:21:23"}
+{"level":"info","message":"4 quotes Found","timestamp":"10:21:23"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:21:23"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:21:36"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:21:36"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:21:37"}
+{"level":"info","message":"4 quotes Found","timestamp":"10:21:37"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:21:37"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:22:38"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:22:38"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:22:38"}
+{"level":"info","message":"4 quotes Found","timestamp":"10:22:39"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:22:39"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:23:11"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:23:11"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:23:11"}
+{"level":"info","message":"4 quotes Found","timestamp":"10:23:11"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:23:11"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:25:17"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:25:17"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:25:17"}
+{"level":"info","message":"4 quotes Found","timestamp":"10:25:18"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:25:18"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:26:09"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:26:09"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:26:09"}
+{"level":"info","message":"4 quotes Found","timestamp":"10:26:09"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:26:09"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:28:24"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:28:24"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:28:24"}
+{"level":"info","message":"4 quotes Found","timestamp":"10:28:24"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:28:24"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:29:43"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:29:43"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:29:43"}
+{"level":"info","message":"4 quotes Found","timestamp":"10:29:43"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:29:43"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:29:48"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:29:48"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:29:48"}
+{"level":"info","message":"4 quotes Found","timestamp":"10:29:49"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:29:49"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:30:20"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:30:20"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:30:20"}
+{"level":"info","message":"4 quotes Found","timestamp":"10:30:20"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:30:20"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:30:25"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:30:25"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:30:25"}
+{"level":"info","message":"4 quotes Found","timestamp":"10:30:25"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:30:25"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:32:26"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:32:26"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:32:26"}
+{"level":"info","message":"4 quotes Found","timestamp":"10:32:26"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:32:26"}
+{"level":"info","message":"PostController.updateQuote called for id :5adf224f87d57d0014bc61c6","timestamp":"10:32:39"}
+{"level":"info","message":"quoteText :Test Quote","timestamp":"10:32:39"}
+{"level":"info","message":"Quote updated  ","timestamp":"10:32:39"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:32:39"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:32:39"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:32:40"}
+{"level":"info","message":"4 quotes Found","timestamp":"10:32:40"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:32:40"}
+{"level":"info","message":"deleteQuote Method Called for id : 5adf224f87d57d0014bc61c6","timestamp":"10:32:44"}
+{"level":"info","message":"Quote with id 5adf224f87d57d0014bc61c6 successfully Removed","timestamp":"10:32:44"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:32:44"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:32:44"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:32:44"}
+{"level":"info","message":"3 quotes Found","timestamp":"10:32:45"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:32:45"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:33:10"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:33:10"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:33:10"}
+{"level":"info","message":"4 quotes Found","timestamp":"10:33:10"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:33:10"}
+{"level":"info","message":"PostController.updateQuote called for id :5ae013001feee500145a7962","timestamp":"10:33:18"}
+{"level":"info","message":"quoteText :Test","timestamp":"10:33:19"}
+{"level":"info","message":"Quote updated  ","timestamp":"10:33:19"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:33:19"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:33:19"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:33:19"}
+{"level":"info","message":"4 quotes Found","timestamp":"10:33:19"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:33:19"}
+{"level":"info","message":"deleteQuote Method Called for id : 5ae013001feee500145a7962","timestamp":"10:33:26"}
+{"level":"info","message":"Quote with id 5ae013001feee500145a7962 successfully Removed","timestamp":"10:33:27"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:33:27"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:33:27"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:33:27"}
+{"level":"info","message":"3 quotes Found","timestamp":"10:33:27"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:33:27"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:38:05"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:38:05"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:38:05"}
+{"level":"info","message":"3 quotes Found","timestamp":"10:38:06"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:38:06"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:38:33"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:38:33"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:38:33"}
+{"level":"info","message":"3 quotes Found","timestamp":"10:38:33"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:38:33"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:39:43"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:39:43"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:39:43"}
+{"level":"info","message":"3 quotes Found","timestamp":"10:39:43"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:39:43"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:39:47"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:39:47"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:39:47"}
+{"level":"info","message":"3 quotes Found","timestamp":"10:39:48"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:39:48"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:43:17"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:43:17"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:43:17"}
+{"level":"info","message":"3 quotes Found","timestamp":"10:43:17"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:43:17"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:43:43"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:43:43"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:43:43"}
+{"level":"info","message":"3 quotes Found","timestamp":"10:43:43"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:43:43"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:43:59"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:43:59"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:44:00"}
+{"level":"info","message":"3 quotes Found","timestamp":"10:44:00"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:44:00"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:44:11"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:44:11"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:44:11"}
+{"level":"info","message":"4 quotes Found","timestamp":"10:44:11"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:44:11"}
+{"level":"info","message":"deleteQuote Method Called for id : 5ae0159d1feee500145a7963","timestamp":"10:44:16"}
+{"level":"info","message":"Quote with id 5ae0159d1feee500145a7963 successfully Removed","timestamp":"10:44:17"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:44:17"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:44:17"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:44:17"}
+{"level":"info","message":"3 quotes Found","timestamp":"10:44:17"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:44:17"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:45:56"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:45:56"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:45:56"}
+{"level":"info","message":"3 quotes Found","timestamp":"10:45:56"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:45:56"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:46:23"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:46:23"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:46:24"}
+{"level":"info","message":"3 quotes Found","timestamp":"10:46:24"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:46:24"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:46:36"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:46:36"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:46:36"}
+{"level":"info","message":"3 quotes Found","timestamp":"10:46:37"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:46:37"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:46:44"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:46:44"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:46:44"}
+{"level":"info","message":"3 quotes Found","timestamp":"10:46:44"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:46:44"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:47:05"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:47:05"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:47:05"}
+{"level":"info","message":"3 quotes Found","timestamp":"10:47:06"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:47:06"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:47:18"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:47:18"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:47:18"}
+{"level":"info","message":"3 quotes Found","timestamp":"10:47:19"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:47:19"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:48:10"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:48:10"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:48:10"}
+{"level":"info","message":"3 quotes Found","timestamp":"10:48:10"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:48:10"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:48:28"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:48:28"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:48:28"}
+{"level":"info","message":"3 quotes Found","timestamp":"10:48:28"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:48:28"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:49:30"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:49:30"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:49:31"}
+{"level":"info","message":"3 quotes Found","timestamp":"10:49:31"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:49:31"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:49:40"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:49:40"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:49:40"}
+{"level":"info","message":"3 quotes Found","timestamp":"10:49:40"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:49:40"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:50:08"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:50:08"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"10:50:08"}
+{"level":"info","message":"3 quotes Found","timestamp":"10:50:09"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"10:50:09"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"11:26:47"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"11:26:47"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"11:26:48"}
+{"level":"info","message":"3 quotes Found","timestamp":"11:26:49"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"11:26:49"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"11:27:46"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"11:27:46"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"11:27:47"}
+{"level":"info","message":"3 quotes Found","timestamp":"11:27:47"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"11:27:47"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"11:31:43"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"11:31:43"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"11:31:43"}
+{"level":"info","message":"3 quotes Found","timestamp":"11:31:44"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"11:31:44"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"11:37:37"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"11:37:37"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"11:37:37"}
+{"level":"info","message":"3 quotes Found","timestamp":"11:37:37"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"11:37:37"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"11:37:42"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"11:37:42"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"11:37:42"}
+{"level":"info","message":"3 quotes Found","timestamp":"11:37:42"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"11:37:42"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"11:52:35"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"11:52:35"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"11:52:35"}
+{"level":"info","message":"3 quotes Found","timestamp":"11:52:35"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"11:52:36"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:22:09"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:22:09"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"12:22:10"}
+{"level":"info","message":"id : undefined","timestamp":"12:22:10"}
+{"level":"info","message":"3 stories Found","timestamp":"12:22:10"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"12:22:10"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"12:22:10"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"12:22:10"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"12:22:10"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"12:22:10"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"12:22:10"}
+{"level":"info","message":"PostController.updatePost called for id :5aaf5451fc854300145660c3","timestamp":"12:22:17"}
+{"level":"info","message":"postDescription :If You Want to Change the World, Start Off by Making Your Bed - William McRaven, US Navy Admiral","timestamp":"12:22:17"}
+{"level":"info","message":"Post updated  ","timestamp":"12:22:18"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:22:18"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:22:18"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"12:22:18"}
+{"level":"info","message":"id : undefined","timestamp":"12:22:18"}
+{"level":"info","message":"3 stories Found","timestamp":"12:22:18"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"12:22:18"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"12:22:18"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"12:22:18"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"12:22:18"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"12:22:19"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"12:22:19"}
+{"level":"info","message":"PostController.updatePost called for id :5aaf5451fc854300145660c3","timestamp":"12:22:29"}
+{"level":"info","message":"postDescription :If You Want to Change the World, Start Off by Making Your Bed - William McRaven, US Navy Admiral.","timestamp":"12:22:30"}
+{"level":"info","message":"Post updated  ","timestamp":"12:22:30"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:22:30"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:22:30"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"12:22:30"}
+{"level":"info","message":"id : undefined","timestamp":"12:22:30"}
+{"level":"info","message":"3 stories Found","timestamp":"12:22:30"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"12:22:30"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"12:22:30"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"12:22:30"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"12:22:30"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"12:22:31"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"12:22:31"}
+{"level":"info","message":"PostController.updatePost called for id :5aaf5451fc854300145660c3","timestamp":"12:22:40"}
+{"level":"info","message":"postDescription :If You Want to Change the World, Start Off by Making Your Bed - William McRaven, US Navy Admiral","timestamp":"12:22:40"}
+{"level":"info","message":"Post updated  ","timestamp":"12:22:40"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:22:40"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:22:40"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"12:22:40"}
+{"level":"info","message":"id : undefined","timestamp":"12:22:40"}
+{"level":"info","message":"3 stories Found","timestamp":"12:22:41"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"12:22:41"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"12:22:41"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"12:22:41"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"12:22:41"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"12:22:41"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"12:22:41"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:23:21"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:23:21"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"12:23:21"}
+{"level":"info","message":"id : undefined","timestamp":"12:23:21"}
+{"level":"info","message":"3 stories Found","timestamp":"12:23:22"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"12:23:22"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"12:23:22"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"12:23:22"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"12:23:22"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"12:23:22"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"12:23:22"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:26:05"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:26:05"}
+{"level":"info","message":"Video File Received Temp Name :video-1524641165445.mp4","timestamp":"12:26:05"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"12:26:08"}
+{"level":"info","message":"Description :  Test Top Story Desc","timestamp":"12:26:08"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"13:39:41"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"13:39:41"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"13:39:41"}
+{"level":"info","message":"id : undefined","timestamp":"13:39:41"}
+{"level":"info","message":"3 stories Found","timestamp":"13:39:42"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"13:39:42"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"13:39:42"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"13:39:42"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"13:39:42"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"13:39:42"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"13:39:42"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"13:51:54"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"13:51:54"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"13:51:55"}
+{"level":"info","message":"3 quotes Found","timestamp":"13:51:55"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"13:51:55"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"13:52:04"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"13:52:04"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"13:52:04"}
+{"level":"info","message":"id : undefined","timestamp":"13:52:04"}
+{"level":"info","message":"3 stories Found","timestamp":"13:52:05"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"13:52:05"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"13:52:05"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"13:52:05"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"13:52:05"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"13:52:05"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"13:52:05"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"13:52:06"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"13:52:06"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"13:52:06"}
+{"level":"info","message":"3 quotes Found","timestamp":"13:52:07"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"13:52:07"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"13:52:11"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"13:52:11"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"13:52:11"}
+{"level":"info","message":"3 quotes Found","timestamp":"13:52:11"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"13:52:11"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"13:52:12"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"13:52:12"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"13:52:12"}
+{"level":"info","message":"id : undefined","timestamp":"13:52:12"}
+{"level":"info","message":"3 stories Found","timestamp":"13:52:12"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"13:52:12"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"13:52:12"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"13:52:12"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"13:52:12"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"13:52:13"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"13:52:13"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:00:54"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:00:54"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:00:54"}
+{"level":"info","message":"id : undefined","timestamp":"14:00:54"}
+{"level":"info","message":"3 stories Found","timestamp":"14:00:55"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:00:55"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:00:55"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:00:55"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:00:55"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:00:55"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:00:56"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:02:05"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:02:05"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:02:05"}
+{"level":"info","message":"3 quotes Found","timestamp":"14:02:05"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"14:02:05"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:02:08"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:02:08"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:02:08"}
+{"level":"info","message":"id : undefined","timestamp":"14:02:08"}
+{"level":"info","message":"3 stories Found","timestamp":"14:02:08"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:02:08"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:02:08"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:02:08"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:02:08"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:02:08"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:02:08"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:02:08"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:02:08"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:02:08"}
+{"level":"info","message":"3 quotes Found","timestamp":"14:02:09"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"14:02:09"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:02:11"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:02:11"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:02:11"}
+{"level":"info","message":"id : undefined","timestamp":"14:02:11"}
+{"level":"info","message":"3 stories Found","timestamp":"14:02:12"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:02:12"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:02:12"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:02:12"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:02:12"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:02:12"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:02:12"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:02:23"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:02:23"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:02:23"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:02:24"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:02:24"}
+{"level":"info","message":"3 quotes Found","timestamp":"14:02:24"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"14:02:24"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:02:24"}
+{"level":"info","message":"id : undefined","timestamp":"14:02:24"}
+{"level":"info","message":"3 stories Found","timestamp":"14:02:24"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:02:24"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:02:24"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:02:24"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:02:24"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:02:25"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:02:25"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:02:28"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:02:28"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:02:28"}
+{"level":"info","message":"3 quotes Found","timestamp":"14:02:28"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"14:02:28"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:06:54"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:06:54"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:06:54"}
+{"level":"info","message":"3 quotes Found","timestamp":"14:06:54"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"14:06:54"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:07:21"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:07:21"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:07:21"}
+{"level":"info","message":"id : undefined","timestamp":"14:07:21"}
+{"level":"info","message":"3 stories Found","timestamp":"14:07:22"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:07:22"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:07:22"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:07:22"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:07:22"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:07:22"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:07:22"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:07:55"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:07:55"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:07:56"}
+{"level":"info","message":"id : undefined","timestamp":"14:07:56"}
+{"level":"info","message":"3 stories Found","timestamp":"14:07:56"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:07:56"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:07:56"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:07:56"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:07:56"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:07:56"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:07:56"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:08:38"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:08:38"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:08:38"}
+{"level":"info","message":"id : undefined","timestamp":"14:08:38"}
+{"level":"info","message":"3 stories Found","timestamp":"14:08:39"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:08:39"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:08:39"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:08:39"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:08:39"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:08:39"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:08:39"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:08:41"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:08:41"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:08:42"}
+{"level":"info","message":"id : undefined","timestamp":"14:08:42"}
+{"level":"info","message":"3 stories Found","timestamp":"14:08:42"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:08:42"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:08:42"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:08:42"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:08:42"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:08:42"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:08:42"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:08:49"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:08:49"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:08:49"}
+{"level":"info","message":"id : undefined","timestamp":"14:08:49"}
+{"level":"info","message":"3 stories Found","timestamp":"14:08:50"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:08:50"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:08:50"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:08:50"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:08:50"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:08:50"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:08:50"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:11:49"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:11:49"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:11:49"}
+{"level":"info","message":"id : undefined","timestamp":"14:11:49"}
+{"level":"info","message":"3 stories Found","timestamp":"14:11:50"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:11:50"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:11:50"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:11:50"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:11:50"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:11:50"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:11:50"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:11:52"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:11:52"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:11:53"}
+{"level":"info","message":"3 quotes Found","timestamp":"14:11:53"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"14:11:53"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:12:39"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:12:39"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:12:39"}
+{"level":"info","message":"3 quotes Found","timestamp":"14:12:40"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"14:12:40"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:12:54"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:12:54"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:12:55"}
+{"level":"info","message":"3 quotes Found","timestamp":"14:12:55"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"14:12:55"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:13:02"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:13:02"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:13:02"}
+{"level":"info","message":"id : undefined","timestamp":"14:13:02"}
+{"level":"info","message":"3 stories Found","timestamp":"14:13:03"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:13:03"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:13:03"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:13:03"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:13:03"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:13:03"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:13:03"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:13:31"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:13:31"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:13:31"}
+{"level":"info","message":"3 quotes Found","timestamp":"14:13:31"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"14:13:31"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:13:39"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:13:39"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:13:40"}
+{"level":"info","message":"id : undefined","timestamp":"14:13:40"}
+{"level":"info","message":"3 stories Found","timestamp":"14:13:40"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:13:40"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:13:40"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:13:40"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:13:40"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:13:40"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:13:40"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:15:09"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:15:09"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:15:10"}
+{"level":"info","message":"id : undefined","timestamp":"14:15:10"}
+{"level":"info","message":"3 stories Found","timestamp":"14:15:11"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:15:11"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:15:11"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:15:11"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:15:11"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:15:11"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:15:11"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:15:13"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:15:13"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:15:14"}
+{"level":"info","message":"3 quotes Found","timestamp":"14:15:14"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"14:15:14"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:15:18"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:15:18"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:15:18"}
+{"level":"info","message":"id : undefined","timestamp":"14:15:18"}
+{"level":"info","message":"3 stories Found","timestamp":"14:15:18"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:15:18"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:15:18"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:15:18"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:15:18"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:15:19"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:15:19"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:15:20"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:15:20"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:15:20"}
+{"level":"info","message":"3 quotes Found","timestamp":"14:15:20"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"14:15:20"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:15:25"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:15:25"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:15:25"}
+{"level":"info","message":"id : undefined","timestamp":"14:15:25"}
+{"level":"info","message":"3 stories Found","timestamp":"14:15:26"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:15:26"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:15:26"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:15:26"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:15:26"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:15:26"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:15:26"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:17:30"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:17:30"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:17:30"}
+{"level":"info","message":"id : undefined","timestamp":"14:17:30"}
+{"level":"info","message":"3 stories Found","timestamp":"14:17:31"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:17:31"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:17:31"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:17:31"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:17:31"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:17:31"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:17:31"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:18:38"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:18:38"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:18:38"}
+{"level":"info","message":"id : undefined","timestamp":"14:18:38"}
+{"level":"info","message":"3 stories Found","timestamp":"14:18:39"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:18:39"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:18:39"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:18:39"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:18:39"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:18:39"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:18:39"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:19:12"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:19:12"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:19:13"}
+{"level":"info","message":"id : undefined","timestamp":"14:19:13"}
+{"level":"info","message":"3 stories Found","timestamp":"14:19:13"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:19:13"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:19:13"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:19:13"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:19:13"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:19:13"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:19:13"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:19:29"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:19:29"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:19:29"}
+{"level":"info","message":"id : undefined","timestamp":"14:19:29"}
+{"level":"info","message":"3 stories Found","timestamp":"14:19:29"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:19:29"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:19:29"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:19:29"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:19:29"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:19:30"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:19:30"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:19:58"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:19:58"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:19:59"}
+{"level":"info","message":"id : undefined","timestamp":"14:19:59"}
+{"level":"info","message":"3 stories Found","timestamp":"14:19:59"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:19:59"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:19:59"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:19:59"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:19:59"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:19:59"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:19:59"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:20:32"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:20:32"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:20:32"}
+{"level":"info","message":"id : undefined","timestamp":"14:20:32"}
+{"level":"info","message":"3 stories Found","timestamp":"14:20:32"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:20:32"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:20:32"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:20:32"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:20:32"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:20:33"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:20:33"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:20:52"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:20:52"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:20:52"}
+{"level":"info","message":"id : undefined","timestamp":"14:20:52"}
+{"level":"info","message":"3 stories Found","timestamp":"14:20:52"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:20:52"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:20:52"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:20:52"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:20:52"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:20:52"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:20:52"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:22:06"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:22:06"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:22:06"}
+{"level":"info","message":"id : undefined","timestamp":"14:22:06"}
+{"level":"info","message":"3 stories Found","timestamp":"14:22:07"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:22:07"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:22:07"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:22:07"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:22:07"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:22:07"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:22:07"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:22:15"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:22:15"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:22:16"}
+{"level":"info","message":"id : undefined","timestamp":"14:22:16"}
+{"level":"info","message":"3 stories Found","timestamp":"14:22:16"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:22:16"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:22:16"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:22:16"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:22:16"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:22:16"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:22:16"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:22:28"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:22:28"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:22:28"}
+{"level":"info","message":"id : undefined","timestamp":"14:22:28"}
+{"level":"info","message":"3 stories Found","timestamp":"14:22:29"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:22:29"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:22:29"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:22:29"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:22:29"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:22:29"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:22:29"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:24:40"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:24:40"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:24:40"}
+{"level":"info","message":"id : undefined","timestamp":"14:24:40"}
+{"level":"info","message":"3 stories Found","timestamp":"14:24:40"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:24:40"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:24:40"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:24:40"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:24:40"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:24:41"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:24:41"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:24:59"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:24:59"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:24:59"}
+{"level":"info","message":"id : undefined","timestamp":"14:24:59"}
+{"level":"info","message":"3 stories Found","timestamp":"14:24:59"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:24:59"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:24:59"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:24:59"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:24:59"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:25:00"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:25:00"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:26:14"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:26:14"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:26:14"}
+{"level":"info","message":"id : undefined","timestamp":"14:26:14"}
+{"level":"info","message":"3 stories Found","timestamp":"14:26:14"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:26:14"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:26:14"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:26:14"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:26:14"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:26:14"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:26:14"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:44:05"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:44:05"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:44:05"}
+{"level":"info","message":"3 quotes Found","timestamp":"14:44:05"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"14:44:05"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:44:18"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:44:18"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:44:19"}
+{"level":"info","message":"id : undefined","timestamp":"14:44:19"}
+{"level":"info","message":"3 stories Found","timestamp":"14:44:19"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:44:19"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:44:19"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:44:19"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:44:19"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:44:19"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:44:19"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:44:21"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:44:21"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:44:21"}
+{"level":"info","message":"3 quotes Found","timestamp":"14:44:21"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"14:44:21"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:44:34"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:44:34"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:44:34"}
+{"level":"info","message":"id : undefined","timestamp":"14:44:34"}
+{"level":"info","message":"3 stories Found","timestamp":"14:44:35"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:44:35"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:44:35"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:44:35"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:44:35"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:44:35"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:44:35"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:49:19"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:49:19"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:49:20"}
+{"level":"info","message":"id : undefined","timestamp":"14:49:20"}
+{"level":"info","message":"3 stories Found","timestamp":"14:49:20"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:49:20"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:49:20"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:49:20"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:49:20"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:49:21"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:49:21"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:49:23"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:49:23"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:49:24"}
+{"level":"info","message":"3 quotes Found","timestamp":"14:49:24"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"14:49:24"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:49:25"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:49:25"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:49:25"}
+{"level":"info","message":"id : undefined","timestamp":"14:49:25"}
+{"level":"info","message":"3 stories Found","timestamp":"14:49:26"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:49:26"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:49:26"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:49:26"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:49:26"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:49:26"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:49:26"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:49:29"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:49:29"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:49:30"}
+{"level":"info","message":"3 quotes Found","timestamp":"14:49:30"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"14:49:30"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:49:31"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:49:31"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:49:31"}
+{"level":"info","message":"id : undefined","timestamp":"14:49:31"}
+{"level":"info","message":"3 stories Found","timestamp":"14:49:31"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:49:31"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:49:31"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:49:31"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:49:31"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:49:31"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:49:31"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:49:35"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:49:35"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:49:35"}
+{"level":"info","message":"3 quotes Found","timestamp":"14:49:35"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"14:49:35"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:50:02"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:50:02"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:50:02"}
+{"level":"info","message":"3 quotes Found","timestamp":"14:50:03"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"14:50:03"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:50:26"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:50:26"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:50:27"}
+{"level":"info","message":"3 quotes Found","timestamp":"14:50:27"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"14:50:27"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:51:27"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:51:27"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:51:27"}
+{"level":"info","message":"3 quotes Found","timestamp":"14:51:28"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"14:51:28"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:51:35"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:51:35"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:51:35"}
+{"level":"info","message":"3 quotes Found","timestamp":"14:51:35"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"14:51:35"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:51:50"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:51:50"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:51:51"}
+{"level":"info","message":"4 quotes Found","timestamp":"14:51:51"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"14:51:51"}
+{"level":"info","message":"PostController.updateQuote called for id :5ae04fa8fba0910014b7a0c9","timestamp":"14:52:01"}
+{"level":"info","message":"quoteText :Testt jbdsakjf fdf","timestamp":"14:52:02"}
+{"level":"info","message":"Quote updated  ","timestamp":"14:52:02"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:52:02"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:52:02"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:52:03"}
+{"level":"info","message":"4 quotes Found","timestamp":"14:52:03"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"14:52:03"}
+{"level":"info","message":"PostController.updateQuote called for id :5ae04fa8fba0910014b7a0c9","timestamp":"14:52:09"}
+{"level":"info","message":"quoteText :Testt jbdsakjf fdf","timestamp":"14:52:09"}
+{"level":"info","message":"Quote updated  ","timestamp":"14:52:09"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:52:09"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:52:09"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:52:10"}
+{"level":"info","message":"4 quotes Found","timestamp":"14:52:10"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"14:52:10"}
+{"level":"info","message":"deleteQuote Method Called for id : 5ae04fa8fba0910014b7a0c9","timestamp":"14:52:25"}
+{"level":"info","message":"Quote with id 5ae04fa8fba0910014b7a0c9 successfully Removed","timestamp":"14:52:26"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:52:26"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:52:26"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:52:26"}
+{"level":"info","message":"3 quotes Found","timestamp":"14:52:26"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"14:52:26"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:52:58"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:52:58"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:52:59"}
+{"level":"info","message":"id : undefined","timestamp":"14:52:59"}
+{"level":"info","message":"3 stories Found","timestamp":"14:52:59"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:52:59"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:52:59"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:52:59"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:52:59"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:52:59"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:52:59"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:53:01"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:53:01"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:53:01"}
+{"level":"info","message":"3 quotes Found","timestamp":"14:53:01"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"14:53:01"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:54:46"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:54:46"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:54:46"}
+{"level":"info","message":"id : undefined","timestamp":"14:54:46"}
+{"level":"info","message":"3 stories Found","timestamp":"14:54:46"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:54:46"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:54:46"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:54:46"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:54:46"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:54:46"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:54:46"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:54:48"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:54:48"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:54:48"}
+{"level":"info","message":"3 quotes Found","timestamp":"14:54:49"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"14:54:49"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"14:54:52"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"14:54:52"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"14:54:53"}
+{"level":"info","message":"id : undefined","timestamp":"14:54:53"}
+{"level":"info","message":"3 stories Found","timestamp":"14:54:53"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"14:54:53"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"14:54:53"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"14:54:53"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"14:54:53"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"14:54:53"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"14:54:53"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:02:28"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:02:28"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:02:28"}
+{"level":"info","message":"3 quotes Found","timestamp":"15:02:29"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"15:02:29"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:02:30"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:02:30"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:02:30"}
+{"level":"info","message":"id : undefined","timestamp":"15:02:30"}
+{"level":"info","message":"3 stories Found","timestamp":"15:02:31"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"15:02:31"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"15:02:31"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"15:02:31"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"15:02:31"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"15:02:31"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"15:02:31"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:02:33"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:02:33"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:02:33"}
+{"level":"info","message":"3 quotes Found","timestamp":"15:02:33"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"15:02:33"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:02:41"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:02:41"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:02:42"}
+{"level":"info","message":"id : undefined","timestamp":"15:02:42"}
+{"level":"info","message":"3 stories Found","timestamp":"15:02:42"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"15:02:42"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"15:02:42"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"15:02:42"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"15:02:42"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"15:02:42"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"15:02:42"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:02:45"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:02:45"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:02:45"}
+{"level":"info","message":"3 quotes Found","timestamp":"15:02:45"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"15:02:45"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:03:09"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:03:09"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:03:09"}
+{"level":"info","message":"3 quotes Found","timestamp":"15:03:09"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"15:03:09"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:04:48"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:04:48"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:04:48"}
+{"level":"info","message":"4 quotes Found","timestamp":"15:04:49"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"15:04:49"}
+{"level":"info","message":"deleteQuote Method Called for id : 5ae052b2fba0910014b7a0ca","timestamp":"15:04:54"}
+{"level":"info","message":"Quote with id 5ae052b2fba0910014b7a0ca successfully Removed","timestamp":"15:04:54"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:04:54"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:04:54"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:04:54"}
+{"level":"info","message":"3 quotes Found","timestamp":"15:04:55"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"15:04:55"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:06:36"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:06:36"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:06:37"}
+{"level":"info","message":"3 quotes Found","timestamp":"15:06:37"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"15:06:37"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:07:11"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:07:11"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:07:11"}
+{"level":"info","message":"3 quotes Found","timestamp":"15:07:12"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"15:07:12"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:08:00"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:08:00"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:08:01"}
+{"level":"info","message":"3 quotes Found","timestamp":"15:08:01"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"15:08:01"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:08:07"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:08:07"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:08:08"}
+{"level":"info","message":"3 quotes Found","timestamp":"15:08:08"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"15:08:08"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:08:12"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:08:12"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:08:12"}
+{"level":"info","message":"3 quotes Found","timestamp":"15:08:13"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"15:08:13"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:08:18"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:08:18"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:08:18"}
+{"level":"info","message":"4 quotes Found","timestamp":"15:08:19"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"15:08:19"}
+{"level":"info","message":"deleteQuote Method Called for id : 5ae05384fba0910014b7a0cb","timestamp":"15:08:33"}
+{"level":"info","message":"Quote with id 5ae05384fba0910014b7a0cb successfully Removed","timestamp":"15:08:34"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:08:34"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:08:34"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:08:34"}
+{"level":"info","message":"3 quotes Found","timestamp":"15:08:34"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"15:08:34"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:08:42"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:08:42"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:08:42"}
+{"level":"info","message":"4 quotes Found","timestamp":"15:08:42"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"15:08:42"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:09:09"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:09:09"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:09:10"}
+{"level":"info","message":"4 quotes Found","timestamp":"15:09:10"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"15:09:10"}
+{"level":"info","message":"deleteQuote Method Called for id : 5ae0539cfba0910014b7a0cc","timestamp":"15:09:13"}
+{"level":"info","message":"Quote with id 5ae0539cfba0910014b7a0cc successfully Removed","timestamp":"15:09:13"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:09:13"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:09:13"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:09:14"}
+{"level":"info","message":"3 quotes Found","timestamp":"15:09:14"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"15:09:14"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:09:31"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:09:31"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:09:31"}
+{"level":"info","message":"id : undefined","timestamp":"15:09:31"}
+{"level":"info","message":"3 stories Found","timestamp":"15:09:31"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"15:09:31"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"15:09:31"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"15:09:31"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"15:09:31"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"15:09:32"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"15:09:32"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:09:36"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:09:36"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:09:36"}
+{"level":"info","message":"3 quotes Found","timestamp":"15:09:37"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"15:09:37"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:09:49"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:09:49"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:09:49"}
+{"level":"info","message":"id : undefined","timestamp":"15:09:49"}
+{"level":"info","message":"3 stories Found","timestamp":"15:09:49"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"15:09:49"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"15:09:49"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"15:09:49"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"15:09:49"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"15:09:50"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"15:09:50"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:10:02"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:10:02"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:10:03"}
+{"level":"info","message":"3 quotes Found","timestamp":"15:10:03"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"15:10:03"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:10:12"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:10:12"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:10:12"}
+{"level":"info","message":"id : undefined","timestamp":"15:10:12"}
+{"level":"info","message":"3 stories Found","timestamp":"15:10:13"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"15:10:13"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"15:10:13"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"15:10:13"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"15:10:13"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"15:10:13"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"15:10:13"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:40:46"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:40:46"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:40:46"}
+{"level":"info","message":"3 quotes Found","timestamp":"15:40:46"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"15:40:46"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:49:10"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:49:10"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:49:11"}
+{"level":"info","message":"id : undefined","timestamp":"15:49:11"}
+{"level":"info","message":"3 stories Found","timestamp":"15:49:11"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"15:49:11"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"15:49:11"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"15:49:11"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"15:49:11"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"15:49:12"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"15:49:12"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"15:49:27"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"15:49:27"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"15:49:27"}
+{"level":"info","message":"3 quotes Found","timestamp":"15:49:27"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"15:49:27"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"22:20:30"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"22:20:30"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"22:20:31"}
+{"level":"info","message":"id : undefined","timestamp":"22:20:31"}
+{"level":"info","message":"3 stories Found","timestamp":"22:20:33"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"22:20:33"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"22:20:33"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"22:20:33"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"22:20:33"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"22:20:34"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"22:20:34"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"00:09:20"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"00:09:20"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"00:09:20"}
+{"level":"info","message":"id : undefined","timestamp":"00:09:20"}
+{"level":"info","message":"3 stories Found","timestamp":"00:09:21"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"00:09:21"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"00:09:21"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"00:09:21"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"00:09:21"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"00:09:21"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"00:09:21"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"00:09:50"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"00:09:50"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"00:09:51"}
+{"level":"info","message":"id : undefined","timestamp":"00:09:51"}
+{"level":"info","message":"3 stories Found","timestamp":"00:09:51"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"00:09:51"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"00:09:51"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"00:09:51"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"00:09:51"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"00:09:51"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"00:09:51"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"00:10:49"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"00:10:49"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"00:10:50"}
+{"level":"info","message":"id : undefined","timestamp":"00:10:50"}
+{"level":"info","message":"3 stories Found","timestamp":"00:10:50"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"00:10:50"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"00:10:50"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"00:10:50"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"00:10:50"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"00:10:50"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"00:10:50"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"00:10:54"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"00:10:54"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"00:10:56"}
+{"level":"info","message":"3 quotes Found","timestamp":"00:10:56"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"00:10:56"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"00:11:07"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"00:11:07"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"00:11:07"}
+{"level":"info","message":"3 quotes Found","timestamp":"00:11:07"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"00:11:07"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"00:11:08"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"00:11:08"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"00:11:08"}
+{"level":"info","message":"id : undefined","timestamp":"00:11:08"}
+{"level":"info","message":"3 stories Found","timestamp":"00:11:08"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"00:11:08"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"00:11:08"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"00:11:08"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"00:11:08"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"00:11:09"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"00:11:09"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"00:11:15"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"00:11:15"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"00:11:16"}
+{"level":"info","message":"3 quotes Found","timestamp":"00:11:16"}
+{"level":"info","message":"Response Of findAllQuotes Method","timestamp":"00:11:16"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"00:14:52"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"00:14:52"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"00:14:52"}
+{"level":"info","message":"id : undefined","timestamp":"00:14:52"}
+{"level":"info","message":"3 stories Found","timestamp":"00:14:53"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"00:14:53"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"00:14:53"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"00:14:53"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"00:14:53"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"00:14:53"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"00:14:53"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"00:17:49"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"00:17:49"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"00:17:49"}
+{"level":"info","message":"id : undefined","timestamp":"00:17:49"}
+{"level":"info","message":"3 stories Found","timestamp":"00:17:50"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"00:17:50"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"00:17:50"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"00:17:50"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"00:17:50"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"00:17:50"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"00:17:50"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"00:20:56"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"00:20:56"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"00:20:57"}
+{"level":"info","message":"id : undefined","timestamp":"00:20:57"}
+{"level":"info","message":"3 stories Found","timestamp":"00:20:57"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"00:20:57"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"00:20:57"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"00:20:57"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"00:20:57"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"00:20:57"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"00:20:57"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"00:21:22"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"00:21:22"}
+{"level":"info","message":"User Received After Authetication: saifullah19q9@gmail.com","timestamp":"00:21:22"}
+{"level":"info","message":"id : undefined","timestamp":"00:21:22"}
+{"level":"info","message":"3 stories Found","timestamp":"00:21:22"}
+{"level":"info","message":"Adding Story Post Id5aaf50e5e57b650014ec2840","timestamp":"00:21:22"}
+{"level":"info","message":"Adding Story Post Id5aaf5230e57b650014ec2843","timestamp":"00:21:22"}
+{"level":"info","message":"Adding Story Post Id5aaf5451fc854300145660c3","timestamp":"00:21:22"}
+{"level":"info","message":"Invalid Post Id : undefined","timestamp":"00:21:22"}
+{"level":"info","message":"3Top Story posts Found","timestamp":"00:21:23"}
+{"level":"info","message":"Response Of findTopStories Method","timestamp":"00:21:23"}

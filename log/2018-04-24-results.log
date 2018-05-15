@@ -1,0 +1,115 @@
+{"level":"info","message":"in routes - authenticate ","timestamp":"07:11:09"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"07:11:09"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"07:11:10"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"07:20:09"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"07:20:09"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"07:20:09"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"07:27:23"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"07:27:23"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"07:27:23"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"09:39:03"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"09:39:03"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"09:39:03"}
+{"level":"info","message":"Description : undefined","timestamp":"09:39:03"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"09:44:04"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"09:44:04"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"09:44:04"}
+{"level":"info","message":"Description : undefined","timestamp":"09:44:04"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"09:47:39"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"09:47:39"}
+{"level":"info","message":"Video File Received Temp Name :video-1524545261153.GIF","timestamp":"09:47:41"}
+{"level":"info","message":"Image File Received Temp Name :image-1524545261156.GIF","timestamp":"09:47:41"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"09:47:41"}
+{"level":"info","message":"Description : fdfdf","timestamp":"09:47:41"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"09:47:41"}
+{"level":"info","message":"User Type: mentor","timestamp":"09:47:41"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"09:47:41"}
+{"level":"info","message":"New Post Created","timestamp":"09:47:42"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:06:12"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:06:12"}
+{"level":"info","message":"Video File Received Temp Name :video-1524546372492.GIF","timestamp":"10:06:12"}
+{"level":"info","message":"Image File Received Temp Name :image-1524546372495.GIF","timestamp":"10:06:12"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"10:06:12"}
+{"level":"info","message":"Description : qqa","timestamp":"10:06:12"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"10:06:13"}
+{"level":"info","message":"User Type: mentor","timestamp":"10:06:13"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"10:06:13"}
+{"level":"info","message":"New Post Created","timestamp":"10:06:13"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:15:03"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:15:03"}
+{"level":"info","message":"Video File Received Temp Name :video-1524546903852.GIF","timestamp":"10:15:03"}
+{"level":"info","message":"Image File Received Temp Name :image-1524546903853.GIF","timestamp":"10:15:03"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"10:15:03"}
+{"level":"info","message":"Description : ssss","timestamp":"10:15:03"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"10:15:04"}
+{"level":"info","message":"User Type: mentor","timestamp":"10:15:04"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"10:15:04"}
+{"level":"info","message":"New Post Created","timestamp":"10:15:05"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:30:49"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:30:49"}
+{"level":"info","message":"Video File Received Temp Name :video-1524547849929.GIF","timestamp":"10:30:49"}
+{"level":"info","message":"Image File Received Temp Name :image-1524547850036.GIF","timestamp":"10:30:50"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"10:30:50"}
+{"level":"info","message":"Description : qaqa","timestamp":"10:30:50"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"10:30:51"}
+{"level":"info","message":"User Type: mentor","timestamp":"10:30:51"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"10:30:51"}
+{"level":"info","message":"New Post Created","timestamp":"10:30:51"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"10:31:49"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"10:31:49"}
+{"level":"info","message":"Video File Received Temp Name :video-1524547909367.jpg","timestamp":"10:31:49"}
+{"level":"info","message":"Image File Received Temp Name :image-1524547909437.jpg","timestamp":"10:31:49"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"10:31:49"}
+{"level":"info","message":"Description : qwqwa","timestamp":"10:31:49"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"10:31:51"}
+{"level":"info","message":"User Type: mentor","timestamp":"10:31:51"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"10:31:51"}
+{"level":"info","message":"New Post Created","timestamp":"10:31:51"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:49:20"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:49:20"}
+{"level":"info","message":"Video File Received Temp Name :video-1524556161448.GIF","timestamp":"12:49:21"}
+{"level":"info","message":"Image File Received Temp Name :image-1524556161528.GIF","timestamp":"12:49:21"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"12:49:21"}
+{"level":"info","message":"Description : Test Video","timestamp":"12:49:21"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:49:22"}
+{"level":"info","message":"User Type: mentor","timestamp":"12:49:22"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:49:22"}
+{"level":"info","message":"New Post Created","timestamp":"12:49:23"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:49:23"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:49:23"}
+{"level":"verbose","message":"topStory-POST called ","timestamp":"12:49:24"}
+{"level":"info","message":"in routes post /topStory - Req Data : [object Object]","timestamp":"12:49:24"}
+{"level":"info","message":"postId: undefined","timestamp":"12:49:24"}
+{"level":"error","message":"Some Error while Adding Post To Top StoriesValidationError: _postId: Path `_postId` is required.","timestamp":"12:49:25"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:55:33"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:55:33"}
+{"level":"info","message":"Video File Received Temp Name :video-1524556533772.GIF","timestamp":"12:55:33"}
+{"level":"info","message":"Image File Received Temp Name :image-1524556533907.GIF","timestamp":"12:55:33"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"12:55:34"}
+{"level":"info","message":"Description : aa1","timestamp":"12:55:34"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"12:55:34"}
+{"level":"info","message":"User Type: mentor","timestamp":"12:55:34"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"12:55:34"}
+{"level":"info","message":"New Post Created","timestamp":"12:55:35"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"12:55:37"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"12:55:37"}
+{"level":"verbose","message":"topStory-POST called ","timestamp":"12:55:37"}
+{"level":"info","message":"in routes post /topStory - Req Data : [object Object]","timestamp":"12:55:37"}
+{"level":"info","message":"postId: 5adee2f6556c1321b8d082b2","timestamp":"12:55:37"}
+{"level":"info","message":"Adding Post To New Top Stories","timestamp":"12:55:38"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"13:11:50"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"13:11:50"}
+{"level":"info","message":"Video File Received Temp Name :video-1524557511497.mp4","timestamp":"13:11:51"}
+{"level":"info","message":"Image File Received Temp Name :image-1524557512582.mp4","timestamp":"13:11:52"}
+{"level":"info","message":"File Is uploaded New Method","timestamp":"13:11:52"}
+{"level":"info","message":"Description : yeh Ratain  yeh Moasam","timestamp":"13:11:52"}
+{"level":"info","message":"User Received After Authetication: 5aa02e946d20c800141b9541","timestamp":"13:12:34"}
+{"level":"info","message":"User Type: mentor","timestamp":"13:12:34"}
+{"level":"info","message":"Setting tempFileNames to Null","timestamp":"13:12:34"}
+{"level":"info","message":"New Post Created","timestamp":"13:12:34"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"13:12:34"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"13:12:34"}
+{"level":"verbose","message":"topStory-POST called ","timestamp":"13:12:34"}
+{"level":"info","message":"in routes post /topStory - Req Data : [object Object]","timestamp":"13:12:34"}
+{"level":"info","message":"postId: 5adee6f2556c1321b8d082b4","timestamp":"13:12:34"}
+{"level":"info","message":"Adding Post To New Top Stories","timestamp":"13:12:34"}

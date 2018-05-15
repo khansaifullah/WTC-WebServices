@@ -1,0 +1,25 @@
+{"level":"info","message":"in routes - authenticate ","timestamp":"17:20:16"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"17:20:16"}
+{"level":"verbose","message":"quote-POST called ","timestamp":"17:20:16"}
+{"level":"info","message":"in routes post /quote - Req Data : Test","timestamp":"17:20:16"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"17:21:31"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"17:21:31"}
+{"level":"verbose","message":"quote-POST called ","timestamp":"17:21:31"}
+{"level":"info","message":"in routes post /quote - Req Data : Test","timestamp":"17:21:31"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"17:26:09"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"17:26:09"}
+{"level":"verbose","message":"quote-POST called ","timestamp":"17:26:09"}
+{"level":"info","message":"in routes post /quote - Req Data : Test","timestamp":"17:26:09"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"17:28:36"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"17:28:36"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"17:29:18"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"17:29:18"}
+{"level":"info","message":"User Id5aa02e946d20c800141b9541","timestamp":"17:29:23"}
+{"level":"verbose","message":"quote-POST called ","timestamp":"17:29:23"}
+{"level":"info","message":"in routes post /quote - Req Data : Test","timestamp":"17:29:23"}
+{"level":"info","message":"in routes - authenticate ","timestamp":"17:31:00"}
+{"level":"info","message":"Token Received : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YWEwMmU5NDZkMjBjODAwMTQxYjk1NDEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTIwNTE5Mzg1fQ.5DZDj6ZCI6d9U-qKKvPVabIBQ7rFIoW92rL6dyDf06M","timestamp":"17:31:00"}
+{"level":"verbose","message":"quote-POST called ","timestamp":"17:31:04"}
+{"level":"info","message":"in routes post /quote - Req Data : Test","timestamp":"17:31:04"}
+{"level":"info","message":"userId: 5aa02e946d20c800141b9541 - Author - Test","timestamp":"17:31:04"}
+{"level":"info","message":"New Quote Added","timestamp":"17:31:05"}
